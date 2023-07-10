@@ -1,0 +1,12 @@
+.container-navBar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    flex-wrap: wrap;
+    background-color: white;
+}
+.titulo-footer{
+    color: white;
+}

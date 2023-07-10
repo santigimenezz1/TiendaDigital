@@ -1,0 +1,21 @@
+.container-tarjetaSectionProductos{
+    display: flex;
+    border: 1px solid rgb(190, 180, 180);
+    margin: 60px;
+    align-items: center;
+    justify-content: center;
+    max-width: 900px;
+    border-radius: 7px;
+    background-color: white;
+}
+.image-tarjeta-productos{
+    width: 170px;
+    height: 150px;
+    margin-left: 30px;
+}
+.text-tarjetaProductos{
+    font-size: 20px;
+}
+.price-tarjetaProductos{
+    font-size: 25px;
+}
