@@ -1,4 +1,3 @@
-import React from 'react'
 import '../TarjetaProductos/tarjetaProductos.css'
 import Boton from '../../../Navbar/Boton/Boton'
 import { Link } from 'react-router-dom'

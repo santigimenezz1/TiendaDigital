@@ -15,19 +15,22 @@
     display: flex;
     flex-direction: column;
     padding: 30px;
-    gap: 10px;
     color: #4b4b4b;
 }
 .image{
     width: 180px;
+    padding-right: 30px;
 }
 
-h2{
-    font-size: 30px;
-    
-}
+
 .tarjetaOfertas-producto{
     font-size: 18px;
     letter-spacing: 4px;
     font-weight: 400;
+}
+.titulo-tarjetaOfertas{
+    font-size: 30px;
+}
+.boton-tarjetaIOfertas{
+    width: 350px;
 }

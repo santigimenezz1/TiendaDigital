@@ -1,0 +1,8 @@
+.container-formaPago{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 50px;
+    height: 100px;
+    background-color: white;
+}

@@ -1,0 +1,48 @@
+.cardPrincipal {
+    width: 1250px;
+    height: 254px;
+    background: rgb(211, 117, 45);
+    transition: all 0.4s;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: 900;
+  }
+  
+ 
+  
+  .first-contentPrincipal {
+    height: 100%;
+    width: 100%;
+    transition: all 0.4s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    border-radius: 15px;
+  }
+  
+  .card:hover .first-contentPrincipal {
+    height: 0px;
+    opacity: 0;
+  }
+  
+  .second-contentPrincipal {
+    height: 0%;
+    width: 100%;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    transition: all 0.4s;
+    font-size: 0px;
+    transform: rotate(90deg) scale(-1);
+  }
+  
+  .card:hover .second-contentPrincipal {
+    opacity: 1;
+    height: 100%;
+    font-size: 1.8rem;
+    transform: rotate(0deg);
+  }
+  

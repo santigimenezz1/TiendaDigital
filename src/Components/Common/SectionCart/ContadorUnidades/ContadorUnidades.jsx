@@ -1,27 +1,30 @@
-import React from "react";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import '../ContadorUnidades/contadorUnidades.css'
+import AddIcon from '@mui/icons-material/Add';
+import RemoveIcon from '@mui/icons-material/Remove';
+import BotonDetelle from "../../SectionDetalles/DetalleProductos/BotonDetalle/BotonDetelle";
 
-const ContadorUnidades = ({stock, initial})=>{
+const ContadorUnidades = ({stock, initial, onAdd, totalProductosId})=>{
     const [pantalla, setPantalla] = useState(initial)
     
-    const decrementarValor = ()=> setPantalla(pantalla > 0 ? pantalla - 1 : 0)
+    
     const incrementarValor = ()=>{
         pantalla === stock ? setPantalla(pantalla(stock)) : setPantalla(pantalla + 1)
         setPantalla(stock > 0  ? pantalla + 1 :0)
+        
     }
-    const agregarAlCarrito = ()=>{
-        pantalla !== 0 
-        ? alert(`Añadiste al carrito ${pantalla} unidades`)  
-        : setPantalla(pantalla)
-    }
+    const decrementarValor = ()=> setPantalla(pantalla > 0 ? pantalla - 1 : 0)
+    
     
     return (
         <section className="container-agregandoProductoCarrito">
         <div className="container-contadorBoton">
-        <button onClick={decrementarValor} className="botones">-</button>
+        <button onClick={decrementarValor} className="botones"><RemoveIcon /></button>
           <h1 className="pantalla">{pantalla}</h1> 
-          <button onClick={incrementarValor} className="botones">+</button>
+          <button onClick={incrementarValor}  className="botones"><AddIcon /></button>
+        </div>
+        <div onClick={()=>onAdd(pantalla)}>
+        <BotonDetelle text={"AGREGAR"} />
         </div>
         <div>
         </div>

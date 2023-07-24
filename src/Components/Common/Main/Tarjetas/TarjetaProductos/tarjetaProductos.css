@@ -3,7 +3,7 @@
     height: 350px;
     position: relative;
     border-radius: 10px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 20px rgba(22, 20, 20, 0.2);
     overflow: hidden;
     background-color: white;
     cursor: pointer;

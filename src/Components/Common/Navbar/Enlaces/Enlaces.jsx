@@ -5,11 +5,10 @@ import { Link } from "react-router-dom";
 const Enlaces = ()=> {
    return (
     <ul className="container-enlaces">
-    <Link className="enlaces" to={"/"}><a href="#">TODOS</a></Link>
-    <Link className="enlaces" to={"/Categoria/gamaBaja"}><a href="#">GAMA BAJA</a></Link>
-    <Link className="enlaces" to={"/Categoria/gamaMedia"}><a href="#">GAMA MEDIA</a></Link>
-    <Link className="enlaces" to={"/Categoria/gamaAlta"}><a href="#">GAMA ALTA</a></Link>
-    <Link className="enlaces" to={"/Categoria/ofertas"}><a href="#">OFERTAS</a></Link>
+    <Link className="enlaces" to={"/categoria"}><a href="#">PRODUCTOS</a></Link>
+    <Link className="enlaces" to={"/categoria/notebook"}><a href="#">NOTEBOOKS</a></Link>
+    <Link className="enlaces" to={"/categoria/placaVideo"}><a href="#">PLACAS DE VIDEO</a></Link>
+    <Link className="enlaces" to={"/Ayuda"}><a href="#">AYUDA</a></Link>
   </ul>   ) 
 }
 export default Enlaces

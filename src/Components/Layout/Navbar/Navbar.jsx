@@ -6,6 +6,7 @@ import Logo from "../../Common/Navbar/Logo/Logo";
 import Buscador from "../../Common/Navbar/Buscador/Buscador";
 import Carrito from "../../Common/Navbar/Carrito/Carrito";
 import { Link } from "react-router-dom";
+import ModalInicioSesion from "../../Common/Main/ModalInicioSesion/ModalInicioSesion";
 
 
 
@@ -17,7 +18,7 @@ const NavBar = ()=>{
       <Logo />
       </Link>
     <Buscador placeholder={"buscador de productos"} />
-    <Boton text={"Iniciar sesion"}/>
+    <ModalInicioSesion/>
     <Link to={"/Cart"}>
     <Carrito />
     </Link>

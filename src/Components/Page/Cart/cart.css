@@ -1,0 +1,27 @@
+.container-sinProductos{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    height: 100vh;
+   
+}
+.titulo-sinProducto{
+    text-align: center;
+    color: black;
+    font-size: 28px;
+}
+.botonSinProducto{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+.container-retroceso{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.titulo-retroceso{
+    font-size: 28px;
+    color: black;
+    margin: 35px;
+}

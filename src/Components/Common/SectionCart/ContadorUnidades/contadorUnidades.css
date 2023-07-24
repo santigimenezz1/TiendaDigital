@@ -8,14 +8,22 @@
     align-items: center;
 
 }
+.container-agregandoProductoCarrito{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .botones{
     border: none;
     font-size: 35px;
-    color: rgba(94, 112, 112, 0.719);
+    color: rgba(16, 17, 17, 0.719);
     cursor: pointer;
     background-color: white;    
 }
 .container-agregandoProductoCarrito{
-    display: flex;
-    gap: 20px;
+    
+}
+.pantalla{
+    color: #333333c5;
 }

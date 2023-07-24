@@ -1,0 +1,14 @@
+.container-tarjetaFormaPago{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container-icon-tarjetaFormaPago{
+    border: 1px solid rgb(210, 202, 202);
+    border-radius: 30px;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

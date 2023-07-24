@@ -34,7 +34,7 @@ MyFormControlLabel.propTypes = {
   value: PropTypes.any,
 };
 
-export default function SelectorPago() {
+export default function SelectorPago({total}) {
   return (
     <RadioGroup name="use-radio-group" defaultValue="first">
     <div className='container-selector'>
@@ -48,7 +48,7 @@ export default function SelectorPago() {
        </div>
        <div className='container-precioFinal'>
        <h2 className='total'>Total:</h2>
-       <h2 className='precioFinal'>$125.000</h2>
+       <h2 className='precioFinal'>{total}</h2>
        </div>
        
      </div>

@@ -1,0 +1,10 @@
+.miniSectionFlex{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.linkMiniSection{
+    text-decoration: none;
+}

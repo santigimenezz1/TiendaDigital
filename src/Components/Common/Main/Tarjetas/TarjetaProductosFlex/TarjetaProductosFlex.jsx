@@ -24,12 +24,19 @@ const TarjetaProductosFlex = () => {
 
   return (
     <div className='container-tarjetaProductosFlex'>
-      { 
-        data.map((product)=>(
-       <TarjetaProductos product={product} />
-        ))
-      }
+    <Carrusel />
+    <div className='container-tarjetaSectionProductos'>
+    <img className='image-tarjeta-productos' src={data.img}></img>
+    <div className='container-info'>
+    <span className='text-tarjetaProductos'>
+   {data.nombre}</span>
+    <h2 className='price-tarjetaProductos'>{data.precio}</h2>
+    <BotonDetelle text={"SUMAR AL CARRITO"} />
     </div>
+      
+    </div>
+        
+        </div>
 
 
   )
