@@ -34,13 +34,11 @@ export default function ModalInicioSesion() {
     initialValues:{
      email: ""
     },
-    onSubmit: (data)=>console.log(data),
     validationSchema:Yup.object({
       email: Yup.string().email("El email debe contener @").required("Este campo es requerido")
     }),
    validateOnChange:false
   })
-  console.log({errors})
   return (
     <div>
       <Button style={{color:"white", backgroundColor:"#fd611a", borderRadius:"4px"}} onClick={handleOpen}>Iniciar sesion</Button>

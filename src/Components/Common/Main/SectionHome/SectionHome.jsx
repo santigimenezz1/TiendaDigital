@@ -18,11 +18,8 @@ const SectionHome = () => {
     },[])
       const todosProductos = producto
       const mitad = todosProductos.length / 2
-      console.log(mitad)
       const arrPrimerosProductos = todosProductos.slice(0,mitad)
       const arrSegundosProductos = todosProductos.slice(mitad)
-      console.log(arrPrimerosProductos)
-      console.log(arrSegundosProductos)
   return (
     <div>
     <Carrusel />

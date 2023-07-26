@@ -8,9 +8,6 @@ import { Link } from "react-router-dom";
 const TarjetaCart =  ( {producto} )=>{
     const {deleteCart} = useContext(CartContext)
     const precioDinamico = producto.precio * producto.cantidad
-    console.log(producto.precio)
-    console.log(producto.cantidad)
-    console.log(precioDinamico)
     return (
         <div className="container-terminarCompra">
         <div className="container-tituloImage">

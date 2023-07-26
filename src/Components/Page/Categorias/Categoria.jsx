@@ -15,7 +15,6 @@ import {getDocs, collection, query, where} from "firebase/firestore"
 const Categoria = () => {
   const [data, setData] = useState([])
   const {categoria} = useParams()
-  console.log(categoria)
   
   useEffect(() => {
     let productsCollection = collection(db, "products"); //traeme una colleccion, de esa db y la colleccion products

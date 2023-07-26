@@ -42,7 +42,6 @@ export default function ModalCrearCuenta() {
       contraseña:"",
       repetirContraseña:"",
     },
-    onSubmit: (data)=>console.log(data),
     validateOnChange:false,
     validationSchema:Yup.object({
       nombre:Yup.string().min(4).max(10).required(),
@@ -53,7 +52,6 @@ export default function ModalCrearCuenta() {
       
     })
   })
- console.log({errors})
   return (
     <div>
       <Button style={{color:"white", backgroundColor:"#fd611a", borderRadius:"4px"}} onClick={handleOpen}>Iniciar sesion</Button>

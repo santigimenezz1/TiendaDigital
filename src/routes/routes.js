@@ -2,7 +2,6 @@ import FormaDePago from "../Components/Common/Main/FormaDePago/FormaDePago";
 import ModalCrearCuenta from "../Components/Common/Main/ModalCrearCuenta/ModalCrearCuenta";
 import ModalInicioSesion from "../Components/Common/Main/ModalInicioSesion/ModalInicioSesion";
 import SectionHome from "../Components/Common/Main/SectionHome/SectionHome";
-import Spline3D from "../Components/Common/Main/Spline3D/Spline3d";
 import TarjetaDetalle from "../Components/Common/Main/Tarjetas/TarjetaDetalle/TarjetaDetalle";
 import DetalleProductos from "../Components/Common/SectionDetalles/DetalleProductos/DetalleProductos";
 import Ayuda from "../Components/Page/Ayuda/Ayuda";
@@ -42,11 +41,7 @@ export let routes = [
         path:'/TarjetaDetalle',
         Element: TarjetaDetalle
      },
-     {  
-      id:"spline", 
-      path:'/spline',
-      Element: Spline3D
-   },
+
    {  
       id:"spline", 
       path:'/modalInicioSesion',

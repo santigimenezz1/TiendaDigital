@@ -7,13 +7,11 @@ import TransitionsModal from "../../Common/SectionCart/Modal/Modal"
 import BotonDetelle from "../../Common/SectionDetalles/DetalleProductos/BotonDetalle/BotonDetelle"
 import '../Cart/cart.css'
 import { Link } from "react-router-dom"
+import ModalFinalizarCompra from "../../Common/SectionCart/ModalFinalizarCompra/ModalFinalizarCompra"
 
 const Cart = () => {
   const {cart, clearCart, calcularFinal} = useContext(CartContext)
   let total = calcularFinal()
-  
-  
-  
 
   return (
     <>
@@ -29,15 +27,14 @@ const Cart = () => {
         ))
         
       }
-      
-       
     {
       cart.length > 0 
       ?
       <div>
       <TarjetaDescuento id={cart.id}/> 
       <SelectorPago total={total} />
-      <h1>{total}</h1>
+      <ModalFinalizarCompra />
+
       </div>
       :
       <div className="container-sinProductos">
@@ -45,6 +42,7 @@ const Cart = () => {
       <Link to={"/categoria"} className="botonSinProducto">
       <BotonDetelle text={"SEGUIR COMPRANDO"} />
       </Link>
+
       </div>
     }
     </>
