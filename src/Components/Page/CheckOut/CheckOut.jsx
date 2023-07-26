@@ -21,6 +21,26 @@ export default function CheckOut() {
         apellido :"" ,
         email: ""
       },
+      onSubmit: (data)=>{
+        let order = {
+        buyer: data,
+        items: cart,
+        total:calcularFinal(),
+        date: serverTimestamp(),
+      };
+  
+      // CREAR LA ORDEN EN FIREBASE
+      const ordersCollection = collection(db, "orders");
+      addDoc(ordersCollection, order).then((res) => setIdCompra(res.id));
+    
+    //ACTUALIZAR EL STOCK DE LA BASE DE DATOS
+    cart.forEach((producto)=>{
+      updateDoc(doc(db, "products", producto.id), {
+        stock: producto.id - producto.cantidad
+      });
+    });
+    
+  },
       
     
   
@@ -42,7 +62,7 @@ export default function CheckOut() {
       :(
         
         
-        <form onSubmit={handleSubmit}>
+        <form>
      
       <TextField onChange={handleChange} 
       type='text' 
