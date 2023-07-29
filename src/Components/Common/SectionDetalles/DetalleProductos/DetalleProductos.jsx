@@ -20,9 +20,10 @@ const DetalleProductos = () => {
       getDoc(productRef).then((res)=>{
         let producto = {...res.data(), id: res.id}
         setData(producto)
-      })
-       
+      })   
     },[id])
+
+  
 
     const onAdd = (cantidad)=>{
       let productCart = {...data, cantidad: cantidad}
@@ -36,13 +37,13 @@ const DetalleProductos = () => {
       })
       toast.success("producto agregado")
       calcularFinal()
-      
     }
   
   return (
     <>
+   
     
-    <TarjetaDetalle producto={data}  onAdd={onAdd} totalProductosId={totalProductosId} />
+    <TarjetaDetalle   producto={data}  onAdd={onAdd} totalProductosId={totalProductosId} data={data} />
     <ToastContainer
     position="top-right"
     autoClose={800}
@@ -55,6 +56,7 @@ const DetalleProductos = () => {
     pauseOnHover
     theme="light"
     />
+    
 
       </>
       

@@ -77,3 +77,8 @@
   cursor: pointer;
   
 }
+.boton-finalizarCompra{
+  display: flex;
+  border: 1px solid red;
+  color: red;
+}

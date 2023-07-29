@@ -8,7 +8,7 @@ const TarjetaSectionProductos = ({producto}) => {
   return (
     <div>
     <div className='container-tarjetaSectionProductos'>
-    <Link to={`/Detalle/${producto.id}`}>
+    <Link className='container-imagenDetalle' to={`/Detalle/${producto.id}`}>
      <img className='image-tarjeta-productos' src={producto.img}></img>
     </Link>
     <div className='container-info'>

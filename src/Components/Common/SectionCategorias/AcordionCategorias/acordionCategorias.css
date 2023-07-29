@@ -3,7 +3,7 @@ h1{
 }
 .container-acordion{
     border: none;
-    width: 30%;
+    min-width: 30%;
 }
 .linkCategorias{
     text-decoration: none;

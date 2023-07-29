@@ -1,8 +1,8 @@
 export let productsHome = [
-    {
-        id: 1,
+
+    {   id:1,
         nombre: "Notebook Gamer Acer Nitro 5 15.6 FHD Core i5 11400H 8GB 256GB SSD NVMe GTX 1650 W11 Home ",
-        precio: "$ 509.990",
+        precio: "500.000",
         dcto:"14 % OFF",
         envio:"Envio gratis",
         stock: 4,
@@ -24,9 +24,9 @@ export let productsHome = [
      },
 
     {
-        id: 2,
+        id:2,
         nombre: "Notebook Gamer Asus TUF FX506L 15.6 Core I5 10300H 16GB 512GB SSD NVMe GTX 1650 W11 Home 144Hz",
-        precio:573.900,
+        precio: " 573.900",
         dcto:"14 % OFF",
         envio:"Envio gratis",
         stock: 4,
@@ -48,9 +48,9 @@ export let productsHome = [
 
     },
     {
-        id: 3,
+        id:3,
         nombre: "Notebook Lenovo ThinkPad E14 FHD 14 Ryzen 7 5700U 8GB 256GB SSD NVMe Freedos",
-        precio: "$ 650.630",
+        precio: " 650.630",
         dcto:"14 % OFF",
         envio:"Envio gratis",
         stock: 4,
@@ -73,9 +73,10 @@ export let productsHome = [
 
     },
     {
-        id: 4,
+        id:4,
+
         nombre: "Notebook Gamer Asus ROG Zephyrus G14 QHD 14 Ryzen 7 4800HS 16GB (2x8GB) 512GB SSD NVMe GTX 1650 W10 120Hz",
-        precio: "$ 633.610",
+        precio: " 633.610",
         dcto:"14 % OFF",
         envio:"Envio gratis",
         stock: 4,
@@ -96,10 +97,9 @@ export let productsHome = [
 
 
     },
-    {
-        id: 5,
+    {    id:5,
         nombre: "Notebook Lenovo ThinkPad E14 Gen2 FHD 14 Core I5 1135G7 8GB 256GB SSD NVMe Freedos",
-        precio: "$ 694.900",
+        precio: " 694.900",
         dcto:"14 % OFF",
         envio:"Envio gratis",
         stock: 4,
@@ -121,9 +121,9 @@ export let productsHome = [
 
     },
     {
-        id: 6,
+        id:6,
         nombre: "Notebook Asus X515EA 15.6 FHD Core I5 1135G7 8GB 256GB SSD NVMe W11 Home* ",
-        precio: "$ 359.990",
+        precio: " 359.990",
         dcto:"14 % OFF",
         envio:"Envio gratis",
         stock: 4,
@@ -145,9 +145,9 @@ export let productsHome = [
      },
 
     {
-        id: 7,
+        id:7,
         nombre: "Notebook Lenovo Legion 5 15ACH6H 15.6 Ryzen 5 5600H 16GB 512GB SSD NVMe RTX 3060 165Hz W11",
-        precio: "$ 868.450",
+        precio: " 868.450",
         dcto:"14 % OFF",
         envio:"Envio gratis",
         stock: 4,
@@ -168,10 +168,9 @@ export let productsHome = [
 
 
     },
-    {
-        id: 8,
+    {   id:8,
         nombre: "Notebook Asus Vivobook K3500P FHD OLED 15.6 Core I7 11370H 8GB 512GB SSD NVMe W11 Silver",
-        precio: "$ 595.620",
+        precio: " 595.620",
         dcto:"14% OFF",
         envio:"Envio gratis",
         stock: 4,
@@ -192,10 +191,9 @@ export let productsHome = [
 
 
     },
-    {
-        id: 9,
+    {   id:9,
         nombre: "Notebook Asus Vivobook M3500 OLED FHD 15.6 Ryzen 5 5600H 8GB 512GB SSD NVMe W11 Home",
-        precio: "$ 448.490",
+        precio: " 448.490",
         dcto:"14 % OFF",
         envio:"Envio gratis",
         stock: 4,
@@ -217,9 +215,9 @@ export let productsHome = [
 
     },
     {
-        id: 10,
+        id:10,
         nombre: "Notebook Gamer Thunderobot 911 AIR FHD 15.6 Core I7 12700H 16GB 512GB SSD NVMe RTX 3050 W11 Pro 144Hz",
-        precio: "$ 700.000",
+        precio: " 700.000",
         dcto:"14 % OFF",
         envio:"Envio gratis",
         stock: 4,
@@ -239,5 +237,16 @@ export let productsHome = [
         }
 
 
-    }
+    },
+
+
+
+
+
+
+
+
+
+
+    
 ]

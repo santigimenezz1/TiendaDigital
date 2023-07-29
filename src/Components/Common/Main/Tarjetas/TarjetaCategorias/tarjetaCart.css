@@ -32,4 +32,8 @@
     display: flex;
     flex-direction: column;
     gap: 7px;
+    width: 70%;
+}
+.container-imagenDetalle{
+    width: 30%;
 }

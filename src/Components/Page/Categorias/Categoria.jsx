@@ -5,6 +5,7 @@ import '../Categorias/categorias.css'
 import {  useParams } from "react-router-dom"
 import { db } from "../../../firebaseConfig"
 import {getDocs, collection, query, where} from "firebase/firestore"
+import { Box, Skeleton } from "@mui/material"
 //db = base de datos
 //getDocs = todos los documentos
 //colleccion = toda la coleccion
@@ -15,6 +16,7 @@ import {getDocs, collection, query, where} from "firebase/firestore"
 const Categoria = () => {
   const [data, setData] = useState([])
   const {categoria} = useParams()
+  let arr = [1,2,3,4,5]
   
   useEffect(() => {
     let productsCollection = collection(db, "products"); //traeme una colleccion, de esa db y la colleccion products
@@ -31,6 +33,7 @@ const Categoria = () => {
       } )
       
       setData(productos) //y lo guardo en mi estado
+      
     })
   
   }, [categoria]);
@@ -42,9 +45,36 @@ const Categoria = () => {
     <AcordionCategorias />
     <div className="tarjetas-productos-categorias">
     {
-      data.map((producto)=>( //y aca mapeo el estado con toda la coleccion o con la parte filtrada, depende si me encuentro en categoria o en categoria/algo mas
-       <TarjetaSectionProductos key={producto.id} producto={producto} />
-      ))
+      data.length > 0 ?
+      
+      data.map((producto)=>{ 
+      return <TarjetaSectionProductos key={producto.id} producto={producto} />
+      } //y aca mapeo el estado con toda la coleccion o con la parte filtrada, depende si me encuentro en categoria o en categoria/algo mas
+      )
+      : arr.map((elemento)=>{
+        
+        return (
+          <div key={elemento}>
+          <Box sx={{maxWidth:"1000px", borderRadius:"4px" ,backgroundColor:"white", display:"flex", border:"1px solid white", justifyContent:"center", alignItems:"center", gap:"45px", margin:"15px"}}>
+          <Box sx={{margin:"30px"}}>
+          <Skeleton  variant="rectangular" width={170} height={170} /> 
+          </Box>
+          <Box sx={{display:"flex", flexDirection:"column"}}>
+          <Skeleton  variant="text" sx={{ fontSize: "1.3rem", marginRight:"50px"}} width={550} height={30}  />
+          <Skeleton variant="text" sx={{ fontSize: "1.3rem", marginRight:"50px" }} width={550} height={30} />
+          <Skeleton variant="text" sx={{ fontSize: "1.3rem"}} width={100} height={30} />
+          <Box sx={{marginTop:"10px"}}>
+          <Skeleton  variant="rounded" width={250} height={40}  /> 
+          </Box>
+          </Box>
+
+          </Box>
+
+        </div>
+        )
+         
+
+      })
      }
    
     </div>
@@ -54,3 +84,12 @@ const Categoria = () => {
 }
 
 export default Categoria
+
+
+
+
+
+
+
+
+

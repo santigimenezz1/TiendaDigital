@@ -2,6 +2,9 @@ import AcordionAyuda from '../../Common/SectionAyuda/AcordionAyuda/AcordionAyuda
 import '../Ayuda/ayuda.css'
 import KeyboardBackspaceIcon from '@mui/icons-material/KeyboardBackspace';
 import CajaAyuda from '../../Common/SectionAyuda/Box/Box';
+import InputAyuda from '../../Common/SectionAyuda/InputAyuda/InputAyuda';
+import { TextField } from '@mui/material';
+import BotonDetelle from '../../Common/SectionDetalles/DetalleProductos/BotonDetalle/BotonDetelle';
 
 const Ayuda = () => {
   return (
@@ -12,7 +15,7 @@ const Ayuda = () => {
     </div>
 
     <div className='container-ayuda-acordiones'>
-    <AcordionAyuda titulo={"Realizar un pedido"}  subtitulo={"¿Cómo realizo un pedido?"} text={"Solo tenés que seleccionar todos los productos que deseas adquirir. Seguidamente, en el carrito de compras, para conocer el costo del envío colocás tu código postal en el recuadro correspondiente, elegís la mensajería de tu preferencia y debajo seleccionas la forma de pago. Luego hacés clic en el botón COMPRAR y podés acceder como cliente (si ya tenés cuenta en Compra Gamer) o crear un cliente nuevo. Por último, completás los pasos brindados por el asistente, hasta confirmar la compra. Se te asignará un número de pedido y se mostrarán los datos del mismo. También enviaremos un mail a tu correo electrónico registrado con los detalles del pedido realizado."}/>
+    <AcordionAyuda  titulo={"Realizar un pedido"}  subtitulo={"¿Cómo realizo un pedido?"} text={"Solo tenés que seleccionar todos los productos que deseas adquirir. Seguidamente, en el carrito de compras, para conocer el costo del envío colocás tu código postal en el recuadro correspondiente, elegís la mensajería de tu preferencia y debajo seleccionas la forma de pago. Luego hacés clic en el botón COMPRAR y podés acceder como cliente (si ya tenés cuenta en Compra Gamer) o crear un cliente nuevo. Por último, completás los pasos brindados por el asistente, hasta confirmar la compra. Se te asignará un número de pedido y se mostrarán los datos del mismo. También enviaremos un mail a tu correo electrónico registrado con los detalles del pedido realizado."}/>
     <AcordionAyuda titulo={"Precio"}  subtitulo={"¿El precio que figura en la web es el precio final?"} text={"Todos los precios en la web incluyen el IVA, y se encuentran expresados en pesos argentinos."}/>
     <AcordionAyuda titulo={"Formas de pago"}  subtitulo={"¿Cuáles son las formas de pago?"} text={"Contamos con dos formas de pago: a través de depósito/transferencia bancaria, con la cual obtenés el precio especial, o bien, a través de los métodos Pago Gamer (Visa o MasterCard) o MercadoPago (Tarjetas online, PagoFácil y RapiPago) con los cuales podés abonar en cuotas, al precio de lista."}/>
     <AcordionAyuda titulo={"Depósito - Transferencia bancaria"}  subtitulo={"¿Cómo abono a través de depósito/transferencia?"} text={"Una vez se realiza el pedido, te facilitamos los datos del CBU. Debes abonar e informar el pago desde nuestra web, antes de la fecha de vencimiento de la reserva."}/>
@@ -22,8 +25,23 @@ const Ayuda = () => {
     <AcordionAyuda titulo={"Pago Gamer"}  subtitulo={"¿Qué es Pago Gamer?"} text={"Es un método exclusivo de Compra Gamer, para abonar de manera online a través de tarjetas Visa y Mastercard, con el cual podés acceder a 3 y 12 cuotas sin interés si empleas una tarjeta de crédito brindada por una entidad bancaria."}/>
     </div>
      <div>
-     <CajaAyuda />
-     <CajaAyuda />
+     <CajaAyuda titulo={"Servicio postventa y garantía"} subTexto={"También podes sacar un turno para venir en forma presencial a gestionar tu garantía: "}  texto={"Para realizar consultas/reclamos relacionadas con la garantía o devolución de alguna de tus compras, debajo de esta sección contamos con el apartado Compra Gamer te ayuda. ¿Cuál es tu consulta? donde debes exponer tu caso, seleccionando el motivo de 'Postventa' que se adapte a tu requerimiento y uno de nuestros representantes te ofrecerá la información correspondiente sobre cómo proceder"} nombreBoton={"Consultar"}/>
+     
+     <form className='container-formulario-ayuda'>
+     <div className='titulo-formulario-ayuda'>
+     <h1>Compra Gamer te ayuda. ¿Cuál es tu consulta?</h1>
+     </div>
+     <div className='input-ayuda'>
+     <InputAyuda />
+     </div>
+     <div className='inputText-ayuda'>
+     <input type='text' placeholder='Escribi tu pregunta'></input>
+     </div>
+     <div className='boton-formularioAyuda'>
+     <BotonDetelle text={"Enviar Consulta"} />
+     </div>
+     </form>
+     
 
     </div>
  

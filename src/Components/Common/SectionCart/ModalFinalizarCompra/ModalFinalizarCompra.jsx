@@ -10,7 +10,7 @@ import { useFormik } from 'formik';
 import { useContext, useState } from 'react';
 import * as Yup from "yup"
 import { CartContext } from '../../../../Context/CartContext';
-import {serverTimestamp, addDoc, collection} from "firebase/firestore"
+import {serverTimestamp, addDoc, collection, updateDoc, doc} from "firebase/firestore"
 import { db } from '../../../../firebaseConfig';
 import '../ModalFinalizarCompra/modalFinalizarCompra.css'
 import CheckIcon from '@mui/icons-material/Check';
@@ -65,12 +65,18 @@ export default function ModalFinalizarCompra() {
      // CREAR LA ORDEN EN FIREBASE
      const ordersCollection = collection(db, "orders");
      addDoc(ordersCollection, order).then((res) => setIdCompra(res.id));
+
+     //MODIFICAR STOCK RECORRO EL CARRITO Y RESTO LA CANTIDAD QUE AGREGO MENOS EL STOCK Y CON UPDATE ACTUALIZO
+     cart.forEach((product)=>{
+      updateDoc(doc(db, "products", product.id), {stock: product.stock - product.cantidad})
+     })
+     
    },
    
        validationSchema:Yup.object({
-         name: Yup.string(),
-         email: Yup.string(),
-         apellido: Yup.string()
+         name: Yup.string().required("Este campo es requerido"),
+         email: Yup.string().required("Este campo es requerido").email(),
+         apellido: Yup.string().required("este campo es requerido")
        }),
        validateOnChange:false,
      })
@@ -78,10 +84,10 @@ export default function ModalFinalizarCompra() {
  
   
 
-
+console.log(errors)
   return (
-    <div>
-      <Button onClick={handleOpen}>Finalizar compra</Button>
+    <div style={{display:"flex", justifyContent:"end", marginRight:"100px", marginBottom:"15px"}}>
+      <Button style={{ color:"white", border:"none", borderRadius:"4px", backgroundColor:"chocolate",}}  onClick={handleOpen}>Finalizar compra</Button>
       <Modal
         aria-labelledby="transition-modal-title"
         aria-describedby="transition-modal-description"

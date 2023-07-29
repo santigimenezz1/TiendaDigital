@@ -8,6 +8,7 @@ import Ayuda from "../Components/Page/Ayuda/Ayuda";
 import Cart from "../Components/Page/Cart/Cart";
 import Categoria from "../Components/Page/Categorias/Categoria";
 import Checkout from "../Components/Page/CheckOut/CheckOut";
+import DashBoard from "../DashBoard/DashBoard";
 
 export let routes = [
  
@@ -121,6 +122,11 @@ export let routes = [
       id:"Ayuda",
       path:"/Ayuda",
       Element: Ayuda 
+   },
+   { 
+      id:"Dashboard",
+      path:"/dashBoard",
+      Element: DashBoard 
    }
    //--------FIN CATEGORIAS------------------
 

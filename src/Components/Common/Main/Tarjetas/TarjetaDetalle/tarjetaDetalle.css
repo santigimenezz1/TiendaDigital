@@ -25,6 +25,7 @@
     width: 170px;
     padding: 5px;
     border: 2px solid white;
+    margin-top: 30px;
 
 }
 .image-carrusel:hover{
@@ -72,3 +73,15 @@
     align-items: center;
     justify-content: start;
 }
+
+.container-genereral-sectionDetalles{
+    display: flex;
+    flex-direction: column;
+    border: 10px solid red;
+}
+.container-tarjetas-sectionDetalles{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    
