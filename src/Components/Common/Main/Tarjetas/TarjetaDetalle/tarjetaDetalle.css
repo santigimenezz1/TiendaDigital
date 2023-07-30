@@ -40,7 +40,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 20px;
 }
 .price{
     font-size: 50px;
@@ -65,7 +64,6 @@
  .container-caracteristicasBotones{
     display: flex;
     flex-direction: column;
-    gap: 20px;
  }
 .contadorBoton{
     display: flex;
@@ -77,11 +75,23 @@
 .container-genereral-sectionDetalles{
     display: flex;
     flex-direction: column;
-    border: 10px solid red;
 }
 .container-tarjetas-sectionDetalles{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
-    
+}
+.container-caracteristicas{
+    margin-top: 20px;
+    color: black;
+}
+.container-caracteristicas h1 {
+    color: black;
+}
+.titulo-sinStock{
+    font-size: 40px;
+    margin-left: 15px;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}

@@ -4,7 +4,7 @@ export let products = [
 
             {
                 nombre: "Notebook Gamer Acer Nitro 5 15.6 FHD Core i5 11400H 8GB 256GB SSD NVMe GTX 1650 W11 Home ",
-                precio: "$ 509.990",
+                precio: 500000,
                 dcto:"14 % OFF",
                 envio:"Envio gratis",
                 stock: 4,
@@ -13,6 +13,7 @@ export let products = [
                 img: "https://res.cloudinary.com/dcf9eqqgt/image/upload/v1688783057/E-COMERCE%20CODER/compragamer_Imganen_general_35719_Notebook_Gamer_Acer_Nitro_5_15.6__FHD_Core_i5_11400H_8GB_256GB_SSD_NVMe_GTX_1650_W11_Home_GAME_PASS_ULTIMATE_1_MONTH_e3d5a472-grn_fkmzbu.jpg",
                 imgSecundary: "https://res.cloudinary.com/dcf9eqqgt/image/upload/v1688943355/E-COMERCE%20CODER/compragamer_Imganen_general_35720_Notebook_Gamer_Acer_Nitro_5_15.6__FHD_Core_i5_11400H_8GB_256GB_SSD_NVMe_GTX_1650_W11_Home_GAME_PASS_ULTIMATE_1_MONTH_b2ba1045-med_1_du9p2e.jpg",
                 modelo:"Acer Nitro 5 15.6",
+                home: true,
                 caracteristicas: {
                     graficos: "Gráficos Integrado Intel UHD Graphics 605 con memoria compartida",
                     tamañoPantalla : "Tamaño de Pantalla 39.6cm (15.6)",
@@ -34,6 +35,7 @@ export let products = [
                 img: " https://res.cloudinary.com/dcf9eqqgt/image/upload/v1688942284/E-COMERCE%20CODER/compragamer_Imganen_general_36805_Notebook_Gamer_Asus_TUF_FX506L_15.6__Core_I5_10300H_16GB_512GB_SSD_NVMe_GTX_1650_W11_Home_144Hz_63a3df9f-grn_phqovn.jpg",
                 imgSecundary: "https://res.cloudinary.com/dcf9eqqgt/image/upload/v1688943354/E-COMERCE%20CODER/compragamer_Imganen_general_36806_Notebook_Gamer_Asus_TUF_FX506L_15.6__Core_I5_10300H_16GB_512GB_SSD_NVMe_GTX_1650_W11_Home_144Hz_d66354a0-med_brh9t9.jpg",
                 modelo:"Asus TUF FX506L 15.6",
+                home: true,
                 caracteristicas: {
                     graficos: "Gráficos Integrado Intel UHD Graphics 605 con memoria compartida",
                     tamañoPantalla : "Tamaño de Pantalla 39.6cm (15.6)",
@@ -55,6 +57,7 @@ export let products = [
                 img: "https://res.cloudinary.com/dcf9eqqgt/image/upload/v1688942284/E-COMERCE%20CODER/compragamer_Imganen_general_32188_Notebook_Lenovo_ThinkPad_E14_FHD_14__Ryzen_7_5700U_8GB_256GB_SSD_NVMe_Freedos_ad39b701-grn_phqh4z.jpg",
                 imgSecundary: "https://res.cloudinary.com/dcf9eqqgt/image/upload/v1688943354/E-COMERCE%20CODER/compragamer_Imganen_general_32189_Notebook_Lenovo_ThinkPad_E14_FHD_14__Ryzen_7_5700U_8GB_256GB_SSD_NVMe_Freedos_8830b045-med_tu7jfq.jpg",
                 modelo:" ThinkPad E14 FHD 14",
+                home: true,
                 caracteristicas: {
                     graficos: "Gráficos Integrado Intel UHD Graphics 605 con memoria compartida",
                     tamañoPantalla : "Tamaño de Pantalla 39.6cm (15.6)",
@@ -77,6 +80,7 @@ export let products = [
                 img: "https://res.cloudinary.com/dcf9eqqgt/image/upload/v1688942284/E-COMERCE%20CODER/compragamer_Imganen_general_30569_Notebook_Gamer_Asus_ROG_Zephyrus_G14_QHD_14__Ryzen_7_4800HS_16GB__2x8GB__512GB_SSD_NVMe_GTX_1650_W10_120Hz_7030dae4-grn_okdxwz.jpg",
                 imgSecundary: "https://res.cloudinary.com/dcf9eqqgt/image/upload/v1688943355/E-COMERCE%20CODER/concepto-10401399_ee6qix.jpg",
                 modelo:"Asus ROG Zephyrus G14 ",
+                home: true,
                 caracteristicas: {
                     graficos: "Gráficos Integrado Intel UHD Graphics 605 con memoria compartida",
                     tamañoPantalla : "Tamaño de Pantalla 39.6cm (15.6)",
@@ -98,6 +102,7 @@ export let products = [
                 img: "https://res.cloudinary.com/dcf9eqqgt/image/upload/v1688942284/E-COMERCE%20CODER/compragamer_Imganen_general_32191_Notebook_Lenovo_ThinkPad_E14_Gen2_FHD_14__Core_I5_1135G7_8GB_256GB_SSD_NVMe_Freedos_8b72af04-grn_mp80w1.jpg",
                 imgSecundary: "https://res.cloudinary.com/dcf9eqqgt/image/upload/v1688943354/E-COMERCE%20CODER/%C3%A7_ypxqpp.jpg",
                 modelo:"ThinkPad E14 Gen2 FHD 14",
+                home: true,
                 caracteristicas: {
                     graficos: "Gráficos Integrado Intel UHD Graphics 605 con memoria compartida",
                     tamañoPantalla : "Tamaño de Pantalla 39.6cm (15.6)",
@@ -1295,6 +1300,8 @@ export let products = [
                         img: "https://res.cloudinary.com/dcf9eqqgt/image/upload/v1690399947/E-COMERCE%20CODER/Refrigeracion/1/compragamer_Imganen_general_27699_Cooler_Fan_ID-Cooling_NO-8025-SD_80mm_07b0ef8a-grn_qozmp7.jpg",
                         imgSecundary: "https://res.cloudinary.com/dcf9eqqgt/image/upload/v1690399947/E-COMERCE%20CODER/Refrigeracion/1/compragamer_Imganen_general_27698_Cooler_Fan_ID-Cooling_NO-8025-SD_80mm_27d373c7-grn_nctixc.jpg",
                         modelo:"Acer Nitro 5 15.6",
+                        home: true,
+
                         caracteristicas: {
                             graficos: "Gráficos Integrado Intel UHD Graphics 605 con memoria compartida",
                             tamañoPantalla : "Tamaño de Pantalla 39.6cm (15.6)",
@@ -1316,6 +1323,8 @@ export let products = [
                         img: "https://res.cloudinary.com/dcf9eqqgt/image/upload/v1690399947/E-COMERCE%20CODER/Refrigeracion/2/compragamer_Imganen_general_11522_Cooler_Fan_ID-Cooling_NO-12025-SD_120mm_b4dccf47-grn_ltxvhl.jpg",
                         imgSecundary: "https://res.cloudinary.com/dcf9eqqgt/image/upload/v1690399947/E-COMERCE%20CODER/Refrigeracion/2/compragamer_Imganen_general_11526_Cooler_Fan_ID-Cooling_NO-12025-SD_120mm_1b18ca6d-grn_fpy8ty.jpg",
                         modelo:"Asus TUF FX506L 15.6",
+                        home: true,
+
                         caracteristicas: {
                             graficos: "Gráficos Integrado Intel UHD Graphics 605 con memoria compartida",
                             tamañoPantalla : "Tamaño de Pantalla 39.6cm (15.6)",
@@ -1337,6 +1346,8 @@ export let products = [
                         img: "https://res.cloudinary.com/dcf9eqqgt/image/upload/v1690399947/E-COMERCE%20CODER/Refrigeracion/3/compragamer_Imganen_general_31562_Cooler_FAN_ID-Cooling_DF-12025-ARGB-XT_edba2875-grn_lpm0ei.jpg",
                         imgSecundary: "https://res.cloudinary.com/dcf9eqqgt/image/upload/v1690399947/E-COMERCE%20CODER/Refrigeracion/3/compragamer_Imganen_general_31563_Cooler_FAN_ID-Cooling_DF-12025-ARGB-XT_9050dc6f-grn_gdv6fw.jpg",
                         modelo:" ThinkPad E14 FHD 14",
+                        home: true,
+
                         caracteristicas: {
                             graficos: "Gráficos Integrado Intel UHD Graphics 605 con memoria compartida",
                             tamañoPantalla : "Tamaño de Pantalla 39.6cm (15.6)",
@@ -1359,6 +1370,8 @@ export let products = [
                         img: "https://res.cloudinary.com/dcf9eqqgt/image/upload/v1690399945/E-COMERCE%20CODER/Refrigeracion/5/compragamer_Imganen_general_34361_Cooler_Fan_ID-Cooling_TF-12025-ARGB-TRIO_348db585-grn_rmnxci.jpg",
                         imgSecundary: "https://res.cloudinary.com/dcf9eqqgt/image/upload/v1690399946/E-COMERCE%20CODER/Refrigeracion/5/compragamer_Imganen_general_34362_Cooler_Fan_ID-Cooling_TF-12025-ARGB-TRIO_5ad69d03-grn_qgq8bt.jpg",
                         modelo:"Asus ROG Zephyrus G14 ",
+                        home: true,
+
                         caracteristicas: {
                             graficos: "Gráficos Integrado Intel UHD Graphics 605 con memoria compartida",
                             tamañoPantalla : "Tamaño de Pantalla 39.6cm (15.6)",
@@ -1380,6 +1393,8 @@ export let products = [
                         img: "https://res.cloudinary.com/dcf9eqqgt/image/upload/v1690399945/E-COMERCE%20CODER/Refrigeracion/4/compragamer_Imganen_general_33195_Cooler_Fan_Cooler_Master_Sickleflow_120_RGB__25a2fee7-grn_pwztm9.jpg",
                         imgSecundary: "https://res.cloudinary.com/dcf9eqqgt/image/upload/v1690399945/E-COMERCE%20CODER/Refrigeracion/4/compragamer_Imganen_general_33197_Cooler_Fan_Cooler_Master_Sickleflow_120_RGB__e46b42e0-grn_ijijfd.jpg",
                         modelo:"ThinkPad E14 Gen2 FHD 14",
+                        home: true,
+
                         caracteristicas: {
                             graficos: "Gráficos Integrado Intel UHD Graphics 605 con memoria compartida",
                             tamañoPantalla : "Tamaño de Pantalla 39.6cm (15.6)",
@@ -1511,6 +1526,8 @@ export let products = [
                             img: "https://res.cloudinary.com/dcf9eqqgt/image/upload/v1690399996/E-COMERCE%20CODER/Gabinetes/1/compragamer_Imganen_general_35714_Gabinete_Antec_NX292_MESH_RGB_Vidrio_Templado_a017a79f-grn_k11w87.jpg",
                             imgSecundary: "https://res.cloudinary.com/dcf9eqqgt/image/upload/v1690399996/E-COMERCE%20CODER/Gabinetes/1/compragamer_Imganen_general_35715_Gabinete_Antec_NX292_MESH_RGB_Vidrio_Templado_60d3b5f9-grn_kayy7l.jpg",
                             modelo:"Acer Nitro 5 15.6",
+                            home: true,
+
                             caracteristicas: {
                                 graficos: "Gráficos Integrado Intel UHD Graphics 605 con memoria compartida",
                                 tamañoPantalla : "Tamaño de Pantalla 39.6cm (15.6)",
@@ -1532,6 +1549,8 @@ export let products = [
                             img: "https://res.cloudinary.com/dcf9eqqgt/image/upload/v1690399996/E-COMERCE%20CODER/Gabinetes/2/compragamer_Imganen_general_19517_Gabinete_Deepcool_MATREXX_70_ADD-RGB_3F_aa3299c1-grn_rl0bfn.jpg",
                             imgSecundary: "https://res.cloudinary.com/dcf9eqqgt/image/upload/v1690399996/E-COMERCE%20CODER/Gabinetes/2/compragamer_Imganen_general_19519_Gabinete_Deepcool_MATREXX_70_ADD-RGB_3F_9f0cb142-grn_mkm3wm.jpg",
                             modelo:"Asus TUF FX506L 15.6",
+                            home: true,
+
                             caracteristicas: {
                                 graficos: "Gráficos Integrado Intel UHD Graphics 605 con memoria compartida",
                                 tamañoPantalla : "Tamaño de Pantalla 39.6cm (15.6)",
@@ -1553,6 +1572,8 @@ export let products = [
                             img: "https://res.cloudinary.com/dcf9eqqgt/image/upload/v1690399996/E-COMERCE%20CODER/Gabinetes/3/compragamer_Imganen_general_32215_Gabinete_Deepcool_MATREXX_55_V3_ADD-RGB_3_Fans_White_892b024e-grn_klivxx.jpg",
                             imgSecundary: "https://res.cloudinary.com/dcf9eqqgt/image/upload/v1690399996/E-COMERCE%20CODER/Gabinetes/3/compragamer_Imganen_general_24385_Gabinete_Deepcool_MATREXX_55_V3_ADD-RGB_3_Fans_White_28283c97-grn_ixltgb.jpg",
                             modelo:" ThinkPad E14 FHD 14",
+                            home: true,
+
                             caracteristicas: {
                                 graficos: "Gráficos Integrado Intel UHD Graphics 605 con memoria compartida",
                                 tamañoPantalla : "Tamaño de Pantalla 39.6cm (15.6)",
@@ -1575,6 +1596,8 @@ export let products = [
                             img: "https://res.cloudinary.com/dcf9eqqgt/image/upload/v1690399994/E-COMERCE%20CODER/Gabinetes/4/compragamer_Imganen_general_21967_Gabinete_Kolink_Observatory_Lite_Mesh_4x120mm_Coolers_ARGB_Vidrio_Templado_7fabaefd-grn_xfu2pv.jpg",
                             imgSecundary: "https://res.cloudinary.com/dcf9eqqgt/image/upload/v1690399994/E-COMERCE%20CODER/Gabinetes/4/compragamer_Imganen_general_21968_Gabinete_Kolink_Observatory_Lite_Mesh_4x120mm_Coolers_ARGB_Vidrio_Templado_9c44c22d-grn_ufbemz.jpg",
                             modelo:"Asus ROG Zephyrus G14 ",
+                            home: true,
+
                             caracteristicas: {
                                 graficos: "Gráficos Integrado Intel UHD Graphics 605 con memoria compartida",
                                 tamañoPantalla : "Tamaño de Pantalla 39.6cm (15.6)",
@@ -1596,6 +1619,8 @@ export let products = [
                             img: "https://res.cloudinary.com/dcf9eqqgt/image/upload/v1690399994/E-COMERCE%20CODER/Gabinetes/5/compragamer_Imganen_general_24538_Gabinete_Lian_Li_O11_Dynamic_XL_ROG_Certify_White_ARGB_17789293-grn_hhnl5f.jpg",
                             imgSecundary: "https://res.cloudinary.com/dcf9eqqgt/image/upload/v1690399995/E-COMERCE%20CODER/Gabinetes/5/compragamer_Imganen_general_24539_Gabinete_Lian_Li_O11_Dynamic_XL_ROG_Certify_White_ARGB_0257870b-grn_cuk4we.jpg",
                             modelo:"ThinkPad E14 Gen2 FHD 14",
+                            home: true,
+
                             caracteristicas: {
                                 graficos: "Gráficos Integrado Intel UHD Graphics 605 con memoria compartida",
                                 tamañoPantalla : "Tamaño de Pantalla 39.6cm (15.6)",
@@ -1726,6 +1751,8 @@ export let products = [
                         img: "https://res.cloudinary.com/dcf9eqqgt/image/upload/v1690400014/E-COMERCE%20CODER/Fuentes/1/compragamer_Imganen_general_34993_Fuente_Be_Quiet_1000W_80_Plus_Gold_PURE_POWER_11_Full_Modular_3d25f718-grn_bxvf4m.jpg",
                         imgSecundary: "https://res.cloudinary.com/dcf9eqqgt/image/upload/v1690400014/E-COMERCE%20CODER/Fuentes/1/compragamer_Imganen_general_34994_Fuente_Be_Quiet_1000W_80_Plus_Gold_PURE_POWER_11_Full_Modular_567a5f01-grn_ydb9fm.jpg",
                         modelo:"Acer Nitro 5 15.6",
+                        home: true,
+
                         caracteristicas: {
                             graficos: "Gráficos Integrado Intel UHD Graphics 605 con memoria compartida",
                             tamañoPantalla : "Tamaño de Pantalla 39.6cm (15.6)",
@@ -1747,6 +1774,8 @@ export let products = [
                         img: "https://res.cloudinary.com/dcf9eqqgt/image/upload/v1690400014/E-COMERCE%20CODER/Fuentes/2/compragamer_Imganen_general_33806_Fuente_Deepcool_700W_DA700_80_Plus_Bronze_65a49133-grn_qjznl0.jpg",
                         imgSecundary: "https://res.cloudinary.com/dcf9eqqgt/image/upload/v1690400014/E-COMERCE%20CODER/Fuentes/2/compragamer_Imganen_general_13600_Fuente_Deepcool_700W_DA700_80_Plus_Bronze_45c59964-grn_sfemlx.jpg",
                         modelo:"Asus TUF FX506L 15.6",
+                        home: true,
+
                         caracteristicas: {
                             graficos: "Gráficos Integrado Intel UHD Graphics 605 con memoria compartida",
                             tamañoPantalla : "Tamaño de Pantalla 39.6cm (15.6)",
@@ -1768,6 +1797,8 @@ export let products = [
                         img: "https://res.cloudinary.com/dcf9eqqgt/image/upload/v1690400014/E-COMERCE%20CODER/Fuentes/3/compragamer_Imganen_general_34989_Fuente_Be_Quiet_850W_80_Plus_Gold_PURE_POWER_11_Full_Modular_53e832b2-grn_uu5fnt.jpg",
                         imgSecundary: "https://res.cloudinary.com/dcf9eqqgt/image/upload/v1690400014/E-COMERCE%20CODER/Fuentes/3/compragamer_Imganen_general_34990_Fuente_Be_Quiet_850W_80_Plus_Gold_PURE_POWER_11_Full_Modular_9c99e43a-grn_sjigeb.jpg",
                         modelo:" ThinkPad E14 FHD 14",
+                        home: true,
+
                         caracteristicas: {
                             graficos: "Gráficos Integrado Intel UHD Graphics 605 con memoria compartida",
                             tamañoPantalla : "Tamaño de Pantalla 39.6cm (15.6)",
@@ -1790,6 +1821,8 @@ export let products = [
                         img: "https://res.cloudinary.com/dcf9eqqgt/image/upload/v1690400014/E-COMERCE%20CODER/Fuentes/4/compragamer_Imganen_general_9751_Fuente_Gigabyte_650W_80_Plus_Bronze_P650B__4d80c52d-grn_kwk9rf.jpg",
                         imgSecundary: "https://res.cloudinary.com/dcf9eqqgt/image/upload/v1690400014/E-COMERCE%20CODER/Fuentes/4/compragamer_Imganen_general_6047_Fuente_Gigabyte_650W_80_Plus_Bronze_P650B__77f54fe7-grn_ozg2kr.jpg",
                         modelo:"Asus ROG Zephyrus G14 ",
+                        home: true,
+
                         caracteristicas: {
                             graficos: "Gráficos Integrado Intel UHD Graphics 605 con memoria compartida",
                             tamañoPantalla : "Tamaño de Pantalla 39.6cm (15.6)",
@@ -1811,6 +1844,8 @@ export let products = [
                         img: "https://res.cloudinary.com/dcf9eqqgt/image/upload/v1690400012/E-COMERCE%20CODER/Fuentes/5/compragamer_Imganen_general_33804_Fuente_Deepcool_500W_DA500_80_Plus_Bronze_c1debc82-grn_ortmh1.jpg",
                         imgSecundary: "https://res.cloudinary.com/dcf9eqqgt/image/upload/v1690400012/E-COMERCE%20CODER/Fuentes/5/compragamer_Imganen_general_13593_Fuente_Deepcool_500W_DA500_80_Plus_Bronze_adf4067e-grn_kwirkp.jpg",
                         modelo:"ThinkPad E14 Gen2 FHD 14",
+                        home: true,
+
                         caracteristicas: {
                             graficos: "Gráficos Integrado Intel UHD Graphics 605 con memoria compartida",
                             tamañoPantalla : "Tamaño de Pantalla 39.6cm (15.6)",
@@ -1941,6 +1976,8 @@ export let products = [
                             img: "https://res.cloudinary.com/dcf9eqqgt/image/upload/v1690400034/E-COMERCE%20CODER/Monitores/1/compragamer_Imganen_general_13395_Monitor_Gamer_Samsung_24__G50_Curvo_144Hz_Full_HD_VA_FreeSync_c45d63c2-grn_mbuvea.jpg",
                             imgSecundary: "https://res.cloudinary.com/dcf9eqqgt/image/upload/v1690400034/E-COMERCE%20CODER/Monitores/1/compragamer_Imganen_general_37106_Monitor_Gamer_Samsung_24__G50_Curvo_144Hz_Full_HD_VA_FreeSync_f473d83a-grn_xefwbb.jpg",
                             modelo:"Acer Nitro 5 15.6",
+                            home: true,
+
                             caracteristicas: {
                                 graficos: "Gráficos Integrado Intel UHD Graphics 605 con memoria compartida",
                                 tamañoPantalla : "Tamaño de Pantalla 39.6cm (15.6)",
@@ -1962,6 +1999,8 @@ export let products = [
                             img: "https://res.cloudinary.com/dcf9eqqgt/image/upload/v1690400034/E-COMERCE%20CODER/Monitores/2/compragamer_Imganen_general_36528_Monitor_Smart_Samsung_27__M5_Full_HD_VA_60Hz_AirPlay2_Netflix_Youtube_HBO_820539af-grn_akegcl.jpg",
                             imgSecundary: "https://res.cloudinary.com/dcf9eqqgt/image/upload/v1690400034/E-COMERCE%20CODER/Monitores/2/compragamer_Imganen_general_28963_Monitor_Smart_Samsung_27__M5_Full_HD_VA_60Hz_AirPlay2_Netflix_Youtube_HBO_23489253-grn_mbbcld.jpg",
                             modelo:"Asus TUF FX506L 15.6",
+                            home: true,
+
                             caracteristicas: {
                                 graficos: "Gráficos Integrado Intel UHD Graphics 605 con memoria compartida",
                                 tamañoPantalla : "Tamaño de Pantalla 39.6cm (15.6)",
@@ -1983,6 +2022,8 @@ export let products = [
                             img: "https://res.cloudinary.com/dcf9eqqgt/image/upload/v1690400034/E-COMERCE%20CODER/Monitores/3/compragamer_Imganen_general_8721_Monitor_Samsung_24___Curvo_F390_Full_HD_FreeSync_65a7863d-grn_tbcf8t.jpg",
                             imgSecundary: "https://res.cloudinary.com/dcf9eqqgt/image/upload/v1690400035/E-COMERCE%20CODER/Monitores/3/compragamer_Imganen_general_8720_Monitor_Samsung_24___Curvo_F390_Full_HD_FreeSync_3a4722ad-grn_cruxtq.jpg",
                             modelo:" ThinkPad E14 FHD 14",
+                            home: true,
+
                             caracteristicas: {
                                 graficos: "Gráficos Integrado Intel UHD Graphics 605 con memoria compartida",
                                 tamañoPantalla : "Tamaño de Pantalla 39.6cm (15.6)",
@@ -2005,6 +2046,8 @@ export let products = [
                             img: "https://res.cloudinary.com/dcf9eqqgt/image/upload/v1690400033/E-COMERCE%20CODER/Monitores/4/compragamer_Imganen_general_8684_Monitor_LG_LED_19___19M38A-B_VGA_2d36dd47-grn_zs2gqe.jpg",
                             imgSecundary: "https://res.cloudinary.com/dcf9eqqgt/image/upload/v1690400032/E-COMERCE%20CODER/Monitores/4/compragamer_Imganen_general_8683_Monitor_LG_LED_19___19M38A-B_VGA_4607eba4-grn_g4wnis.jpg",
                             modelo:"Asus ROG Zephyrus G14 ",
+                            home: true,
+
                             caracteristicas: {
                                 graficos: "Gráficos Integrado Intel UHD Graphics 605 con memoria compartida",
                                 tamañoPantalla : "Tamaño de Pantalla 39.6cm (15.6)",
@@ -2026,6 +2069,8 @@ export let products = [
                             img: "https://res.cloudinary.com/dcf9eqqgt/image/upload/v1690400033/E-COMERCE%20CODER/Monitores/5/compragamer_Imganen_general_11144_Monitor_Philips_19__HDMI_VGA_7c0a1d34-grn_fwtdqz.jpg",
                             imgSecundary: "https://res.cloudinary.com/dcf9eqqgt/image/upload/v1690400033/E-COMERCE%20CODER/Monitores/5/compragamer_Imganen_general_11143_Monitor_Philips_19__HDMI_VGA_6c133ad2-grn_rzkzvh.jpg",
                             modelo:"ThinkPad E14 Gen2 FHD 14",
+                            home: true,
+
                             caracteristicas: {
                                 graficos: "Gráficos Integrado Intel UHD Graphics 605 con memoria compartida",
                                 tamañoPantalla : "Tamaño de Pantalla 39.6cm (15.6)",

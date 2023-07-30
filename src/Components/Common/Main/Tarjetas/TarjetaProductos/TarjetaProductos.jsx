@@ -20,23 +20,13 @@ const TarjetaProductos = ({product}) => {
 
   <div class="content">
     <p class="heading">{product.modelo}</p>
-    <p>
-     {
-      arr.map((arr)=>{
-        return(
-          <>
-          <h1>{arr.graficos}</h1>
-          <h1>{arr.tamañoPantalla}</h1>
-          </>
+    <ul>
+   <li className='li-caracteristicas'>- {product.caracteristicas.graficos}</li>
+   <li className='li-caracteristicas'>- {product.caracteristicas.Resolución}</li>
+   <li className='li-caracteristicas'>- {product.caracteristicas.TecnologíaIluminación}</li>
 
-
-        )
-       
-      })
-     }
-    </p>
+    </ul>
     
-    <Boton text={"VER MAS"}  />
   </div>
 </div>
 </div>

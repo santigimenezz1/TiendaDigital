@@ -14,9 +14,10 @@ import {serverTimestamp, addDoc, collection, updateDoc, doc} from "firebase/fire
 import { db } from '../../../../firebaseConfig';
 import '../ModalFinalizarCompra/modalFinalizarCompra.css'
 import CheckIcon from '@mui/icons-material/Check';
-import { Link } from 'react-router-dom';
+import { Link, Navigate } from 'react-router-dom';
 import {ToastContainer, toast} from "react-toastify"
 import CloseIcon from '@mui/icons-material/Close';
+import LoadingModal from '../LoadingModal/LoadingModal';
 
 
 
@@ -40,10 +41,14 @@ export default function ModalFinalizarCompra() {
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
-
-  
+  const [loading, setLoading] = useState(false)
   const {cart, calcularFinal, clearCart} = useContext(CartContext)
   const [idCompra, setIdCompra]= useState("")
+
+  const cruzClear = ()=>{
+    clearCart()
+    handleClose()
+  }
  
  
  
@@ -60,7 +65,12 @@ export default function ModalFinalizarCompra() {
        items: cart,
        total:calcularFinal(),
        date: serverTimestamp(),
-     };
+      };
+      setLoading(true)
+      setTimeout(() => {
+        setLoading(false)
+        
+      }, 5000);
  
      // CREAR LA ORDEN EN FIREBASE
      const ordersCollection = collection(db, "orders");
@@ -81,6 +91,7 @@ export default function ModalFinalizarCompra() {
        validateOnChange:false,
      })
  
+     
  
   
 
@@ -102,7 +113,7 @@ console.log(errors)
         }}
       >
         <Fade in={open}>
-        <div style={{border:"1px solid red"}}>
+        <div style={{border:"1px solid red", backgroundColor:"red"}}>
         
           <Box style={{border:"1px solid white", borderRadius:"7px"}} sx={style}>
           {
@@ -116,26 +127,28 @@ console.log(errors)
           
            
             {
-                idCompra 
+            
+                idCompra && loading === false
                 ? (
-                  
                     
-
+                  
                     <div className='container-pagoTerminado'>
                     <div className='icon-cruz-termianrPago'>
-                    <CloseIcon onClick={()=>handleClose()} fontSize='small'  />
+                    <Link to={"/categoria"}>
+                    <CloseIcon onClick={()=>cruzClear()} fontSize='small' />
+                    </Link>
                     </div>
 
-                    <div style={{display:"flex",alignItems:"center",justifyContent:"center", flexDirection:"column"}}>
+                    <div style={{ display:"flex",alignItems:"center",justifyContent:"center", flexDirection:"column"}}>
                     <img className='image-pago' src='https://res.cloudinary.com/dcf9eqqgt/image/upload/v1690321314/E-COMERCE%20CODER/png-transparent-check-mark-computer-icons-icon-design-cheque-successful-angle-logo-grass_srwnqy.png'></img>
-                    <h1 className='titulo-pago'>Tu solicitud se ah procesado correctamente</h1>
+                    <h1 style={{marginTop:"30px"}} className='titulo-pago'>Tu solicitud se ah procesado correctamente</h1>
                     <h1 className='subtitulo-pago'>En breve te contactamos via <span style={{color:"#25D366", fontWeight:"700"}}>whatsapp</span> </h1>
                     <h1 className='total-pago'>Total a pagar ${calcularFinal()}</h1>
 
-                    <h1 className='seguimiento-pago'>Codigo de seguimiento: <span className='span-seguimiento'>{idCompra}</span> </h1>
+                    <h1 style={{marginBottom:"10px"}} className='seguimiento-pago'>Codigo de seguimiento: <span className='span-seguimiento'>{idCompra}</span> </h1>
                     </div>
 
-                    <div style={{marginBottom:"30px"}}>
+                    <div style={{marginBottom:"10px"}}>
                     <Link onClick={()=>clearCart()} className='buton-seguirComprandoPago' to={'/categoria'}>Seguir comprando</Link>
                     </div>
                     </div>
@@ -149,7 +162,7 @@ console.log(errors)
                     
                 :  
                 <form className='form-finalizarCompra' onSubmit={handleSubmit}>
-                <Typography id="transition-modal-description" sx={{ mt: 2 }}>
+                <Typography id="transition-modal-description" sx={{ mt: 2, fontSize:"25px" }}>
                 Ingresa tus datos y te contactamos
               </Typography>
          
@@ -168,7 +181,7 @@ console.log(errors)
           type='text' 
           id="filled-basic" 
           label="apellido" 
-          variant="filled" 
+          variant="outlined" 
           name='apellido' 
           error= {errors.apellido ? true : false} />
        
@@ -177,7 +190,7 @@ console.log(errors)
           type='text'  
           id="standard-basic" 
           label="email" 
-          variant="standard" 
+          variant="outlined" 
           name='email' 
           error= {errors.email ? true : false}
           />
@@ -187,11 +200,17 @@ console.log(errors)
           type='text'  
           id="standard-basic" 
           label="telefono" 
-          variant="standard" 
+          variant="outlined" 
           name='telefono' 
           error= {errors.telefono ? true : false}
           />
-          <Button type='submit'>Enviar</Button>
+          <Button  type='submit'>Enviar</Button>
+          {
+
+            loading ?
+            <LoadingModal/>
+            :<h1>sin loading</h1> 
+          }
           
            </form>
             }

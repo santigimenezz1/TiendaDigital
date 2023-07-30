@@ -3,7 +3,7 @@ import '../TarjetaDetalle/tarjetaDetalle.css'
 import ContadorUnidades from '../../../SectionCart/ContadorUnidades/ContadorUnidades'
 import { CartContext } from '../../../../../Context/CartContext'
 import { useParams } from 'react-router-dom'
-import { collection, getDocs, query, where } from 'firebase/firestore'
+import { collection, doc, getDoc, getDocs, query, where } from 'firebase/firestore'
 import { db } from '../../../../../firebaseConfig'
 import { Box, Skeleton } from '@mui/material'
 
@@ -11,7 +11,8 @@ const TarjetaDetalle = ({producto, onAdd, totalProductosId}) => {
     const [carrusel, setCarrusel] = useState(true)
     const [data, setData] = useState([])
     const {categoria} = useParams()
-    
+
+                           //FILTRADO POR CATEGORIA
     useEffect(() => {
       let productsCollection = collection(db, "products"); //traeme una colleccion, de esa db y la colleccion products
       let consulta;
@@ -27,7 +28,22 @@ const TarjetaDetalle = ({producto, onAdd, totalProductosId}) => {
         setData(productos) //y lo guardo en mi estado
       })
     }, [categoria]);
+
+                               //FILTRADO POR ID 
+
+    const [dataa,setDataa] = useState({})
+    const {id} = useParams()
+    useEffect(()=>{
+      let productsColeccion = collection(db, "products")
+      let productRef = doc(productsColeccion, id)
+      getDoc(productRef).then((res)=>{
+        let producto = {...res.data(), id: res.id}
+        setDataa(producto)
+      })   
+    },[id])
+
   
+     const cuotas = producto.precio / 6
      
 
 
@@ -63,10 +79,51 @@ const TarjetaDetalle = ({producto, onAdd, totalProductosId}) => {
       </div>
     <div className='container-info-tarjetaDetalle'>
     <div className='container-info'>
-    <h1 className='titulo-tarjetaDetalle'>{producto.nombre}</h1>
-    <h2 className='price'>  {producto.precio}</h2>
+    <>
+    
+    {Object.keys(dataa).length > 0 
+      ?
+      <>
+      <h1 className='titulo-tarjetaDetalle'>{dataa.nombre}</h1>
+      <h2 className='price'>  {dataa.precio}</h2>
+      </>
+      :
+      <>
+      <Skeleton  variant="text" sx={{ fontSize: "1.3rem", marginRight:"50px"}} width={450} height={60}  />
+      <Skeleton  variant="text" sx={{ fontSize: "1.3rem", marginRight:"50px"}} width={450} height={60}  />
+      <Skeleton  variant="text" sx={{ fontSize: "1.3rem", marginRight:"50px"}} width={450} height={60}  />
+      <Skeleton  variant="text" sx={{ fontSize: "1.3rem", marginRight:"50px"}} width={150} height={100}  />
+
+      </>
+    }
     <h3 className='cuotas'>Mismo precio en cuotas de $12.500</h3>
-    <h1>{}</h1>
+    {Object.keys(dataa).length > 0 ? (
+      <>
+      <div className='container-caracteristicas'>
+      <h1>{dataa.caracteristicas.graficos}</h1>
+      <h1>{dataa.caracteristicas.tamañoPantalla}</h1>
+      <h1>{dataa.caracteristicas.TipoPantalla}</h1>
+      <h1>{dataa.caracteristicas.TecnologíaIluminación}</h1>
+      <h1>{dataa.caracteristicas.Resolución}</h1>
+      <h1>{dataa.caracteristicas.Memoria}</h1>
+      <h1>{dataa.caracteristicas.TipoPantalla}</h1>
+      
+      </div>
+      </>
+    ) : (
+      <>
+      <Skeleton  variant="text" sx={{ fontSize: "1.3rem", marginRight:"50px"}} width={550} height={30}  />
+      <Skeleton  variant="text" sx={{ fontSize: "1.3rem", marginRight:"50px"}} width={550} height={30}  />
+      <Skeleton  variant="text" sx={{ fontSize: "1.3rem", marginRight:"50px"}} width={550} height={30}  />
+      <Skeleton  variant="text" sx={{ fontSize: "1.3rem", marginRight:"50px"}} width={550} height={30}  />
+      <Skeleton  variant="text" sx={{ fontSize: "1.3rem", marginRight:"50px"}} width={550} height={30}  />
+      <Skeleton  variant="text" sx={{ fontSize: "1.3rem", marginRight:"50px"}} width={550} height={30}  />
+      <Skeleton  variant="text" sx={{ fontSize: "1.3rem", marginRight:"50px"}} width={550} height={30}  />
+      </>
+
+
+    )}
+  </>
     </div>
     <div>
 
@@ -74,10 +131,12 @@ const TarjetaDetalle = ({producto, onAdd, totalProductosId}) => {
     <div className='container-caracteristicasBotones'>
     <div>
     </div>
+   
      <div className='contadorBoton'>
+     
      <h1>{producto.cantidad}</h1>
      {
-      producto.stock === 0 ?<h1>sin stock</h1> :<ContadorUnidades initial={1}  stock={producto.stock} onAdd={onAdd} totalProductosId={totalProductosId}/>
+      producto.stock === 0 ?<h1 className='titulo-sinStock'>sin stock</h1> :<ContadorUnidades initial={1}  stock={producto.stock} onAdd={onAdd} totalProductosId={totalProductosId}/>
 
      }
      </div>

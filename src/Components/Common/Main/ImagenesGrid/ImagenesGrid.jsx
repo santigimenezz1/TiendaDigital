@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import '../ImagenesGrid/imagenesGrid.css'
 
 const ImagenesGrid = () => {
@@ -11,14 +12,14 @@ const ImagenesGrid = () => {
       </div>
      </div>
     <div className='container-cajasFlex'>
-    <div className='cajasFlex'><img src='https://res.cloudinary.com/dcf9eqqgt/image/upload/v1689894449/E-COMERCE%20CODER/compragamer_Imganen_general_36913_Memoria_Adata_DDR4_16GB__2x8GB__4133MHz_XPG_Spectrix_D60G_RGB_73bb84d3-grn_k2j8lg.jpg'></img></div>
-    <div className='cajasFlex'><img src='https://res.cloudinary.com/dcf9eqqgt/image/upload/v1689894064/E-COMERCE%20CODER/compragamer_Imganen_general_37106_Monitor_Gamer_Samsung_24__G50_Curvo_144Hz_Full_HD_VA_FreeSync_f473d83a-grn_dhm9e7.jpg'></img></div>
-    <div className='cajasFlex'><img src='https://res.cloudinary.com/dcf9eqqgt/image/upload/v1689362168/E-COMERCE%20CODER/compragamer_Imganen_general_27548_Placa_de_Video_ASUS_GeForce_GTX_1650_4GB_GDDR6_TUF_GAMING_71e82ff4-grn_akx4ki.jpg'></img></div>
-    <div className='cajasFlex'><img src='https://res.cloudinary.com/dcf9eqqgt/image/upload/v1688943355/E-COMERCE%20CODER/compragamer_Imganen_general_36805_Notebook_Gamer_Asus_TUF_FX506L_15.6__Core_I5_10300H_16GB_512GB_SSD_NVMe_GTX_1650_W11_Home_144Hz_63a3df9f-med_fn0axh.jpg'></img></div>
-    <div className='cajasFlex'><img src='https://res.cloudinary.com/dcf9eqqgt/image/upload/v1688943354/E-COMERCE%20CODER/compragamer_Imganen_general_32188_Notebook_Lenovo_ThinkPad_E14_FHD_14__Ryzen_7_5700U_8GB_256GB_SSD_NVMe_Freedos_ad39b701-med_jldfc6.jpg'></img></div>
-    <div className='cajasFlex'><img src='https://res.cloudinary.com/dcf9eqqgt/image/upload/v1688942284/E-COMERCE%20CODER/compragamer_Imganen_general_30569_Notebook_Gamer_Asus_ROG_Zephyrus_G14_QHD_14__Ryzen_7_4800HS_16GB__2x8GB__512GB_SSD_NVMe_GTX_1650_W10_120Hz_7030dae4-grn_okdxwz.jpg'></img></div>
-    <div className='cajasFlex'><img src='https://res.cloudinary.com/dcf9eqqgt/image/upload/v1688527912/E-COMERCE%20CODER/gabinete_vy45gz.jpg'></img></div>
-    <div className='cajasFlex'><img src='https://res.cloudinary.com/dcf9eqqgt/image/upload/v1689894449/E-COMERCE%20CODER/compragamer_Imganen_general_36913_Memoria_Adata_DDR4_16GB__2x8GB__4133MHz_XPG_Spectrix_D60G_RGB_73bb84d3-grn_k2j8lg.jpg'></img></div>
+    <Link to={"/Detalle/h3r4rSn4tSqZbuud2dwL"} className='cajasFlex'><img src='https://res.cloudinary.com/dcf9eqqgt/image/upload/v1690399812/E-COMERCE%20CODER/Placas%20de%20video/10/compragamer_Imganen_general_21085_Placa_de_Video_MSI_GeForce_RTX_3090_24GB_GDDR6X_VENTUS_3X_OC_8ab3b437-grn_qnumbz.jpg'></img></Link>
+    <Link to={"/Detalle/NOHuHb88H09KmUbPifWx"} className='cajasFlex'><img src='https://res.cloudinary.com/dcf9eqqgt/image/upload/v1690399739/E-COMERCE%20CODER/Mothers/4/compragamer_Imganen_general_22663_Mother_Gigabyte_B450M_DS3H_V2_DDR4_AM4_22c8d45a-grn_kx2egh.jpg'></img></Link>
+    <Link to={"/Detalle/tWt3ek4BQ1QwyTc7UMrG"} className='cajasFlex'><img src='https://res.cloudinary.com/dcf9eqqgt/image/upload/v1690399946/E-COMERCE%20CODER/Refrigeracion/8/compragamer_Imganen_general_33637_Cooler_CPU_Thermaltake_UX100_ARGB_12a77695-grn_jfd3d1.jpg'></img></Link>
+    <Link to={"/Detalle/zEaptSAkVvww9UZoeRr5"} className='cajasFlex'><img src='https://res.cloudinary.com/dcf9eqqgt/image/upload/v1690399841/E-COMERCE%20CODER/Memorias%20ram/8/compragamer_Imganen_general_22497_Memoria_Corsair_DDR4_16GB__2x8GB__3200MHz_Vengeance_RGB_PRO_TUF_Gaming_cac16eab-grn_pynvar.jpg'></img></Link>
+    <Link to={"/Detalle/yQNyYdkJV1QRU8KKolOB"} className='cajasFlex'><img src='https://res.cloudinary.com/dcf9eqqgt/image/upload/v1690400013/E-COMERCE%20CODER/Fuentes/10/compragamer_Imganen_general_33006_Fuente_ASUS_ROG_STRIX_1000W_80_Plus_Gold_Full_Modular_1000G_8c2a799c-grn_va6mho.jpg'></img></Link>
+    <Link to={"/Detalle/fsELZ6fioEs0nuMqlp4Z"} className='cajasFlex'><img src='https://res.cloudinary.com/dcf9eqqgt/image/upload/v1690399996/E-COMERCE%20CODER/Gabinetes/2/compragamer_Imganen_general_19517_Gabinete_Deepcool_MATREXX_70_ADD-RGB_3F_aa3299c1-grn_rl0bfn.jpg'></img></Link>
+    <Link to={"/Detalle/B7G913ncXa1nbDeYUTXM"} className='cajasFlex'><img src='https://res.cloudinary.com/dcf9eqqgt/image/upload/v1690399865/E-COMERCE%20CODER/Almacenamiento/9/compragamer_Imganen_general_36899_Disco_Solido_SSD_M.2_ADATA_256GB_Legend_710_2400MB_s_NVMe_PCIe_Gen3_x4_044357a2-grn_khcauc.jpg'></img></Link>
+    <Link to={"/Detalle/RbYYKhdwUpTAChOMsrlN"} className='cajasFlex'><img src='https://res.cloudinary.com/dcf9eqqgt/image/upload/v1690399653/E-COMERCE%20CODER/Procesadores/compragamer_Imganen_general_36820_Procesador_AMD_Ryzen_9_7950X3D_5.7GHz_AM5_-_No_incluye_Cooler_-_41f6074a-grn_xrenr1.jpg'></img></Link>
 
     
 

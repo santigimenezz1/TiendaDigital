@@ -53,6 +53,7 @@ export let routes = [
       path:'/modalCrearCuenta',
       Element: ModalCrearCuenta
    },
+   
 
      {
         id:"cart",
@@ -118,6 +119,7 @@ export let routes = [
       path:"/Ayuda",
       Element: Ayuda 
    },
+   
    { 
       id:"Ayuda",
       path:"/Ayuda",
@@ -126,7 +128,7 @@ export let routes = [
    { 
       id:"Dashboard",
       path:"/dashBoard",
-      Element: DashBoard 
+      Element: DashBoard,
    }
    //--------FIN CATEGORIAS------------------
 
