@@ -1,4 +1,4 @@
-import '../NavBar/navBar.css'
+import "../Navbar/navBar.css"
 import Boton from "../../Common/Navbar/Boton/Boton";
 import Enlaces from "../../Common/Navbar/Enlaces/Enlaces";
 import Logo from "../../Common/Navbar/Logo/Logo";
