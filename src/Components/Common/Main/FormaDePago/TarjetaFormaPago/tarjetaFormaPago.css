@@ -12,3 +12,12 @@
     align-items: center;
     justify-content: center;
 }
+.texto-promociones{
+    color:blue;
+    font-weight:200;
+    cursor:pointer;
+    font-size: 12px;
+}
+.texto-tarjeta{
+    color: black;
+}

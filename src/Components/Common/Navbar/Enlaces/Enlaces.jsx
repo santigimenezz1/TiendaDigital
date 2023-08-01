@@ -1,14 +1,38 @@
-import React from "react";
-import '../Enlaces/enlaces.css'
+import '../Enlaces/enlaces.css';
 import { Link } from "react-router-dom";
+import DehazeIcon from '@mui/icons-material/Dehaze';
+import { Box } from "@mui/material";
+import { useState } from 'react';
+import '../../Query/Query.css'
 
-const Enlaces = ()=> {
-   return (
-    <ul className="container-enlaces">
-    <Link className="enlaces" to={"/categoria"}><a href="#">PRODUCTOS</a></Link>
-    <Link className="enlaces" to={"/categoria/notebook"}><a href="#">NOTEBOOKS</a></Link>
-    <Link className="enlaces" to={"/categoria/placaVideo"}><a href="#">PLACAS DE VIDEO</a></Link>
-    <Link className="enlaces" to={"/Ayuda"}><a href="#">AYUDA</a></Link>
-  </ul>   ) 
+
+const Enlaces = () => {
+  const [estado, setEstado] = useState(true);
+
+  return (
+    <>
+      <Box>
+        <ul className="container-enlaces">
+          <Link className="enlaces" to={"/categoria"}>PRODUCTOS</Link>
+          <Link className="enlaces" to={"/categoria/notebook"}>NOTOBOOK</Link>
+          <Link className="enlaces" to={"/categoria/placaVideo"}>PLACAS DE VIDEO</Link>
+          <Link className="enlaces" to={"/Ayuda"}>AYUDA</Link>
+        </ul>
+      </Box>
+
+      <Box>
+        <ul className={estado ? "query900px" : "query900px display"}>
+          <div onClick={() => { setEstado(!estado) }}>
+            <DehazeIcon className='icono-burguer' fontSize='large' />
+          </div>
+          <Link className="enlaces" to={"/categoria"}>PRODUCTOS</Link>
+          <Link className="enlaces" to={"/categoria/notebook"}>NOTOBOOK</Link>
+          <Link className="enlaces" to={"/categoria/placaVideo"}>PLACAS DE VIDEO</Link>
+          <Link className="enlaces" to={"/Ayuda"}>AYUDA</Link>
+        </ul>
+      </Box>
+    </>
+  )
 }
-export default Enlaces
+
+export default Enlaces;

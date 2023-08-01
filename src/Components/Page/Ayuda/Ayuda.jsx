@@ -27,7 +27,7 @@ const Ayuda = () => {
      <div>
      <CajaAyuda titulo={"Servicio postventa y garantía"} subTexto={"También podes sacar un turno para venir en forma presencial a gestionar tu garantía: "}  texto={"Para realizar consultas/reclamos relacionadas con la garantía o devolución de alguna de tus compras, debajo de esta sección contamos con el apartado Compra Gamer te ayuda. ¿Cuál es tu consulta? donde debes exponer tu caso, seleccionando el motivo de 'Postventa' que se adapte a tu requerimiento y uno de nuestros representantes te ofrecerá la información correspondiente sobre cómo proceder"} nombreBoton={"Consultar"}/>
      
-     <form className='container-formulario-ayuda'>
+     <div className='container-formulario-ayuda'>
      <div className='titulo-formulario-ayuda'>
      <h1>Compra Gamer te ayuda. ¿Cuál es tu consulta?</h1>
      </div>
@@ -40,7 +40,7 @@ const Ayuda = () => {
      <div className='boton-formularioAyuda'>
      <BotonDetelle text={"Enviar Consulta"} />
      </div>
-     </form>
+     </div>
      
 
     </div>

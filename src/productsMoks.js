@@ -11,7 +11,7 @@ export let products = [
                 descripcion: "Estas son las mejores zapatillas",
                 categoria: "notebook",
                 img: "https://res.cloudinary.com/dcf9eqqgt/image/upload/v1688783057/E-COMERCE%20CODER/compragamer_Imganen_general_35719_Notebook_Gamer_Acer_Nitro_5_15.6__FHD_Core_i5_11400H_8GB_256GB_SSD_NVMe_GTX_1650_W11_Home_GAME_PASS_ULTIMATE_1_MONTH_e3d5a472-grn_fkmzbu.jpg",
-                imgSecundary: "https://res.cloudinary.com/dcf9eqqgt/image/upload/v1688943355/E-COMERCE%20CODER/compragamer_Imganen_general_35720_Notebook_Gamer_Acer_Nitro_5_15.6__FHD_Core_i5_11400H_8GB_256GB_SSD_NVMe_GTX_1650_W11_Home_GAME_PASS_ULTIMATE_1_MONTH_b2ba1045-med_1_du9p2e.jpg",
+                imgSecundary: "https://res.cloudinary.com/dcf9eqqgt/image/upload/v1690753729/compragamer_Imganen_general_35720_Notebook_Gamer_Acer_Nitro_5_15.6__FHD_Core_i5_11400H_8GB_256GB_SSD_NVMe_GTX_1650_W11_Home_GAME_PASS_ULTIMATE_1_MONTH_b2ba1045-grn_xiqexb.jpg",
                 modelo:"Acer Nitro 5 15.6",
                 home: true,
                 caracteristicas: {
@@ -26,14 +26,14 @@ export let products = [
              },
             {
                 nombre: "Notebook Gamer Asus TUF FX506L 15.6 Core I5 10300H 16GB 512GB SSD NVMe GTX 1650 W11 Home 144Hz",
-                precio:573.900,
+                precio:573900,
                 dcto:"14 % OFF",
                 envio:"Envio gratis",
                 stock: 4,
                 descripcion: "Estas son las mejores zapatillas",
                 categoria: "notebook",
                 img: " https://res.cloudinary.com/dcf9eqqgt/image/upload/v1688942284/E-COMERCE%20CODER/compragamer_Imganen_general_36805_Notebook_Gamer_Asus_TUF_FX506L_15.6__Core_I5_10300H_16GB_512GB_SSD_NVMe_GTX_1650_W11_Home_144Hz_63a3df9f-grn_phqovn.jpg",
-                imgSecundary: "https://res.cloudinary.com/dcf9eqqgt/image/upload/v1688943354/E-COMERCE%20CODER/compragamer_Imganen_general_36806_Notebook_Gamer_Asus_TUF_FX506L_15.6__Core_I5_10300H_16GB_512GB_SSD_NVMe_GTX_1650_W11_Home_144Hz_d66354a0-med_brh9t9.jpg",
+                imgSecundary: "https://res.cloudinary.com/dcf9eqqgt/image/upload/v1690753506/compragamer_Imganen_general_35876_Notebook_Gamer_Asus_TUF_FA506_FHD_15.6__Ryzen_5_4600H_16GB_512GB_SSD_NVMe_GTX_1650_Freedos_144Hz_227f6ecf-grn_ewictr.jpg",
                 modelo:"Asus TUF FX506L 15.6",
                 home: true,
                 caracteristicas: {
@@ -48,14 +48,14 @@ export let products = [
             },
             {
                 nombre: "Notebook Lenovo ThinkPad E14 FHD 14 Ryzen 7 5700U 8GB 256GB SSD NVMe Freedos",
-                precio: "$ 650.630",
+                precio: 650630,
                 dcto:"14 % OFF",
                 envio:"Envio gratis",
                 stock: 4,
                 descripcion: "Estas son las mejores zapatillas",
                 categoria: "notebook",
                 img: "https://res.cloudinary.com/dcf9eqqgt/image/upload/v1688942284/E-COMERCE%20CODER/compragamer_Imganen_general_32188_Notebook_Lenovo_ThinkPad_E14_FHD_14__Ryzen_7_5700U_8GB_256GB_SSD_NVMe_Freedos_ad39b701-grn_phqh4z.jpg",
-                imgSecundary: "https://res.cloudinary.com/dcf9eqqgt/image/upload/v1688943354/E-COMERCE%20CODER/compragamer_Imganen_general_32189_Notebook_Lenovo_ThinkPad_E14_FHD_14__Ryzen_7_5700U_8GB_256GB_SSD_NVMe_Freedos_8830b045-med_tu7jfq.jpg",
+                imgSecundary: "https://res.cloudinary.com/dcf9eqqgt/image/upload/v1690753646/compragamer_Imganen_general_32190_Notebook_Lenovo_ThinkPad_E14_FHD_14__Ryzen_7_5700U_8GB_256GB_SSD_NVMe_Freedos_891f50ea-grn_aid5xq.jpg",
                 modelo:" ThinkPad E14 FHD 14",
                 home: true,
                 caracteristicas: {
@@ -71,7 +71,7 @@ export let products = [
             },
             {
                 nombre: "Notebook Gamer Asus ROG Zephyrus G14 QHD 14 Ryzen 7 4800HS 16GB (2x8GB) 512GB SSD NVMe GTX 1650 W10 120Hz",
-                precio: "$ 633.610",
+                precio: 633.610,
                 dcto:"14 % OFF",
                 envio:"Envio gratis",
                 stock: 4,
@@ -93,14 +93,14 @@ export let products = [
             },
             {
                 nombre: "Notebook Lenovo ThinkPad E14 Gen2 FHD 14 Core I5 1135G7 8GB 256GB SSD NVMe Freedos",
-                precio: "$ 694.900",
+                precio:  694.900,
                 dcto:"14 % OFF",
                 envio:"Envio gratis",
                 stock: 4,
                 descripcion: "Estas son las mejores zapatillas",
                 categoria: "notebook",
                 img: "https://res.cloudinary.com/dcf9eqqgt/image/upload/v1688942284/E-COMERCE%20CODER/compragamer_Imganen_general_32191_Notebook_Lenovo_ThinkPad_E14_Gen2_FHD_14__Core_I5_1135G7_8GB_256GB_SSD_NVMe_Freedos_8b72af04-grn_mp80w1.jpg",
-                imgSecundary: "https://res.cloudinary.com/dcf9eqqgt/image/upload/v1688943354/E-COMERCE%20CODER/%C3%A7_ypxqpp.jpg",
+                imgSecundary: "https://res.cloudinary.com/dcf9eqqgt/image/upload/v1690755534/compragamer_Imganen_general_32192_Notebook_Lenovo_ThinkPad_E14_Gen2_FHD_14__Core_I5_1135G7_8GB_256GB_SSD_NVMe_Freedos_10530ff0-grn_jxn2sh.jpg",
                 modelo:"ThinkPad E14 Gen2 FHD 14",
                 home: true,
                 caracteristicas: {
@@ -115,7 +115,7 @@ export let products = [
             },
             {
                 nombre: "Notebook Asus X515EA 15.6 FHD Core I5 1135G7 8GB 256GB SSD NVMe W11 Home* ",
-                precio: "$ 359.990",
+                precio: 359.990,
                 dcto:"14 % OFF",
                 envio:"Envio gratis",
                 stock: 4,
@@ -136,7 +136,7 @@ export let products = [
              },
             {
                 nombre: "Notebook Lenovo Legion 5 15ACH6H 15.6 Ryzen 5 5600H 16GB 512GB SSD NVMe RTX 3060 165Hz W11",
-                precio: "$ 868.450",
+                precio: 868.450,
                 dcto:"14 % OFF",
                 envio:"Envio gratis",
                 stock: 4,
@@ -157,7 +157,7 @@ export let products = [
             },
             {
                 nombre: "Notebook Asus Vivobook K3500P FHD OLED 15.6 Core I7 11370H 8GB 512GB SSD NVMe W11 Silver",
-                precio: "$ 595.620",
+                precio: 595.620,
                 dcto:"14% OFF",
                 envio:"Envio gratis",
                 stock: 4,
@@ -178,7 +178,7 @@ export let products = [
             },
             {
                 nombre: "Notebook Asus Vivobook M3500 OLED FHD 15.6 Ryzen 5 5600H 8GB 512GB SSD NVMe W11 Home",
-                precio: "$ 448.490",
+                precio:  448490,
                 dcto:"14 % OFF",
                 envio:"Envio gratis",
                 stock: 4,
@@ -199,7 +199,7 @@ export let products = [
             },
             {
                 nombre: "Notebook Gamer Thunderobot 911 AIR FHD 15.6 Core I7 12700H 16GB 512GB SSD NVMe RTX 3050 W11 Pro 144Hz",
-                precio: "$ 700.000",
+                precio:  700000,
                 dcto:"14 % OFF",
                 envio:"Envio gratis",
                 stock: 4,
@@ -223,7 +223,7 @@ export let products = [
                       //PROCESADORES
             {
                 nombre: "Procesador AMD RYZEN 3 3200G 4.0GHz Turbo + Radeon Vega 8 AM4 Wraith Stealth Cooler ",
-                precio: "$ 70.900",
+                precio:  70900,
                 dcto:"14 % OFF",
                 envio:"Envio gratis",
                 stock: 4,
@@ -244,7 +244,7 @@ export let products = [
              },
             {
                 nombre: "Procesador AMD RYZEN 5 3600 4.2GHz Turbo AM4 Wraith Stealth Cooler",
-                precio:102.550,
+                precio:102550,
                 dcto:"14 % OFF",
                 envio:"Envio gratis",
                 stock: 4,
@@ -265,7 +265,7 @@ export let products = [
             },
             {
                 nombre: "Procesador AMD Ryzen 7 5800X 4.7GHz Turbo AM4 - No incluye Cooler",
-                precio: "$ 236.000",
+                precio:  236000,
                 dcto:"14 % OFF",
                 envio:"Envio gratis",
                 stock: 4,
@@ -287,7 +287,7 @@ export let products = [
             },
             {
                 nombre: "Procesador AMD Ryzen 9 5900X 4.8GHz Turbo AM4 - No incluye Cooler",
-                precio: "$ 392.300",
+                precio: 392300,
                 dcto:"14 % OFF",
                 envio:"Envio gratis",
                 stock: 4,
@@ -308,7 +308,7 @@ export let products = [
             },
             {
                 nombre: "Procesador AMD Ryzen 5 7600X 5.3GHz Turbo AM5 - No incluye Cooler - C/VIDEO",
-                precio: "$ 694.900",
+                precio:  694900,
                 dcto:"14 % OFF",
                 envio:"Envio gratis",
                 stock: 4,
@@ -329,7 +329,7 @@ export let products = [
             },
             {
                 nombre: "Procesador AMD Ryzen 7 7700 5.3GHz Turbo AM5 ",
-                precio: "$ 359.990",
+                precio:  359990,
                 dcto:"14 % OFF",
                 envio:"Envio gratis",
                 stock: 4,
@@ -350,7 +350,7 @@ export let products = [
              },
             {
                 nombre: "Procesador AMD Ryzen 7 7800X3D 5.0GHz Turbo AM5 - No incluye cooler -",
-                precio: "$ 567.750",
+                precio:  567750,
                 dcto:"14 % OFF",
                 envio:"Envio gratis",
                 stock: 4,
@@ -371,7 +371,7 @@ export let products = [
             },
             {
                 nombre: "Procesador Intel Core i3 10100F 4.3GHz Turbo Socket 1200 Comet Lake",
-                precio: "$ 44.250",
+                precio:  44250,
                 dcto:"14% OFF",
                 envio:"Envio gratis",
                 stock: 4,
@@ -392,7 +392,7 @@ export let products = [
             },
             {
                 nombre: "Procesador AMD Ryzen 9 7950X3D 5.7GHz AM5 - No incluye Cooler -",
-                precio: "$ 448.490",
+                precio: 448490,
                 dcto:"14 % OFF",
                 envio:"Envio gratis",
                 stock: 4,
@@ -413,7 +413,7 @@ export let products = [
             },
             {
                 nombre: "Procesador Intel Core i7 10700 4.8GHz Turbo Socket 1200 Comet Lake",
-                precio: "$ 209.100",
+                precio:  209100,
                 dcto:"14 % OFF",
                 envio:"Envio gratis",
                 stock: 4,
@@ -437,7 +437,7 @@ export let products = [
                     //MOTHERS
                     {
                         nombre: "Mother MSI A520M-A PRO DDR4 AM4 ",
-                        precio: "$ 63.400",
+                        precio:  63400,
                         dcto:"14 % OFF",
                         envio:"Envio gratis",
                         stock: 4,
@@ -479,7 +479,7 @@ export let products = [
                     },
                     {
                         nombre: "Mother Gigabyte A520M-K V2 DDR4 AM4",
-                        precio: "$ 69.299",
+                        precio:  69.299,
                         dcto:"14 % OFF",
                         envio:"Envio gratis",
                         stock: 4,
@@ -501,7 +501,7 @@ export let products = [
                     },
                     {
                         nombre: "Mother Gigabyte B450M DS3H V2 DDR4 AM4",
-                        precio: "$ 69.450",
+                        precio:  69450,
                         dcto:"14 % OFF",
                         envio:"Envio gratis",
                         stock: 4,
@@ -522,7 +522,7 @@ export let products = [
                     },
                     {
                         nombre: "Mother ASUS PRIME A520M-K DDR4 AM4",
-                        precio: "$ 69.950",
+                        precio:  69950,
                         dcto:"14 % OFF",
                         envio:"Envio gratis",
                         stock: 4,
@@ -543,7 +543,7 @@ export let products = [
                     },
                     {
                         nombre: "Mother Asrock B550M-HDV DDR4 AM4",
-                        precio: "$ 74.450",
+                        precio:  74450,
                         dcto:"14 % OFF",
                         envio:"Envio gratis",
                         stock: 4,
@@ -564,7 +564,7 @@ export let products = [
                      },
                     {
                         nombre: "Mother Asrock B550M-HDV DDR4 AM4",
-                        precio: "$ 74.450",
+                        precio:  74450,
                         dcto:"14 % OFF",
                         envio:"Envio gratis",
                         stock: 4,
@@ -585,7 +585,7 @@ export let products = [
                     },
                     {
                         nombre: "Mother Asrock A620M-HDV/M.2+ AM5 DDR5",
-                        precio: "$84.400",
+                        precio: 84400,
                         dcto:"14% OFF",
                         envio:"Envio gratis",
                         stock: 4,
@@ -606,7 +606,7 @@ export let products = [
                     },
                     {
                         nombre: "Mother Asrock B450 Steel Legend AM4 DDR4 RGB",
-                        precio: "$ 87.350",
+                        precio:  87350,
                         dcto:"14 % OFF",
                         envio:"Envio gratis",
                         stock: 4,
@@ -627,7 +627,7 @@ export let products = [
                     },
                     {
                         nombre: "Mother MSI B450 Gaming Plus Max DDR4 AM4",
-                        precio: "$ 86.150",
+                        precio:  86150,
                         dcto:"14 % OFF",
                         envio:"Envio gratis",
                         stock: 4,
@@ -653,7 +653,7 @@ export let products = [
                     //PLACAS DE VIDEO 
                     {
                         nombre: "MPlaca de Video ASUS Phoenix GeForce GTX 1630 4GB GDDR6",
-                        precio: "$ 149.050",
+                        precio:  149050,
                         dcto:"14 % OFF",
                         envio:"Envio gratis",
                         stock: 4,
@@ -695,7 +695,7 @@ export let products = [
                     },
                     {
                         nombre: "Placa de Video ASUS GeForce RTX 2060 6GB GDDR6 DUAL EVO OC",
-                        precio: "$ 213.500",
+                        precio:  213500,
                         dcto:"14 % OFF",
                         envio:"Envio gratis",
                         stock: 4,
@@ -717,7 +717,7 @@ export let products = [
                     },
                     {
                         nombre: "Placa de Video ASUS GeForce RTX 3070 8GB GDDR6 ROG STRIX GAMING OC V2",
-                        precio: "$ 351.000",
+                        precio:  351000,
                         dcto:"14 % OFF",
                         envio:"Envio gratis",
                         stock: 4,
@@ -738,7 +738,7 @@ export let products = [
                     },
                     {
                         nombre: "Placa de Video ASUS GeForce RTX 3060 TI 8GB GDDR6 TUF GAMING OC V2",
-                        precio: "$ 299.550",
+                        precio:  299550,
                         dcto:"14 % OFF",
                         envio:"Envio gratis",
                         stock: 4,
@@ -759,7 +759,7 @@ export let products = [
                     },
                     {
                         nombre: "Placa de Video ASUS GeForce RTX 3070 Ti 8GB GDDR6 ROG STRIX GAMING OC",
-                        precio: "$ 400.700",
+                        precio:  400700,
                         dcto:"14 % OFF",
                         envio:"Envio gratis",
                         stock: 4,
@@ -780,7 +780,7 @@ export let products = [
                      },
                     {
                         nombre: "Placa de Video PNY GeForce RTX 4070 GDDR6X 12GB Dual Fan",
-                        precio: "$ 506.000",
+                        precio:  506000,
                         dcto:"14 % OFF",
                         envio:"Envio gratis",
                         stock: 4,
@@ -801,7 +801,7 @@ export let products = [
                     },
                     {
                         nombre: "Placa de Video Zotac GeForce RTX 3090 24GB GDDR6X Trinity",
-                        precio: "584.750",
+                        precio: 584750,
                         dcto:"14% OFF",
                         envio:"Envio gratis",
                         stock: 4,
@@ -822,7 +822,7 @@ export let products = [
                     },
                     {
                         nombre: "Placa de Video MSI GeForce RTX 3090 24GB GDDR6X VENTUS 3X OC",
-                        precio: "$590.500",
+                        precio: 590500,
                         dcto:"14 % OFF",
                         envio:"Envio gratis",
                         stock: 4,
@@ -843,7 +843,7 @@ export let products = [
                     },
                     {
                         nombre: "Placa de Video PNY GeForce GTX 1650 4GB GDDR6 Dual Fan",
-                        precio: "$ 149.850",
+                        precio:  149850,
                         dcto:"14 % OFF",
                         envio:"Envio gratis",
                         stock: 4,
@@ -868,7 +868,7 @@ export let products = [
                     //MEMORIAS RAM
                     {
                         nombre: "Memoria Adata DDR4 16GB (2x8GB) 4133MHz XPG Spectrix D60G RGB",
-                        precio: "$ 149.050",
+                        precio:  149050,
                         dcto:"14 % OFF",
                         envio:"Envio gratis",
                         stock: 4,
@@ -889,7 +889,7 @@ export let products = [
                      },
                     {
                         nombre: "Memoria Corsair DDR4 16GB 2400Mhz Vengeance LPX",
-                        precio:202.000,
+                        precio:202000,
                         dcto:"14 % OFF",
                         envio:"Envio gratis",
                         stock: 4,
@@ -910,7 +910,7 @@ export let products = [
                     },
                     {
                         nombre: "Memoria Corsair DDR4 8GB 2666Mhz Vengeance LPX Black",
-                        precio: "$ 213.500",
+                        precio:  213500,
                         dcto:"14 % OFF",
                         envio:"Envio gratis",
                         stock: 4,
@@ -932,7 +932,7 @@ export let products = [
                     },
                     {
                         nombre: "Memoria Corsair DDR4 4GB 2666Mhz Value 2",
-                        precio: "$ 351.000",
+                        precio:  351000,
                         dcto:"14 % OFF",
                         envio:"Envio gratis",
                         stock: 4,
@@ -953,7 +953,7 @@ export let products = [
                     },
                     {
                         nombre: "Memoria Team DDR4 8GB 2666MHz T-Force Vulcan Z Gray ",
-                        precio: "$ 299.550",
+                        precio: 299550,
                         dcto:"14 % OFF",
                         envio:"Envio gratis",
                         stock: 4,
@@ -974,7 +974,7 @@ export let products = [
                     },
                     {
                         nombre: "Memoria Corsair DDR4 16GB (2x8GB) 2666MHz Vengeance RGB PRO Black ",
-                        precio: "$ 400.700",
+                        precio:  400700,
                         dcto:"14 % OFF",
                         envio:"Envio gratis",
                         stock: 4,
@@ -995,7 +995,7 @@ export let products = [
                      },
                     {
                         nombre: "Memoria GeiL DDR4 16GB (2x8GB) 3000MHz EVO SPEAR Phantom Gaming Edition",
-                        precio: "$ 506.000",
+                        precio:  506000,
                         dcto:"14 % OFF",
                         envio:"Envio gratis",
                         stock: 4,
@@ -1016,7 +1016,7 @@ export let products = [
                     },
                     {
                         nombre: "Memoria Patriot Viper DDR4 8GB 3200MHz Steel",
-                        precio: "584.750",
+                        precio: 584750,
                         dcto:"14% OFF",
                         envio:"Envio gratis",
                         stock: 4,
@@ -1037,7 +1037,7 @@ export let products = [
                     },
                     {
                         nombre: "Memoria GeiL DDR4 16GB 3000MHz Orion Red",
-                        precio: "$590.500",
+                        precio: 590500,
                         dcto:"14 % OFF",
                         envio:"Envio gratis",
                         stock: 4,
@@ -1058,7 +1058,7 @@ export let products = [
                     },
                     {
                         nombre: "Memoria Corsair DDR4 16GB (2x8GB) 3200MHz Vengeance RGB PRO TUF Gaming",
-                        precio: "$ 149.850",
+                        precio: 149850,
                         dcto:"14 % OFF",
                         envio:"Envio gratis",
                         stock: 4,
@@ -1084,7 +1084,7 @@ export let products = [
                         //ALMACENAMIENTO
                         {
                             nombre: "Disco Sólido SSD M.2 ADATA 1TB XPG Spectrix S40G RGB 3500MB/s NVMe PCI-E X4",
-                            precio: "$ 149.050",
+                            precio:  149050,
                             dcto:"14 % OFF",
                             envio:"Envio gratis",
                             stock: 4,
@@ -1104,7 +1104,7 @@ export let products = [
                          },
                         {
                             nombre: "Disco Solido SSD Team 512GB GX2 530MB/s",
-                            precio:202.000,
+                            precio:202000,
                             dcto:"14 % OFF",
                             envio:"Envio gratis",
                             stock: 4,
@@ -1124,7 +1124,7 @@ export let products = [
                         },
                         {
                             nombre: "Disco Sólido SSD Kingston 240GB A400 500MB/s",
-                            precio: "$ 213.500",
+                            precio:  213500,
                             dcto:"14 % OFF",
                             envio:"Envio gratis",
                             stock: 4,
@@ -1145,7 +1145,7 @@ export let products = [
                         },
                         {
                             nombre: "Disco Sólido SSD Kingston 480GB A400 500MB/s",
-                            precio: "$ 351.000",
+                            precio:  351000,
                             dcto:"14 % OFF",
                             envio:"Envio gratis",
                             stock: 4,
@@ -1165,7 +1165,7 @@ export let products = [
                         },
                         {
                             nombre: "Disco Sólido SSD M.2 ADATA 500GB XPG Spectrix S20G RGB 2500MB/s NVMe PCI-E Gen3 X4",
-                            precio: "$ 299.550",
+                            precio:  299550,
                             dcto:"14 % OFF",
                             envio:"Envio gratis",
                             stock: 4,
@@ -1185,7 +1185,7 @@ export let products = [
                         },
                         {
                             nombre: "Disco Solido SSD M.2 WD 240GB Green SN350 2400MB/s NVMe PCI-Express x4",
-                            precio: "$ 400.700",
+                            precio:  400700,
                             dcto:"14 % OFF",
                             envio:"Envio gratis",
                             stock: 4,
@@ -1205,7 +1205,7 @@ export let products = [
                          },
                         {
                             nombre: "Disco Solido SSD M.2 Crucial 1TB P3 3500MB/s NVMe PCI-E Gen3 x4",
-                            precio: "$ 506.000",
+                            precio:  506000,
                             dcto:"14 % OFF",
                             envio:"Envio gratis",
                             stock: 4,
@@ -1225,7 +1225,7 @@ export let products = [
                         },
                         {
                             nombre: "Disco Solido SSD M.2 Crucial 500GB P3 3500MB/s NVMe PCI-E x4",
-                            precio: "584.750",
+                            precio: 584.50,
                             dcto:"14% OFF",
                             envio:"Envio gratis",
                             stock: 4,
@@ -1245,7 +1245,7 @@ export let products = [
                         },
                         {
                             nombre: "Disco Solido SSD M.2 Crucial 1TB P5 PLUS 6600MB/s NVMe PCI-E x4",
-                            precio: "$590.500",
+                            precio: 590500,
                             dcto:"14 % OFF",
                             envio:"Envio gratis",
                             stock: 4,
@@ -1265,7 +1265,7 @@ export let products = [
                         },
                         {
                             nombre: "Disco Solido SSD M.2 ADATA 256GB Legend 710 2400MB/s NVMe PCIe Gen3 x4",
-                            precio: "$ 149.850",
+                            precio: 149850,
                             dcto:"14 % OFF",
                             envio:"Envio gratis",
                             stock: 4,
@@ -1291,7 +1291,7 @@ export let products = [
                             //REFRIGERACION
                     {
                         nombre: "Cooler Fan ID-Cooling NO-8025-SD 80mm",
-                        precio: "$ 1.300",
+                        precio:  1300,
                         dcto:"14 % OFF",
                         envio:"Envio gratis",
                         stock: 4,
@@ -1314,7 +1314,7 @@ export let products = [
                      },
                     {
                         nombre: "Cooler Fan ID-Cooling NO-12025-SD 120mm",
-                        precio:3.050,
+                        precio:3050,
                         dcto:"14 % OFF",
                         envio:"Envio gratis",
                         stock: 4,
@@ -1337,7 +1337,7 @@ export let products = [
                     },
                     {
                         nombre: "Cooler FAN ID-Cooling XF-12025-SD White",
-                        precio: "$3.500",
+                        precio: 3500,
                         dcto:"14 % OFF",
                         envio:"Envio gratis",
                         stock: 4,
@@ -1361,7 +1361,7 @@ export let products = [
                     },
                     {
                         nombre: "Cooler Fan Falcom AS-01 ARGB 120mm",
-                        precio: "$ 3.500",
+                        precio:  3500,
                         dcto:"14 % OFF",
                         envio:"Envio gratis",
                         stock: 4,
@@ -1384,7 +1384,7 @@ export let products = [
                     },
                     {
                         nombre: "Cooler FAN ID-Cooling DF-12025-ARGB-XT",
-                        precio: "$ 5.800",
+                        precio:  5800,
                         dcto:"14 % OFF",
                         envio:"Envio gratis",
                         stock: 4,
@@ -1407,7 +1407,7 @@ export let products = [
                     },
                     {
                         nombre: "Cooler Fan Falcom AS-03 ARGB 120mm Doble Strips",
-                        precio: "$ 3.700",
+                        precio:  3700,
                         dcto:"14 % OFF",
                         envio:"Envio gratis",
                         stock: 4,
@@ -1428,7 +1428,7 @@ export let products = [
                      },
                     {
                         nombre: "Cooler FAN ID-Cooling DF-12025-ARGB-XT",
-                        precio: "$ 5.800",
+                        precio:  5800,
                         dcto:"14 % OFF",
                         envio:"Envio gratis",
                         stock: 4,
@@ -1449,7 +1449,7 @@ export let products = [
                     },
                     {
                         nombre: "Cooler Fan ID-Cooling ZF-12025 ARGB SNOW EDITION",
-                        precio: "6.200",
+                        precio: 6200 ,
                         dcto:"14% OFF",
                         envio:"Envio gratis",
                         stock: 4,
@@ -1470,7 +1470,7 @@ export let products = [
                     },
                     {
                         nombre: "Cooler Fan ID-Cooling TF-12025-ARGB-TRIO",
-                        precio: "$15.950",
+                        precio: 15950,
                         dcto:"14 % OFF",
                         envio:"Envio gratis",
                         stock: 4,
@@ -1491,7 +1491,7 @@ export let products = [
                     },
                     {
                         nombre: "Cooler Fan ID-Cooling TF-12025-ARGB-SNOW TRIO",
-                        precio: "$ 19.650",
+                        precio:  19650,
                         dcto:"14 % OFF",
                         envio:"Envio gratis",
                         stock: 4,
@@ -1517,7 +1517,7 @@ export let products = [
                         //GABINETES
                         {
                             nombre: "Gabinete Antec NX292 MESH RGB Vidrio Templado",
-                            precio: "$ 36.200",
+                            precio:  36200,
                             dcto:"14 % OFF",
                             envio:"Envio gratis",
                             stock: 4,
@@ -1540,7 +1540,7 @@ export let products = [
                          },
                         {
                             nombre: "Gabinete Deepcool MATREXX 70 ADD-RGB 3F",
-                            precio:61.550,
+                            precio:61550,
                             dcto:"14 % OFF",
                             envio:"Envio gratis",
                             stock: 4,
@@ -1563,7 +1563,7 @@ export let products = [
                         },
                         {
                             nombre: "Gabinete Deepcool MATREXX 55 V3 ADD-RGB 3 Fans White",
-                            precio: "$ 39.700",
+                            precio: 39700,
                             dcto:"14 % OFF",
                             envio:"Envio gratis",
                             stock: 4,
@@ -1587,7 +1587,7 @@ export let products = [
                         },
                         {
                             nombre: "Gabinete Kolink Observatory Lite Mesh 4x120mm Coolers ARGB Vidrio Templado",
-                            precio: "$ 40.550",
+                            precio:  40550,
                             dcto:"14 % OFF",
                             envio:"Envio gratis",
                             stock: 4,
@@ -1610,7 +1610,7 @@ export let products = [
                         },
                         {
                             nombre: "Gabinete Lian Li O11 Dynamic XL ROG Certify White ARGB",
-                            precio: "$ 141.000",
+                            precio:  141000,
                             dcto:"14 % OFF",
                             envio:"Envio gratis",
                             stock: 4,
@@ -1633,7 +1633,7 @@ export let products = [
                         },
                         {
                             nombre: "Gabinete Lian Li Lancool 205 Mesh W White",
-                            precio: "$ 46.950",
+                            precio:  46950,
                             dcto:"14 % OFF",
                             envio:"Envio gratis",
                             stock: 4,
@@ -1654,7 +1654,7 @@ export let products = [
                          },
                         {
                             nombre: "Gabinete Cougar Panzer EVO RGB",
-                            precio: "$ 135.050",
+                            precio:  135050,
                             dcto:"14 % OFF",
                             envio:"Envio gratis",
                             stock: 4,
@@ -1675,7 +1675,7 @@ export let products = [
                         },
                         {
                             nombre: "Gabinete Be quiet! SILENT BASE 802 Window Black Mesh",
-                            precio: "112.450",
+                            precio: 112450,
                             dcto:"14% OFF",
                             envio:"Envio gratis",
                             stock: 4,
@@ -1696,7 +1696,7 @@ export let products = [
                         },
                         {
                             nombre: "Gabinete Gamemax H601 BR Black & Red M-ATX FAN 1 x 120mm",
-                            precio: "$26.350",
+                            precio: 26350,
                             dcto:"14 % OFF",
                             envio:"Envio gratis",
                             stock: 4,
@@ -1717,7 +1717,7 @@ export let products = [
                         },
                         {
                             nombre: "Gabinete Deepcool MACUBE310P Black",
-                            precio: "$ 45.500",
+                            precio:  45500,
                             dcto:"14 % OFF",
                             envio:"Envio gratis",
                             stock: 4,
@@ -1742,7 +1742,7 @@ export let products = [
                             //FUENTES
                     {
                         nombre: "Fuente Be Quiet 1000W 80 Plus Gold PURE POWER 11 Full Modular",
-                        precio: "$ 74.800",
+                        precio:  74800,
                         dcto:"14 % OFF",
                         envio:"Envio gratis",
                         stock: 4,
@@ -1765,7 +1765,7 @@ export let products = [
                      },
                     {
                         nombre: "Fuente Deepcool 700W DA700 80 Plus Bronze",
-                        precio:36.000,
+                        precio:36000,
                         dcto:"14 % OFF",
                         envio:"Envio gratis",
                         stock: 4,
@@ -1788,7 +1788,7 @@ export let products = [
                     },
                     {
                         nombre: "Fuente Be Quiet 850W 80 Plus Gold PURE POWER 11 Full Modular",
-                        precio: "$64.400",
+                        precio: 64400,
                         dcto:"14 % OFF",
                         envio:"Envio gratis",
                         stock: 4,
@@ -1812,7 +1812,7 @@ export let products = [
                     },
                     {
                         nombre: "Fuente Gigabyte 650W 80 Plus Bronze P650B*",
-                        precio: "$ 40.200",
+                        precio:  40200,
                         dcto:"14 % OFF",
                         envio:"Envio gratis",
                         stock: 4,
@@ -1835,7 +1835,7 @@ export let products = [
                     },
                     {
                         nombre: "Fuente Deepcool 500W DA500 80 Plus Bronze",
-                        precio: "$ 27.200",
+                        precio: 27200,
                         dcto:"14 % OFF",
                         envio:"Envio gratis",
                         stock: 4,
@@ -1858,7 +1858,7 @@ export let products = [
                     },
                     {
                         nombre: "Fuente Deepcool 600W DA600 80 Plus Bronze",
-                        precio: "$31.600",
+                        precio: 31600,
                         dcto:"14 % OFF",
                         envio:"Envio gratis",
                         stock: 4,
@@ -1879,7 +1879,7 @@ export let products = [
                      },
                     {
                         nombre: "Fuente Aerocool Cylon 600W Full Range RGB 80 Plus Bronze",
-                        precio: "$36.450",
+                        precio: 36450,
                         dcto:"14 % OFF",
                         envio:"Envio gratis",
                         stock: 4,
@@ -1900,7 +1900,7 @@ export let products = [
                     },
                     {
                         nombre: "Fuente Aerocool Cylon 700W Full Range RGB 80 Plus Bronze",
-                        precio: "39.600",
+                        precio: 39600,
                         dcto:"14% OFF",
                         envio:"Envio gratis",
                         stock: 4,
@@ -1921,7 +1921,7 @@ export let products = [
                     },
                     {
                         nombre: "Fuente Thermaltake Smart BX1 650W RGB 80 Plus Bronze",
-                        precio: "$38.200",
+                        precio: 38200,
                         dcto:"14 % OFF",
                         envio:"Envio gratis",
                         stock: 4,
@@ -1942,7 +1942,7 @@ export let products = [
                     },
                     {
                         nombre: "Fuente Redragon 500W 80 Plus Bronze GC-PS001",
-                        precio: "$29.000",
+                        precio: 29000,
                         dcto:"14 % OFF",
                         envio:"Envio gratis",
                         stock: 4,
@@ -1967,7 +1967,7 @@ export let products = [
                         //MONITORES
                         {
                             nombre: "Monitor Gamer Samsung 24 G50 Curvo 144Hz Full HD VA FreeSync",
-                            precio: "$ 98.200",
+                            precio:  98200,
                             dcto:"14 % OFF",
                             envio:"Envio gratis",
                             stock: 4,
@@ -1990,7 +1990,7 @@ export let products = [
                          },
                         {
                             nombre: "Monitor Smart Samsung 27 M5 Full HD VA 60Hz AirPlay2/Netflix/Youtube/HBO",
-                            precio:97.750,
+                            precio:97750,
                             dcto:"14 % OFF",
                             envio:"Envio gratis",
                             stock: 4,
@@ -2013,7 +2013,7 @@ export let products = [
                         },
                         {
                             nombre: "Monitor Samsung 24'' Curvo F390 Full HD FreeSync",
-                            precio: "$ 83.120",
+                            precio:  83120,
                             dcto:"14 % OFF",
                             envio:"Envio gratis",
                             stock: 4,
@@ -2037,7 +2037,7 @@ export let products = [
                         },
                         {
                             nombre: "Monitor LG LED 19'' 19M38A-B VGA",
-                            precio: "$47.950",
+                            precio: 47950,
                             dcto:"14 % OFF",
                             envio:"Envio gratis",
                             stock: 4,
@@ -2060,7 +2060,7 @@ export let products = [
                         },
                         {
                             nombre: "Monitor Philips 19 HDMI VGA",
-                            precio: "$ 43.250",
+                            precio:  43250,
                             dcto:"14 % OFF",
                             envio:"Envio gratis",
                             stock: 4,
@@ -2083,7 +2083,7 @@ export let products = [
                         },
                         {
                             nombre: "Monitor LG 24 24MK600M IPS Full HD Bordes Ultra Finos",
-                            precio: "$ 92.800",
+                            precio:  92800,
                             dcto:"14 % OFF",
                             envio:"Envio gratis",
                             stock: 4,
@@ -2104,7 +2104,7 @@ export let products = [
                          },
                         {
                             nombre: "Monitor Gamer LG 27 27GL650F 144hz IPS FHD GSync FreeSync",
-                            precio: "$ 171.200",
+                            precio:  171200,
                             dcto:"14 % OFF",
                             envio:"Envio gratis",
                             stock: 4,
@@ -2125,7 +2125,7 @@ export let products = [
                         },
                         {
                             nombre: "Monitor Gamer MSI 24 Optix G241 144Hz IPS 1ms",
-                            precio: "140.350",
+                            precio: 140350,
                             dcto:"14% OFF",
                             envio:"Envio gratis",
                             stock: 4,
@@ -2146,7 +2146,7 @@ export let products = [
                         },
                         {
                             nombre: "Monitor Gamer Viewsonic 27 VX2768 Curvo 144Hz 2K QHD 1ms VA FreeSync",
-                            precio: "$199.150",
+                            precio: 199150,
                             dcto:"14 % OFF",
                             envio:"Envio gratis",
                             stock: 4,
@@ -2167,7 +2167,7 @@ export let products = [
                         },
                         {
                             nombre: "Monitor LG 32 UltraGear 32UN550 4K 60Hz VA Hdmi DP",
-                            precio: "$ 262.950",
+                            precio:  262950,
                             dcto:"14 % OFF",
                             envio:"Envio gratis",
                             stock: 4,

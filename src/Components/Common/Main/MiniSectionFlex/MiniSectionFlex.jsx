@@ -17,8 +17,8 @@ const MiniSectionFlex = () => {
    <Link to={"/categoria/monitores"} className='linkMiniSection'><MiniSection section={"monitores"} icon={<ComputerIcon fontSize='large'/>} /></Link> 
    <Link to={"/categoria/monitores"} className='linkMiniSection'><MiniSection section={"Notebooks"} icon={<ComputerIcon fontSize='large'/>} /></Link> 
    <Link to={"/categoria/notebook"} className='linkMiniSection'><MiniSection section={"Notebooks"} icon={<ComputerIcon fontSize='large'/>} /></Link> 
-   <Link to={"/categoria/notebook"} className='linkMiniSection'><MiniSection section={"Notebooks"} icon={<ComputerIcon fontSize='large'/>} /></Link> 
-   <Link to={"/categoria/notebook"} className='linkMiniSection'><MiniSection section={"Notebooks"} icon={<ComputerIcon fontSize='large'/>} /></Link> 
+   <Link to={"/categoria/notebook"} className='linkMiniSection displayMiniSection'><MiniSection section={"Notebooks"} icon={<ComputerIcon fontSize='large'/>} /></Link> 
+   <Link to={"/categoria/notebook"} className='linkMiniSection displayMiniSection'><MiniSection section={"Notebooks"} icon={<ComputerIcon fontSize='large'/>} /></Link> 
 
 
     </div>

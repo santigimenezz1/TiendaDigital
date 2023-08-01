@@ -11,6 +11,7 @@ import {  collection, getDocs, query, where } from 'firebase/firestore'
 import { db } from '../../../../firebaseConfig'
 import { Skeleton } from '@mui/material'
 import { Link } from 'react-router-dom'
+import LogoEmpresas from '../LogoEmpresas/LogoEmpresas'
 
 const SectionHome = () => {
     const [data, setData] = useState([])
@@ -91,8 +92,8 @@ const SectionHome = () => {
   )
 }
     <div className='tarjetaOfertaFlex'>
-   <Link className={"link-tarjetaOfertas"} to={"/Detalle/GwlNyuQMIosQgSC8rhU7"}><TarjetaOfertas dcto={20} producto={"Memoria Adata DDR4"} image={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1689894449/E-COMERCE%20CODER/compragamer_Imganen_general_36913_Memoria_Adata_DDR4_16GB__2x8GB__4133MHz_XPG_Spectrix_D60G_RGB_73bb84d3-grn_k2j8lg.jpg"} /></Link> 
-   <Link className={"link-tarjetaOfertas"} to={"/Detalle/Zhs96ifeMZrpBX6GOVHk"}><TarjetaOfertas dcto={20} producto={"LG 27 27GL650F 144hz"} image={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1690400033/E-COMERCE%20CODER/Monitores/7/compragamer_Imganen_general_19484_Monitor_Gamer_LG_27__27GL650F_144hz_IPS_FHD_GSync_FreeSync_1e30b9f9-grn_pielws.jpg"} /></Link> 
+   <Link className={"link-tarjetaOfertas"} to={"/Detalle/XOfReBx6CNG3ikNn3HAF"}><TarjetaOfertas dcto={20} producto={"Memoria Adata DDR4"} image={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1689894449/E-COMERCE%20CODER/compragamer_Imganen_general_36913_Memoria_Adata_DDR4_16GB__2x8GB__4133MHz_XPG_Spectrix_D60G_RGB_73bb84d3-grn_k2j8lg.jpg"} /></Link> 
+   <Link className={"link-tarjetaOfertas"} to={"/Detalle/nmRikxV4wgcF0sSCwZEj"}><TarjetaOfertas dcto={20} producto={"LG 27 27GL650F 144hz"} image={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1690400033/E-COMERCE%20CODER/Monitores/7/compragamer_Imganen_general_19484_Monitor_Gamer_LG_27__27GL650F_144hz_IPS_FHD_GSync_FreeSync_1e30b9f9-grn_pielws.jpg"} /></Link> 
     </div>
     <ImagenesGrid />
     <MiniSectionFlex section={"ASD"} />
@@ -139,8 +140,8 @@ const SectionHome = () => {
       )
     }
     <div className='tarjetaOfertaFlex'>
-   <Link className={"link-tarjetaOfertas"} to={"/Detalle/sx9FwLSjjDsQbnecD6ee"}><TarjetaOfertas dcto={20} producto={"Cooler Fan Falcom AS-03"} image={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1690399946/E-COMERCE%20CODER/Refrigeracion/6/compragamer_Imganen_general_34364_Cooler_Fan_ID-Cooling_TF-12025-ARGB-SNOW_TRIO_7bd1d164-grn_hqn2ns.jpg"} /></Link> 
-   <Link className={"link-tarjetaOfertas"} to={"/Detalle/h0828iwWixgZ3vA4QgY6"}><TarjetaOfertas dcto={20} producto={"GeForce RTX 3060"} image={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1690399812/E-COMERCE%20CODER/Placas%20de%20video/7/compragamer_Imganen_general_32951_Placa_de_Video_ASUS_GeForce_RTX_3070_Ti_8GB_GDDR6_ROG_STRIX_GAMING_OC_cbbbd3f6-grn_drzcyl.jpg"} /></Link> 
+   <Link className={"link-tarjetaOfertas"} to={"/Detalle/IYx6yDQIlvSElHcUC8Os"}><TarjetaOfertas dcto={20} producto={"Cooler Fan Falcom AS-03"} image={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1690399946/E-COMERCE%20CODER/Refrigeracion/6/compragamer_Imganen_general_34364_Cooler_Fan_ID-Cooling_TF-12025-ARGB-SNOW_TRIO_7bd1d164-grn_hqn2ns.jpg"} /></Link> 
+   <Link className={"link-tarjetaOfertas"} to={"/Detalle/j10scOBDxYZ5u6HVMxun"}><TarjetaOfertas dcto={20} producto={"GeForce RTX 3060"} image={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1690399812/E-COMERCE%20CODER/Placas%20de%20video/7/compragamer_Imganen_general_32951_Placa_de_Video_ASUS_GeForce_RTX_3070_Ti_8GB_GDDR6_ROG_STRIX_GAMING_OC_cbbbd3f6-grn_drzcyl.jpg"} /></Link> 
     </div>
     {data.length > 0 
       ?(
@@ -170,6 +171,7 @@ const SectionHome = () => {
         </>
       )
     }
+    <LogoEmpresas />
     </div>
   )
 }

@@ -10,6 +10,7 @@
 .container-tarjetas-categorias{
     display: flex;
     gap: 12px;
+    
 }
 .image-categorias{
     width: 100%;

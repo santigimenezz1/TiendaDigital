@@ -1,4 +1,3 @@
-import * as React from 'react';
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import MenuItem from '@mui/material/MenuItem';
@@ -37,7 +36,7 @@ export default function InputAyuda() {
           id="outlined-select-currency"
           select
           label="Selecciona un motivo"
-          defaultValue="Consulta sobre un producto"
+          defaultValue={currencies[0].value} // Establecer el valor predeterminado a 'USD' (o cualquier otro valor válido)
           placeholder='Selecciona un motivo'
           helperText="Please select your currency"
         >
@@ -47,9 +46,6 @@ export default function InputAyuda() {
             </MenuItem>
           ))}
         </TextField>
-      
-         
-        
       </div>
     </Box>
   );

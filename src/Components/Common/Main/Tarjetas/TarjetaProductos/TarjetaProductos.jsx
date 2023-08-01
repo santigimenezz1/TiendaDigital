@@ -7,9 +7,9 @@ const TarjetaProductos = ({product}) => {
   return (
     <Link className='container-tarjeta-link' to={`/Detalle/${product.id}`}>
     
-    <div class="card-container">
-  <div class="card">
-  <div class="front-content">
+    <div className="card-container">
+  <div className="card">
+  <div className="front-content">
     <img className='image-animada' src={product.img}></img>
     <div className='front-content-price'>
       <h1 className='titulo-tarjeta-productos'>{product.precio}</h1>
@@ -18,8 +18,8 @@ const TarjetaProductos = ({product}) => {
     <h2 className='front-content-envio'>{product.envio}</h2>
     </div>
 
-  <div class="content">
-    <p class="heading">{product.modelo}</p>
+  <div className="content">
+    <h1 className="heading">{product.modelo}</h1>
     <ul>
    <li className='li-caracteristicas'>- {product.caracteristicas.graficos}</li>
    <li className='li-caracteristicas'>- {product.caracteristicas.Resolución}</li>

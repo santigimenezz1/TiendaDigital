@@ -4,11 +4,11 @@ const TarjetaFormaPago = () => {
   return (
     <div className='container-tarjetaFormaPago'>
     <div className='container-icon-tarjetaFormaPago'>
-    <CreditCardIcon fontSize='large' />
+    <CreditCardIcon  />
     </div>
-     <div>
-     <h2 style={{color:"black"}}>Tarjeta de credito</h2>
-     <h3 style={{color:"blue", fontWeight:"200", cursor:"pointer"}}>Ver promociones bancarias</h3>
+     <div className='container-texto-formaPago'>
+     <h2 className='texto-tarjeta'>Tarjeta de credito</h2>
+     <h3 className='texto-promociones'>Ver promociones bancarias</h3>
      </div>
     </div>
   )

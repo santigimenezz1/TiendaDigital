@@ -18,7 +18,6 @@ export default function AcordionCategorias() {
         <Typography>Categorias</Typography>
       </AccordionSummary>
       <AccordionDetails>
-        <Typography>
         <ul className='lista-accordion'>
        <Link className="linkCategorias" to={"/categoria/notebook"}><li>Equipos y Notebooks</li></Link> 
        <Link className="linkCategorias" to={"/categoria/procesadores"}><li>procesadores</li></Link> 
@@ -37,7 +36,6 @@ export default function AcordionCategorias() {
             
        
  
-          </Typography>
         </AccordionDetails>
       </Accordion>
      

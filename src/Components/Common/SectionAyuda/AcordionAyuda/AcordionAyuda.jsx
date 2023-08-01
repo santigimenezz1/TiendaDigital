@@ -16,10 +16,8 @@ export default function AcordionAyuda( {titulo, subtitulo, text} ) {
           <Typography>{titulo}</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
           <h2 style={{color:"#fd611a", fontSize:"18px", margin:"4px"}}>{subtitulo}</h2>
           {text}
-          </Typography>
         </AccordionDetails>
       </Accordion>
      

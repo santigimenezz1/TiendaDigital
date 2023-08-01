@@ -1,0 +1,20 @@
+.container-logoEmpresas{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 25px;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.logo-empresas{
+    cursor: pointer;
+    transition: all .3s;
+}
+.logo-empresas:hover{
+    transform: scale(1.07);
+
+}
+.displayLogo{
+    display: none;
+}

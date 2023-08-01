@@ -95,7 +95,6 @@ export default function ModalFinalizarCompra() {
  
   
 
-console.log(errors)
   return (
     <div style={{display:"flex", justifyContent:"end", marginRight:"100px", marginBottom:"15px"}}>
       <Button style={{ color:"white", border:"none", borderRadius:"4px", backgroundColor:"chocolate",}}  onClick={handleOpen}>Finalizar compra</Button>

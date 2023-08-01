@@ -9,6 +9,7 @@ import { db } from "../../../../firebaseConfig"
 import {getDoc, collection, doc, query, where, getDocs } from "firebase/firestore"
 import TarjetaProductos from "../../Main/Tarjetas/TarjetaProductos/TarjetaProductos"
 import { Skeleton } from "@mui/material"
+import LogoEmpresas from "../../Main/LogoEmpresas/LogoEmpresas"
 
 
 const DetalleProductos = () => {
@@ -80,6 +81,8 @@ const DetalleProductos = () => {
             <TarjetaProductos key={productos.id} product={productos} />
           ))}
         </div>
+        <LogoEmpresas />
+
       </>
     ) : (
       // Si no hay datos en el estado data, mostrar el contenido aquí

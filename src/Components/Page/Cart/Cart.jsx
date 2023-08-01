@@ -21,9 +21,9 @@ const Cart = () => {
     </div>
       {
         cart.map((producto)=>(
-          <>
+          
         <TarjetaCart key={producto.id} producto={producto}  />
-        </>
+        
         ))
         
       }

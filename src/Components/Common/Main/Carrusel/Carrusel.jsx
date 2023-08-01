@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react'
 import "../Carrusel/carrusel.css"
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
+import '../../../MediaQuery/mediaQuery.css'
+
 
 const Carrusel = () => {
     const images = ["https://res.cloudinary.com/dcf9eqqgt/image/upload/v1688993136/E-COMERCE%20CODER/carusel/DC_20230530164608_rjFXSHmL_bzunao.png","https://res.cloudinary.com/dcf9eqqgt/image/upload/v1688993137/E-COMERCE%20CODER/carusel/pruebacroma1_yo0jdy_dstxvt.png","https://res.cloudinary.com/dcf9eqqgt/image/upload/v1688993136/E-COMERCE%20CODER/carusel/DC_20230622145209_sFLACg11_larpjl_vgtob7.png", "https://res.cloudinary.com/dcf9eqqgt/image/upload/v1688993136/E-COMERCE%20CODER/carusel/DC_20230609171854_rNOKqu5y_izr5ce_gsrkz9.png","https://res.cloudinary.com/dcf9eqqgt/image/upload/v1688993136/E-COMERCE%20CODER/carusel/DC_20230425101626_bcuYpbtc_qfae4n_sutfly.png","https://res.cloudinary.com/dcf9eqqgt/image/upload/v1688993135/E-COMERCE%20CODER/carusel/CARRUSEL_1_x1uwgt.png","https://res.cloudinary.com/dcf9eqqgt/image/upload/v1688993135/E-COMERCE%20CODER/carusel/carrusel5_lyi8nd_nsmr0z.png"]
@@ -31,8 +33,8 @@ const Carrusel = () => {
     <>
     <div className='container-carrusel'>
     <img className='carrusel-image' src={image}></img>
-    <p className='button-carrusel1' onClick={next}><ArrowBackIosIcon className='icon-carrusel' fontSize='large' /></p>
-    <h1 className='button-carrusel2' onClick={previus}><ArrowForwardIosIcon className='icon-carrusel'fontSize='large'/></h1>
+    <p className='button-carrusel1' onClick={next}><ArrowBackIosIcon className='icon-carrusel'  /></p>
+    <h1 className='button-carrusel2' onClick={previus}><ArrowForwardIosIcon className='icon-carrusel'/></h1>
     </div>
     </>
    )

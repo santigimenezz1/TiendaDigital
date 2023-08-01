@@ -1,0 +1,368 @@
+ 
+            /*-RESPOSIVE 900px--*/
+
+
+ @media (max-width:900px){
+    /*---------------------HEADER--------------------------------------------- */
+        .container-enlaces{
+            display: none;
+        }
+        .query900px{               
+          display: flex;          /*COMPONENTE ENLACES*/
+        }
+        .container-carrusel{
+            margin-top: 58;
+        }
+        .container-carrusel{       /*COMPONENTE CARRUSEL*/
+            margin-top: 58px;
+        }
+    /*---------------------FIN DEL HEADER--------------------------------------------- */ 
+    /*---------------------MAIN--------------------------------------------- */            
+    .container-tarjetaFormaPago{
+       flex-direction: column;
+       gap: 5px;                 
+    }                           /*---COMPONENTE FORMAS DE PAGO--- */       
+    .texto-tarjeta{
+        font-size: 17px;
+    }
+    
+    
+  .container-TarjetaOfertas{
+    width: auto;
+    height: 250px;
+    margin: 10px; 
+                            /*---COMPONENTE TARJETA OFERTAS--- */  
+  }
+  .tarjetaOfertaFlex{
+    flex-direction: column;
+  }
+
+  /*---COMPONENTE IMAGENES GRID--- */ 
+
+  .container-principal-imagenesGrid{
+    flex-direction: column;
+    width: auto;
+    gap: 20px;
+  }
+  .container-imagenPrincipal{               
+    width: 100%;
+    
+  }
+  .container-imagenPrincipal img{
+    height: 300px;
+    width: 100%;
+    padding: 10px;
+                                          
+  }
+  .container-cajasFlex{
+       gap: 20px;
+       justify-content: center;
+       width: 100%;
+  }
+  .cajasFlex{
+    width: 220px;
+    height: 220px;
+  }
+  .displayGrid{
+    display: none;
+  }
+
+  .displayMiniSection{
+    display: none;                      /*---COMPONENTE MINI SECTION--- */   
+  }
+
+  .displayLogo{
+    display: flex;                      /*---COMPONENTE LOGO EMPRESAS--- */ 
+  }
+
+  /*---------------------   SECTION CATEGORIAS--------------------------------------------- */
+  .image-categorias{
+    margin-top: 50px;
+    width: 800px;
+  }                                   
+  .image-tarjeta-productos{             
+   width:140px ;
+   height:120px ;
+  }
+  .text-tarjetaProductos{
+    font-size: 18px;
+  }
+
+.container-tarjetaSectionProductos{
+    max-height:220px;
+    width: 520px;
+}
+  /*--------------------- FINAL SECTION CATEGORIAS--------------------------------------------- */
+    /*---------------------   SECTION AYUDA--------------------------------------------- */
+    .container-ayuda{
+      margin-top: 60px;
+    }
+      /*--------------------- FINAL SECTION CATEGORIAS--------------------------------------------- */
+ /*---------------------   SECTION CART--------------------------------------------- */
+    .container-retroceso{
+        margin-top: 60px;
+    }
+    .terminarCompra-title{
+        font-size: 14px;
+    }
+    .container-selector{
+        flex-direction: column;
+    }
+    .container-terminarCompra{
+        flex-direction: row;
+        gap: 15px;
+      }   
+      .container-tituloImage{
+        flex-direction: row;
+      }
+      .container-tarjetaDetalle{
+        margin-top: 60px;
+        align-items: start;
+        gap: 30px;
+    }
+    .image-carrusel{
+        width: 12px;
+    }
+    .image-principal{
+        width: 400px;
+    }
+    .price{
+   font-size: 25px;
+    }
+    .container-info-tarjetaDetalle{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .container-info{
+        width: 100%;
+    }
+    .titulo-tarjetaDetalle{
+      font-size: 25px;
+    }
+    .container-caracteristicas h1{
+      font-size: 15px;
+    }
+    }
+      /*--------------------- FINAL SECTION CART--------------------------------------------- */
+/*---------------------   SECTION DETALLE--------------------------------------------- */
+  
+
+
+ /*---------------------  FINAL SECTION DETALLE--------------------------------------------- */
+                              
+                           /*-RESPOSIVE 600px--*/
+
+ @media (max-width:600px){
+                                        /*---COMPONENTE FORMAS DE PAGO--- */  
+     .container-tarjetaFormaPago{
+           flex-direction: column;
+           gap: 5px;              
+        }                                  
+        .texto-tarjeta{
+            font-size: 10px;
+            text-align: center;
+        }
+        .texto-promociones{
+            font-size: 9px;
+            text-align: center;                   
+        }
+        .container-texto-formaPago{                
+            display: flex;
+            flex-direction: column;
+            place-content: center;
+            place-items: center;
+        }
+        .container-formaPago{
+            margin: 1px;
+            margin-top: 10px;   
+        }
+                                  /*---COMPONENTE TARJETA OFERTAS--- */ 
+            .container-TarjetaOfertas{
+                width: auto;
+                height: 250px;               
+              }
+              .tarjetaOfertaFlex{
+                flex-direction: column;
+              }
+              .image{
+                width: 150px;
+              }
+              .titulo-tarjetaOfertas{
+                font-size: 25px;
+              }
+                              /*---COMPONENTE IMAGENES GRID--- */ 
+              .cajasFlex{
+                width: 200px;
+                height: 200px;
+              }
+                              /*---COMPONENTE MINI SECTION--- */ 
+             .cointainer-miniSection{
+                width: 120px;
+                height: 120px;
+             }
+             .logo-empresas{
+                width: 100px;
+             }
+                             /*---COMPONENTE TARJETA CATEGORIAS--- */ 
+             .container-tarjetas-categorias{
+               flex-direction: column;
+               width: auto;
+             }
+             .container-tarjetaSectionProductos{
+              max-height:220px;
+              width: 520px;
+          }
+                              /*---COMPONENTE TARJETA CART--- */ 
+             .container-tituloImage{
+                flex-direction: column;
+            }       
+            
+                  /*---COMPONENTE TARJETA DETALLE--- */ 
+                  .container-tarjetaDetalle{
+                    margin-top: 60px;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .image-carrusel{
+                    width: 120px;
+                }
+                .image-principal{
+                    width: 300px;
+                }
+                .price{
+               font-size: 25px;
+                }
+                .container-info-tarjetaDetalle{
+                    width: 100%;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .container-info{
+                    width: 100%;
+                }
+                .titulo-tarjetaDetalle{
+                  font-size: 25px;
+                }
+                .container-caracteristicas h1{
+                  font-size: 15px;
+                }
+
+                         /*---COMPONENTE TARJETA CART--- (PENDIENDE A RESOLVER)  */ 
+                .container-terminarCompra{
+                  border: 1px solid red;
+                  flex-direction: column;
+                }
+                .container-tituloImage{
+                  border: 1px solid blue;
+                }
+        }
+
+
+
+                                     /*-RESPOSIVE 400px--*/
+               @media(max-width:460px){
+                             /*---COMPONENTE NAVBAR--- */ 
+                .container-navBar{
+                  gap: 15px;
+                }
+                /*---COMPONENTE CARRUSEL--- */ 
+                .container-carrusel{
+                  margin-top: 59px;
+                }
+                /*---COMPONENTE TARJETA FORMAS DE PAGO--- */ 
+                .container-tarjetaFormaPago{
+                  flex-direction: column;
+                }
+                .container-texto-formaPago{
+                  display: flex;
+                  flex-direction: column;
+                  width: 80px;
+                }
+               .container-formaPago{
+                gap: 15px;
+               }
+                /*---COMPONENTE TARJETA OFERTAS--- */ 
+            .container-TarjetaOfertas{
+              width: auto;
+              height: 200px;   
+              gap: 5px;            
+            }
+         
+            .image{
+              width: 130px;
+            }
+            .titulo-tarjetaOfertas{
+              font-size: 15px;
+            }
+            .boton-tarjetaIOfertas{
+              height: 50px;
+            }
+                /*---COMPONENTE IMAGENES GRID--- */
+                .pruebaa{
+                  width: 100%;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                }
+                .container-imagenPrincipal{               
+                  width: 420px;
+                  height: 350px; 
+                }
+                .container-imagenPrincipal img{
+                  height: 240px;
+                  width: 100%;                                       
+                }           
+                .cajasFlex{
+                  width: 125px;
+                  height: 125px;
+                }
+           
+                .titulo-imagenPrincipal{
+                  font-size: 25px;
+                }   
+                 /*---COMPONENTE MINI SECTION--- */ 
+             .cointainer-miniSection{
+              width: 130px;
+              height: 130px;
+              
+           }
+           .miniSectionFlex{
+             padding: 0px;
+           }
+
+           /*---COMPONENTE LOGO EMPRESAS--- */
+           .logo-empresas{
+            width: 70px;
+           }
+
+          /*---COMPONENTE TARJETA CATEGORIAS--- */ 
+             .container-tarjetas-categorias{
+              flex-direction: column;
+              justify-content: center;
+              width: 400px;
+                 }
+               
+                .container-imagenDetalle img{
+                  width: 100px;
+                }
+                .container-tarjetaSectionProductos{
+                  gap: 1px;
+                  padding: 1px;
+                  margin: 1px;
+                  justify-content: space-around;
+                  width: 100%;
+                  
+               }
+               .text-tarjetaProductos{
+                font-size: 15px;
+               } 
+             
+              }                   
+        
+            
+          
+            
+        
+    

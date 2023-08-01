@@ -44,9 +44,6 @@ const TarjetaDetalle = ({producto, onAdd, totalProductosId}) => {
 
   
      const cuotas = producto.precio / 6
-     
-
-
   return (
     <div className='container-tarjetaDetalle'>
     <div className='container-imagenes-tarjetaDetalle'>  
@@ -96,7 +93,11 @@ const TarjetaDetalle = ({producto, onAdd, totalProductosId}) => {
 
       </>
     }
-    <h3 className='cuotas'>Mismo precio en cuotas de $12.500</h3>
+    {Object.keys(dataa).length > 0 ?
+      <h3 className='cuotas'>Pagalo en 6 cuotas de ${cuotas}</h3>
+      :
+      <Skeleton  variant="text" sx={{ fontSize: "1.3rem", marginRight:"50px"}} width={200} height={20}  />
+    }
     {Object.keys(dataa).length > 0 ? (
       <>
       <div className='container-caracteristicas'>
