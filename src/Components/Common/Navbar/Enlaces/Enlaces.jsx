@@ -23,7 +23,7 @@ const Enlaces = () => {
       <Box>
         <ul className={estado ? "query900px" : "query900px display"}>
           <div onClick={() => { setEstado(!estado) }}>
-            <DehazeIcon className='icono-burguer' fontSize='large' />
+            <DehazeIcon className='icono-burguer'  />
           </div>
           <Link className="enlaces" to={"/categoria"}>PRODUCTOS</Link>
           <Link className="enlaces" to={"/categoria/notebook"}>NOTOBOOK</Link>

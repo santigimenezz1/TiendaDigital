@@ -13,12 +13,14 @@
      position: absolute;
      top: 45%;
      right: 0;
+
+     
    }
    .icon-carrusel{
      color: white;
      margin-left: 10px;
      cursor: pointer;
      font-size: 5px;
-     width: 5px;
+     width: 100px;
    }
    

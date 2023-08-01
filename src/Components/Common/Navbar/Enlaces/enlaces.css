@@ -43,10 +43,12 @@
     background-color: #fd611a;
     z-index: 2;
     position: absolute;
+    height: 40px;
 }
 .icono-burguer{
     cursor: pointer;
     color: white;
+    font-size: 2px;
 }
 .display{
     .enlaces{
