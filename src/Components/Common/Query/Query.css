@@ -270,6 +270,10 @@
                 /*---COMPONENTE CARRUSEL--- */ 
                 .container-carrusel{
                   margin-top: 59px;
+                  height: 160px;  
+                }
+                .carrusel-image{
+                  height: 100%;
                 }
                 /*---COMPONENTE TARJETA FORMAS DE PAGO--- */ 
                 .container-tarjetaFormaPago{
