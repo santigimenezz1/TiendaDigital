@@ -10,6 +10,8 @@
 .logo-empresas{
     cursor: pointer;
     transition: all .3s;
+    width: 130px;
+    margin: 3px;
 }
 .logo-empresas:hover{
     transform: scale(1.07);

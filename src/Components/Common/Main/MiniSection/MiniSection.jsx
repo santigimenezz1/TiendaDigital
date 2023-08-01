@@ -1,6 +1,6 @@
 import React from "react";
 import ComputerIcon from '@mui/icons-material/Computer';
-import  '../MiniSection/miniSectionn.css'
+import  '../MiniSection/miniSection.css'
 
 
 const MiniSection = ({icon,section})=>{
