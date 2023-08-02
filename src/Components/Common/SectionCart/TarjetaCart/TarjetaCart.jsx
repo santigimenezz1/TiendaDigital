@@ -21,7 +21,7 @@ const TarjetaCart =  ( {producto} )=>{
          <div className="container-contador">
          <ContadorUnidades stock={producto.stock} initial={1}/>
          <h2>{precioDinamico}</h2>
-         <div onClick={()=>deleteCart(producto.id)}>
+         <div className="icon-delete" onClick={()=>deleteCart(producto.id)}>
          <DeleteForeverIcon  className="icon-trash" />
          </div>
          </div>

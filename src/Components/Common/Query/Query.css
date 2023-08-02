@@ -148,12 +148,48 @@
     .container-caracteristicas h1{
       font-size: 15px;
     }
-    }
+    
       /*--------------------- FINAL SECTION CART--------------------------------------------- */
 /*---------------------   SECTION DETALLE--------------------------------------------- */
   
-
-
+.container-tarjetaDetalle{
+  margin-top: 45px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.image-carrusel{
+  width: 120px;
+}
+.image-principal{
+  width: 400px;
+}
+.price{
+font-size: 25px;
+}
+.container-info-tarjetaDetalle{
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.container-info{
+  width: 100%;
+  padding: 0px;
+}
+.titulo-tarjetaDetalle{
+font-size: 35px;
+}
+.container-caracteristicas{
+margin-top: 5px;
+}
+.container-caracteristicas h1{
+font-size: 20px;
+}
+.container-imagenes-tarjetaDetalle{
+gap: 2px;
+}
+ }
  /*---------------------  FINAL SECTION DETALLE--------------------------------------------- */
                               
                            /*-RESPOSIVE 600px--*/
@@ -222,11 +258,7 @@
             margin-top: 50px;
             width: 520px;
           }  
-                              /*---COMPONENTE TARJETA CART--- */ 
-             .container-tituloImage{
-                flex-direction: column;
-            }       
-            
+          
                   /*---COMPONENTE TARJETA DETALLE--- */ 
                   .container-tarjetaDetalle{
                     margin-top: 45px;
@@ -266,13 +298,41 @@
                   gap: 2px;
                 }
 
-                         /*---COMPONENTE TARJETA CART--- (PENDIENDE A RESOLVER)  */ 
+                         /*---COMPONENTE TARJETA CART---   */ 
                 .container-terminarCompra{
                   border: 1px solid red;
+                  height: 400px;
+                  width: 500px;   
                   flex-direction: column;
+                           
                 }
                 .container-tituloImage{
                   border: 1px solid blue;
+                  flex-direction: column;
+                }
+                .container-tituloImage span{
+                  display: none;
+                  gap: 0px;
+                  
+                }
+                .icon-delete{
+                  display: none;
+                }
+                .terminarCompra-title{
+                  font-size: 20px;
+                  text-align: center;
+                }
+                .terminarCompra-image{
+                  width: 200px;
+                  border: 1px solid red;
+                  height: 150px;
+                }
+                .container-tituloImage{
+                  gap: 10px;
+                }
+                .tituloTarjetaProductos{
+                  text-align: center;
+                  font-size: 17px;
                 }
         }
 
@@ -360,6 +420,9 @@
               width: 130px;
               height: 130px;
               
+           }
+           .titulo-miniSection{
+             font-size: 15px;
            }
            .miniSectionFlex{
              padding: 0px;

@@ -35,7 +35,9 @@ const Ayuda = () => {
      <InputAyuda />
      </div>
      <div className='inputText-ayuda'>
-     <input type='text' placeholder='Escribi tu pregunta'></input>
+     <div className='container-inputText'>
+     <input type='text' placeholder='Escribe tu pregunta' id='inputQuestion'></input>
+     </div>
      </div>
      <div className='boton-formularioAyuda'>
      <BotonDetelle text={"Enviar Consulta"} />

@@ -137,7 +137,7 @@ const TarjetaDetalle = ({producto, onAdd, totalProductosId}) => {
      
      <h1>{producto.cantidad}</h1>
      {
-      producto.stock === 0 ?<h1 className='titulo-sinStock'>sin stock</h1> :<ContadorUnidades initial={1}  stock={producto.stock} onAdd={onAdd} totalProductosId={totalProductosId}/>
+      producto.stock === 0 ?<h1 className='titulo-sinStock'>Sin stock</h1> :<ContadorUnidades initial={1}  stock={producto.stock} onAdd={onAdd} totalProductosId={totalProductosId}/>
 
      }
      </div>

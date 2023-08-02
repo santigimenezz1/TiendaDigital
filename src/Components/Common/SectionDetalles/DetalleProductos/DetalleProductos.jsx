@@ -55,7 +55,10 @@ const DetalleProductos = () => {
         icon: 'success',
         title: 'Producto agregado',
         showConfirmButton: true,
-        timer: 1500
+        timer: 1500,
+        
+        
+        
       })
       toast.success("producto agregado")
       calcularFinal()
@@ -109,7 +112,8 @@ const DetalleProductos = () => {
     pauseOnFocusLoss
     draggable={false}
     pauseOnHover
-    theme="light"
+    theme="colored"
+  
     />
       </>
       

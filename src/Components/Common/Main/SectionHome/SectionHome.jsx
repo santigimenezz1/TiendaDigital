@@ -12,6 +12,7 @@ import { db } from '../../../../firebaseConfig'
 import { Skeleton } from '@mui/material'
 import { Link } from 'react-router-dom'
 import LogoEmpresas from '../LogoEmpresas/LogoEmpresas'
+import BotonWhatsapp from '../BotonWhatsapp/BotonWhatsapp'
 
 const SectionHome = () => {
     const [data, setData] = useState([])

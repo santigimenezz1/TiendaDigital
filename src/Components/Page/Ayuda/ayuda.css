@@ -30,7 +30,7 @@
 
 .inputText-ayuda input{
     width: 100%;
-    height: 150px;
+    height: 100px;
     font-size: 16px; 
     margin: 10px;
     
@@ -48,3 +48,17 @@
     font-size: 25px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
+#inputQuestion {
+    text-align: left;
+    padding: 10px; /* Ajusta el padding según tus necesidades */
+    height: 200px; /* Ajusta la altura según tus necesidades */
+    vertical-align: top; /* Esto alineará el contenido del input en la parte superior */
+    border: none;
+  }
+  
+  .container-inputText{
+    border: 1px solid red;
+    border-radius: 4px;
+    padding: 20px;
+  }
