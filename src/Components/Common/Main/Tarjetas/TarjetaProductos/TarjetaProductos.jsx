@@ -24,7 +24,6 @@ const TarjetaProductos = ({product}) => {
    <li className='li-caracteristicas'>- {product.caracteristicas.graficos}</li>
    <li className='li-caracteristicas'>- {product.caracteristicas.Resolución}</li>
    <li className='li-caracteristicas'>- {product.caracteristicas.TecnologíaIluminación}</li>
-
     </ul>
     
   </div>

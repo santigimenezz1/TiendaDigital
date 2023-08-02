@@ -25,6 +25,11 @@
     .texto-tarjeta{
         font-size: 17px;
     }
+                              /*---COMPONENTE FORMAS DE PAGO--- */     
+    .card-container{
+      width: 350px;
+      height: 350px;
+    }
     
     
   .container-TarjetaOfertas{
