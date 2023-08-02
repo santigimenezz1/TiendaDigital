@@ -280,16 +280,24 @@
                   
                 }
                 /*---COMPONENTE TARJETA FORMAS DE PAGO--- */ 
+             
                 .container-tarjetaFormaPago{
-                  flex-direction: column;
+                  flex-direction: row;
+                  height: 100%;
+                  
                 }
                 .container-texto-formaPago{
                   display: flex;
                   flex-direction: column;
-                  width: 80px;
+                  width: 100%; 
+                               
                 }
                .container-formaPago{
-                gap: 15px;
+                gap: 5px;
+                height: 50px;
+               }
+               .displayFormaPago{
+                 display: none;
                }
                 /*---COMPONENTE TARJETA OFERTAS--- */ 
             .container-TarjetaOfertas{
