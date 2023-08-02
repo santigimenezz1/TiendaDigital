@@ -213,6 +213,10 @@
               max-height:220px;
               width: 520px;
           }
+          .image-categorias{
+            margin-top: 50px;
+            width: 520px;
+          }  
                               /*---COMPONENTE TARJETA CART--- */ 
              .container-tituloImage{
                 flex-direction: column;
@@ -220,10 +224,11 @@
             
                   /*---COMPONENTE TARJETA DETALLE--- */ 
                   .container-tarjetaDetalle{
-                    margin-top: 60px;
+                    margin-top: 45px;
                     flex-direction: column;
                     justify-content: center;
                     align-items: center;
+                    gap: 10px;
                 }
                 .image-carrusel{
                     width: 120px;
@@ -241,12 +246,19 @@
                 }
                 .container-info{
                     width: 100%;
+                    padding: 0px;
                 }
                 .titulo-tarjetaDetalle{
-                  font-size: 25px;
+                  font-size: 35px;
+                }
+                .container-caracteristicas{
+                  margin-top: 5px;
                 }
                 .container-caracteristicas h1{
-                  font-size: 15px;
+                  font-size: 20px;
+                }
+                .container-imagenes-tarjetaDetalle{
+                  gap: 2px;
                 }
 
                          /*---COMPONENTE TARJETA CART--- (PENDIENDE A RESOLVER)  */ 
@@ -261,7 +273,7 @@
 
 
 
-                                     /*-RESPOSIVE 400px--*/
+                                     /*-RESPOSIVE 460px--*/
                @media(max-width:460px){
                              /*---COMPONENTE NAVBAR--- */ 
                 .container-navBar{
@@ -358,22 +370,29 @@
               flex-direction: column;
               justify-content: center;
               width: 400px;
-                 }
-               
-                .container-imagenDetalle img{
-                  width: 100px;
-                }
+             }
+             .image-tarjeta-productos{
+              width: 130px;   
+             }
                 .container-tarjetaSectionProductos{
-                  gap: 1px;
-                  padding: 1px;
-                  margin: 1px;
+                  gap: 25px;
                   justify-content: space-around;
-                  width: 100%;
-                  
+                  width: 100%;              
+               }
+               .container-info{
+                margin-left: 50px;
+               }
+               .container-botonDetalle{
+                font-size: 12px;
+                width: 150px;
                }
                .text-tarjetaProductos{
                 font-size: 15px;
                } 
+               .image-categorias{
+                margin-top: 50px;
+                width: 400px;
+              }  
              
               }                   
         
