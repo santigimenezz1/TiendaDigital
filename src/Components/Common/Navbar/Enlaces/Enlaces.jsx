@@ -7,7 +7,7 @@ import '../../Query/Query.css'
 
 
 const Enlaces = () => {
-  const [estado, setEstado] = useState(true);
+  const [estado, setEstado] = useState(false);
 
   return (
     <>
@@ -25,10 +25,10 @@ const Enlaces = () => {
           <div onClick={() => { setEstado(!estado) }}>
             <DehazeIcon className='icono-burguer'  />
           </div>
-          <Link className="enlaces" to={"/categoria"}>PRODUCTOS</Link>
-          <Link className="enlaces" to={"/categoria/notebook"}>NOTOBOOK</Link>
-          <Link className="enlaces" to={"/categoria/placaVideo"}>PLACAS DE VIDEO</Link>
-          <Link className="enlaces" to={"/Ayuda"}>AYUDA</Link>
+          <Link onClick={()=>setEstado(!estado)} className="enlaces" to={"/categoria"}>PRODUCTOS</Link>
+          <Link onClick={()=>setEstado(!estado)} className="enlaces" to={"/categoria/notebook"}>NOTOBOOK</Link>
+          <Link onClick={()=>setEstado(!estado)} className="enlaces" to={"/categoria/placaVideo"}>PLACAS DE VIDEO</Link>
+          <Link onClick={()=>setEstado(!estado)} className="enlaces" to={"/Ayuda"}>AYUDA</Link>
         </ul>
       </Box>
     </>
