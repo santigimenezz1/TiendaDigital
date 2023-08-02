@@ -393,7 +393,22 @@
                 margin-top: 50px;
                 width: 400px;
               }  
-             
+                        /*---COMPONENTE MODAL CART--- */ 
+
+                .container-general-modal{
+                  width: 400px;
+                  height: 600px;
+                }
+                .form-finalizarCompra{
+                  gap: 15px;
+                }
+                .container-image-modal{
+                  width: 200px;
+                  height: 200px;
+                }
+                .seguimiento-pago{
+                  font-size: 15px;
+                }
               }                   
         
             

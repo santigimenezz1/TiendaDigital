@@ -4,9 +4,11 @@
 .form-finalizarCompra{
   display: flex;
   flex-direction: column;
-  margin-top: 20px;
-  gap: 30px;
+  gap: 23px;
 }
+
+
+
 .icono-okey{
   border: 1px solid red;
   padding: 5px;
@@ -24,8 +26,8 @@
   background-color: white;
   justify-content: center;
   align-items: center;
-  height: 550px;
-   gap: 10px;
+  height: 100%;
+   ;
 }
 .titulo-pago{
   color: black;
@@ -44,6 +46,7 @@
   color: white;
   font-size: 18px;
   border: none;
+  
   text-decoration: none;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
@@ -51,15 +54,14 @@
 }
 .subtitulo-pago{
   color: rgb(44, 43, 43);
-  margin-top: 40px;
   font-weight: 400;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .seguimiento-pago{
   color: rgb(44, 43, 43);
   font-weight: 400;
+  font-size: 18px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
 
 }
 .total-pago{
@@ -74,6 +76,74 @@
   display: flex;
   width: 100%;
   justify-content: end;
+  cursor: pointer; 
+}
+.container-logo-modal{
+  display: flex;
+  justify-content: center;
+}
+.container-boton-modal{
+  display: flex;
+  justify-content: center;
+  width: 200px;
+}
+
+.container-boton-modal button {
+  font-size: 17px;
+  width: 170px;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  background-color: #fd611a;
+  height: 35px;
   cursor: pointer;
-  
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  transition: all .2s;
+
+}
+.container-boton-modal button:hover{
+  background-color: #e24f0b;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.container-image-modal{
+  width: 240px;
+  height: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 140px;
+  border: 8px solid green;
+}
+.container-image-modal img{
+  width: 100px;
+}
+.container-textos-modalTerminar{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.container-general-modal{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: white;
+  padding: 20px;
+  padding-top: 40px;
+  border: 2px solid #000;
+  width:500px;
+  height:600px;
 }

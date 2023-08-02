@@ -40,7 +40,7 @@ export default function TransitionsModal({clearCart, cart}) {
     <div>
     <div className='container-modalLeft'>
     <Link to={"/categoria"}>
-    <KeyboardBackspaceIcon  fontSize='large' style={{color:"red", position:'relative', right:"20px" , cursor:"pointer"}}/>
+    <KeyboardBackspaceIcon  fontSize='large' style={{color:"#fd611a", position:'relative', right:"20px" , cursor:"pointer"}}/>
     </Link>
     {
 

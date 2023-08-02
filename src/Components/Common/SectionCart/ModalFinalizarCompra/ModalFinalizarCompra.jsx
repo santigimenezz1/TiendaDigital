@@ -21,10 +21,8 @@ import LoadingModal from '../LoadingModal/LoadingModal';
 
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-
-
-
-
+import Logo from '../../Navbar/Logo/Logo';
+import DoneIcon from '@mui/icons-material/Done';
 
 
 const style = {
@@ -32,14 +30,12 @@ const style = {
   top: '50%',
   left: '50%',
   transform: 'translate(-50%, -50%)',
-  width: 500,
-  height: 600,
   bgcolor: 'background.paper',
   border: '2px solid #000',
   boxShadow: 24,
   p: 4,
-  
 };
+
 export default function ModalFinalizarCompra() {
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
@@ -60,19 +56,10 @@ export default function ModalFinalizarCompra() {
       });
     }
 
-
-
-
-
-
-
-  
   const cruzClear = ()=>{
     clearCart()
     handleClose()
   }
- 
- 
  
      const {handleSubmit, handleChange, errors} = useFormik({
        initialValues:{
@@ -114,10 +101,6 @@ export default function ModalFinalizarCompra() {
        validateOnChange:false,
      })
  
-     
- 
-  
-
   return (
     <div style={{display:"flex", justifyContent:"end", marginRight:"100px", marginBottom:"15px"}}>
       <Button style={{ color:"white", border:"none", borderRadius:"4px", backgroundColor:"chocolate",}}  onClick={handleOpen}>Finalizar compra</Button>
@@ -135,25 +118,21 @@ export default function ModalFinalizarCompra() {
         }}
       >
         <Fade in={open}>
-        <div style={{border:"1px solid red", backgroundColor:"red"}}>
+        <div style={{ backgroundColor:"red"}}>
         
-          <Box style={{border:"1px solid white", borderRadius:"7px"}} sx={style}>
+          <div className='container-general-modal'  style={{border:"10px solid #fd611a", borderRadius:"7px", }} sx={style}>
           {
-            idCompra === false && 
-            <Typography style={{textAlign:"center", color:"#fd611a"}} id="transition-modal-title" variant="h6" component="h2">
-                Finalizar compra
-                </Typography>
-            } 
-           
+            idCompra === false &&
+            <div className='container-logo-modal'>
+            <Logo />
+            </div>
+          }
             <div>
-          
            
             {
             
                 idCompra && loading === false
-                ? (
-                    
-                  
+                ? (   
                     <div className='container-pagoTerminado'>
                     <div className='icon-cruz-termianrPago'>
                     <Link to={"/categoria"}>
@@ -162,15 +141,20 @@ export default function ModalFinalizarCompra() {
                     </div>
 
                     <div style={{ display:"flex",alignItems:"center",justifyContent:"center", flexDirection:"column"}}>
-                    <img className='image-pago' src='https://res.cloudinary.com/dcf9eqqgt/image/upload/v1690321314/E-COMERCE%20CODER/png-transparent-check-mark-computer-icons-icon-design-cheque-successful-angle-logo-grass_srwnqy.png'></img>
-                    <h1 style={{marginTop:"30px"}} className='titulo-pago'>Tu solicitud se ah procesado correctamente</h1>
+                    <div className='container-image-modal'>
+                    <img src='https://res.cloudinary.com/dcf9eqqgt/image/upload/v1690986577/istockphoto-1295706732-612x612_pree7x.jpg'></img>
+                    </div>
+                    <h1 style={{marginTop:"10px"}} className='titulo-pago'>Tu solicitud se ah procesado correctamente</h1>
+                    <div className='container-textos-modalTerminar'>
                     <h1 className='subtitulo-pago'>En breve te contactamos via <span style={{color:"#25D366", fontWeight:"700"}}>whatsapp</span> </h1>
                     <h1 className='total-pago'>Total a pagar ${calcularFinal()}</h1>
-
                     <h1 style={{marginBottom:"10px"}} className='seguimiento-pago'>Codigo de seguimiento: <span className='span-seguimiento'>{idCompra}</span> </h1>
+
+                    </div>
+                   
                     </div>
 
-                    <div style={{marginBottom:"10px"}}>
+                    <div style={{marginTop:"30px"}}>
                     <Link onClick={()=>clearCart()} className='buton-seguirComprandoPago' to={'/categoria'}>Seguir comprando</Link>
                     </div>
                     </div>
@@ -183,6 +167,10 @@ export default function ModalFinalizarCompra() {
 
                     
                 :  
+                <>
+                <div className='container-logo-modal'>
+                <Logo />
+                </div>
                 <form ref={form} className='form-finalizarCompra' onSubmit={handleSubmit}>
                 <Typography id="transition-modal-description" sx={{ mt: 2, fontSize:"25px" }}>
                 Ingresa tus datos y te contactamos
@@ -226,18 +214,23 @@ export default function ModalFinalizarCompra() {
           name="message" 
           error= {errors.telefono ? true : false}
           />
-          <Button  type='submit'>Enviar</Button>
+          <div style={{display:"flex", justifyContent:"center"}}>
+          <div className='container-boton-modal'>
+          <button type='submit'>Enviar</button>
+          </div>
+          </div>
           {
 
-            loading ?
+            loading &&
             <LoadingModal/>
-            :<h1>sin loading</h1> 
+            
           }
           
            </form>
+           </>
             }
             </div>
-          </Box>
+          </div>
           </div>
         </Fade>
       </Modal>

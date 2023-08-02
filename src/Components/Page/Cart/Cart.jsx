@@ -17,7 +17,7 @@ const Cart = () => {
     <>
     <div className="container-retroceso" >
     <h1 className="titulo-retroceso">Carrito de compras</h1>
-    <TransitionsModal clearCart={clearCart} cart={cart}/>
+    <TransitionsModal  clearCart={clearCart} cart={cart}/>
     </div>
       {
         cart.map((producto)=>(
