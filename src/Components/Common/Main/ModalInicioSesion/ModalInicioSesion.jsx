@@ -11,19 +11,7 @@ import HighlightOffIcon from '@mui/icons-material/HighlightOff';
 import { useFormik } from 'formik';
 import * as Yup from "yup"
 
-const style = {
-  position: 'absolute',
-  top: '50%',
-  left: '50%',
-  transform: 'translate(-50%, -50%)',
-  width: 600,
-  height:450,
-  bgcolor: 'background.paper',
-  p: 4,
-  borderRadius:"4px",
-  border:"none"
- 
-};
+
 
 export default function ModalInicioSesion() {
   const [open, setOpen] = React.useState(false);
@@ -56,7 +44,7 @@ export default function ModalInicioSesion() {
         }}
       >
         <Fade in={open}>
-          <Box sx={style}>
+          <div className='container-general-box' >
           <div className='container-box'>
           <HighlightOffIcon onClick={handleClose} className='icon-box' fontSize='medium' />
           <div className='tipografia-box'>
@@ -88,7 +76,7 @@ export default function ModalInicioSesion() {
           </div>
 
 
-          </Box>
+          </div>
         </Fade>
       </Modal>
     </div>
