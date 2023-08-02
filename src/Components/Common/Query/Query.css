@@ -14,7 +14,7 @@
             margin-top: 58;
         }
         .container-carrusel{       /*COMPONENTE CARRUSEL*/
-            margin-top: 58px;
+            margin-top: 48px;
         }
     /*---------------------FIN DEL HEADER--------------------------------------------- */ 
     /*---------------------MAIN--------------------------------------------- */            
@@ -116,7 +116,7 @@
         flex-direction: row;
       }
       .container-tarjetaDetalle{
-        margin-top: 60px;
+        margin-top: 50px;
         align-items: start;
         gap: 30px;
     }

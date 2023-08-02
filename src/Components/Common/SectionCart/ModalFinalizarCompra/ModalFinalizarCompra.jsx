@@ -19,6 +19,9 @@ import {ToastContainer, toast} from "react-toastify"
 import CloseIcon from '@mui/icons-material/Close';
 import LoadingModal from '../LoadingModal/LoadingModal';
 
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+
 
 
 
@@ -45,6 +48,25 @@ export default function ModalFinalizarCompra() {
   const {cart, calcularFinal, clearCart} = useContext(CartContext)
   const [idCompra, setIdCompra]= useState("")
 
+
+  //ENVIO DE FORMULARIO POR EMAIL JS 
+  const form = useRef();
+  const sendEmail = () => {
+    emailjs.sendForm('service_pq131eq', 'template_0thietb', form.current, 'XjMquqg7KQ908ur2Z')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+    }
+
+
+
+
+
+
+
+  
   const cruzClear = ()=>{
     clearCart()
     handleClose()
@@ -68,7 +90,8 @@ export default function ModalFinalizarCompra() {
       };
       setLoading(true)
       setTimeout(() => {
-        setLoading(false)
+      setLoading(false)
+      sendEmail()
         
       }, 5000);
  
@@ -84,8 +107,8 @@ export default function ModalFinalizarCompra() {
    },
    
        validationSchema:Yup.object({
-         name: Yup.string().required("Este campo es requerido"),
-         email: Yup.string().required("Este campo es requerido").email(),
+         user_name: Yup.string().required("Este campo es requerido"),
+         user_email: Yup.string().required("Este campo es requerido").email(),
          apellido: Yup.string().required("este campo es requerido")
        }),
        validateOnChange:false,
@@ -160,7 +183,7 @@ export default function ModalFinalizarCompra() {
 
                     
                 :  
-                <form className='form-finalizarCompra' onSubmit={handleSubmit}>
+                <form ref={form} className='form-finalizarCompra' onSubmit={handleSubmit}>
                 <Typography id="transition-modal-description" sx={{ mt: 2, fontSize:"25px" }}>
                 Ingresa tus datos y te contactamos
               </Typography>
@@ -170,7 +193,7 @@ export default function ModalFinalizarCompra() {
           id="outlined-basic" 
           label="nombre" 
           variant="outlined" 
-          name='name' 
+          name="user_name" 
           error= {errors.name ? true : false}
           helperText={errors.name}
           />
@@ -190,7 +213,7 @@ export default function ModalFinalizarCompra() {
           id="standard-basic" 
           label="email" 
           variant="outlined" 
-          name='email' 
+          name="user_email"  
           error= {errors.email ? true : false}
           />
 
@@ -200,7 +223,7 @@ export default function ModalFinalizarCompra() {
           id="standard-basic" 
           label="telefono" 
           variant="outlined" 
-          name='telefono' 
+          name="message" 
           error= {errors.telefono ? true : false}
           />
           <Button  type='submit'>Enviar</Button>
