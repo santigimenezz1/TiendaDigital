@@ -1,9 +1,15 @@
-import { Link, Route, Routes } from 'react-router-dom'
+import { Link, Route, Routes, useLocation } from 'react-router-dom'
 import { routes } from './routes'
 import Layout from '../Components/Layout/Layout/Layout'
 import Boton from '../Components/Common/Navbar/Boton/Boton';
+import { useEffect } from 'react';
 
 const AppRoute = () => {
+  const location = useLocation();
+
+useEffect(()=> { 
+ window.scrollTo(0, 0);
+}, [location]);
     return (
         <Routes>
     

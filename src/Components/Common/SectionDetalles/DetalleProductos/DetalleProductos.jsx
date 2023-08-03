@@ -113,7 +113,6 @@ const DetalleProductos = () => {
     draggable={false}
     pauseOnHover
     theme="colored"
-  
     />
       </>
       

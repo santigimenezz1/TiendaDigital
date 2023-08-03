@@ -4,17 +4,22 @@ import AddIcon from '@mui/icons-material/Add';
 import RemoveIcon from '@mui/icons-material/Remove';
 import BotonDetelle from "../../SectionDetalles/DetalleProductos/BotonDetalle/BotonDetelle";
 
-const ContadorUnidades = ({stock, initial, onAdd, totalProductosId})=>{
+const ContadorUnidades = ({stock, initial, onAdd, totalProductosId, agregarUnidad, quitarUnidad})=>{
     const [pantalla, setPantalla] = useState(initial)
     
+  
     
     const incrementarValor = ()=>{
         pantalla === stock ? setPantalla(pantalla(stock)) : setPantalla(pantalla + 1)
         setPantalla(stock > 0  ? pantalla + 1 :0)
+
+        agregarUnidad(pantalla)
         
     }
-    const decrementarValor = ()=> setPantalla(pantalla > 0 ? pantalla - 1 : 0)
-    
+    const decrementarValor = ()=>{
+        setPantalla(pantalla > 0 ? pantalla - 1 : 0)
+        quitarUnidad(pantalla)
+    }
     
     return (
         <section className="container-agregandoProductoCarrito">

@@ -6,8 +6,28 @@ import { CartContext } from "../../../../Context/CartContext";
 import { Link } from "react-router-dom";
 
 const TarjetaCart =  ( {producto} )=>{
-    const {deleteCart} = useContext(CartContext)
+    const {deleteCart, cart, setCart} = useContext(CartContext)
     const precioDinamico = producto.precio * producto.cantidad
+
+    const {addToCart,calcularFinal} = useContext(CartContext)
+
+    const onAdd = (valor)=>{
+        let productCart = {...producto, cantidad:valor }
+        addToCart(productCart)
+        console.log(productCart)
+        calcularFinal()
+      }                                        //LOGICA PARA AGREGAR O QUITAR UNIDADES DESDE TARJETA CARRITO
+    const agregarUnidad = (valor)=>{
+        let nuevo = valor + 1 
+        onAdd(nuevo)    
+    }
+    const quitarUnidad = (valor)=>{
+        let nuevo = valor + 1 
+        onAdd(nuevo)    
+    }
+
+
+
     return (
         <div className="container-terminarCompra">
         <div className="container-tituloImage">
@@ -19,7 +39,7 @@ const TarjetaCart =  ( {producto} )=>{
         </div>
 
          <div className="container-contador">
-         <ContadorUnidades stock={producto.stock} initial={1}/>
+         <ContadorUnidades stock={producto.stock} initial={1} agregarUnidad={agregarUnidad} quitarUnidad={quitarUnidad} />
          <h2>{precioDinamico}</h2>
          <div className="icon-delete" onClick={()=>deleteCart(producto.id)}>
          <DeleteForeverIcon  className="icon-trash" />

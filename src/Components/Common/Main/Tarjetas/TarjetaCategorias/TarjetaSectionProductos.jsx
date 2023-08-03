@@ -20,7 +20,6 @@ const TarjetaSectionProductos = ({producto}) => {
       showConfirmButton: true,
       timer: 1500,
     })
-    toast.success("producto agregado")
       calcularFinal()
   }
 
@@ -48,6 +47,7 @@ const TarjetaSectionProductos = ({producto}) => {
     </div>
     </div>
     <div>
+    <div>
     <ToastContainer
     position="top-right"
     autoClose={800}
@@ -58,9 +58,9 @@ const TarjetaSectionProductos = ({producto}) => {
     pauseOnFocusLoss
     draggable={false}
     pauseOnHover
-    theme="colored"
-  
+    theme="light"
     />
+    </div>
     </div>
     </>
   )
