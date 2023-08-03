@@ -63,9 +63,10 @@ export default function ModalFinalizarCompra() {
  
      const {handleSubmit, handleChange, errors} = useFormik({
        initialValues:{
-         name: "",
-         apellido :"" ,
-         email: ""
+        user_name: "",
+        user_email :"" ,
+        user_apellido: "",
+        user_telefono: ""
        },
        
        onSubmit: (data)=>{
@@ -94,13 +95,15 @@ export default function ModalFinalizarCompra() {
    },
    
        validationSchema:Yup.object({
-         user_name: Yup.string().required("Este campo es requerido"),
-         user_email: Yup.string().required("Este campo es requerido").email(),
-         apellido: Yup.string().required("este campo es requerido")
+         user_name: Yup.string().required("Este campo es requerido").min(6, "debe tener al menos 6 caracteres"),
+         user_email: Yup.string().required("Este campo es requerido").email("debe contener @"),
+         user_apellido: Yup.string().required("este campo es requerido").min(6, "debe tener al menos 6 caracteres"),
+         user_telefono:Yup.number("Debe ser un numero").min(6,"debe contener al menos 6 numeros").required("este campo es requerido")
        }),
        validateOnChange:false,
      })
  
+     console.log({errors})
   return (
     <div style={{display:"flex", justifyContent:"end", marginRight:"100px", marginBottom:"15px"}}>
       <Button style={{ color:"white", border:"none", borderRadius:"4px", backgroundColor:"chocolate",}}  onClick={handleOpen}>Finalizar compra</Button>
@@ -158,14 +161,8 @@ export default function ModalFinalizarCompra() {
                     <Link onClick={()=>clearCart()} className='buton-seguirComprandoPago' to={'/categoria'}>Seguir comprando</Link>
                     </div>
                     </div>
-                    
-                    
-            
-                  
-                    
-                    )
-
-                    
+                
+                    )   
                 :  
                 <>
                 <div className='container-logo-modal'>
@@ -179,40 +176,42 @@ export default function ModalFinalizarCompra() {
           <TextField onChange={handleChange} 
           type='text' 
           id="outlined-basic" 
-          label="nombre" 
+          label="Nombre" 
           variant="outlined" 
           name="user_name" 
-          error= {errors.name ? true : false}
-          helperText={errors.name}
+          error= {errors.user_name ? true : false}
+          helperText={errors.user_name}
           />
           
           
           <TextField onChange={handleChange} 
           type='text' 
           id="filled-basic" 
-          label="apellido" 
+          label="Apellido" 
           variant="outlined" 
-          name='apellido' 
-          error= {errors.apellido ? true : false} />
+          name="user_apellido"
+          error= {errors.user_apellido ? true : false}
+          helperText={errors.user_apellido} 
+          />
        
           <TextField onChange={handleChange} 
-          helperText={errors.email}
-          type='text'  
-          id="standard-basic" 
-          label="email" 
+          type='text' 
+          id="filled-basic" 
+          label="Email" 
           variant="outlined" 
-          name="user_email"  
-          error= {errors.email ? true : false}
+          name="user_email"
+          error= {errors.user_email ? true : false}
+          helperText={errors.user_email} 
           />
 
           <TextField onChange={handleChange} 
-          helperText={errors.telefono}
           type='text'  
           id="standard-basic" 
-          label="telefono" 
+          label="Telefono" 
           variant="outlined" 
-          name="message" 
-          error= {errors.telefono ? true : false}
+          name="user_telefono" 
+          error= {errors.user_telefono ? true : false}
+          helperText={errors.user_telefono} 
           />
           <div style={{display:"flex", justifyContent:"center"}}>
           <div className='container-boton-modal'>
