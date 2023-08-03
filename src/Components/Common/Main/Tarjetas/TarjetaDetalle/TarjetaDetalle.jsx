@@ -11,7 +11,10 @@ const TarjetaDetalle = ({producto, onAdd, totalProductosId}) => {
     const [carrusel, setCarrusel] = useState(true)
     const [data, setData] = useState([])
     const {categoria} = useParams()
+    const{getQuantityById}= useContext(CartContext)
 
+console.log(producto.cantidad)
+   
                            //FILTRADO POR CATEGORIA
     useEffect(() => {
       let productsCollection = collection(db, "products"); //traeme una colleccion, de esa db y la colleccion products
@@ -42,8 +45,18 @@ const TarjetaDetalle = ({producto, onAdd, totalProductosId}) => {
       })   
     },[id])
 
-  
      const cuotas = producto.precio / 6
+   console.log(id)
+   const totalQuantity = getQuantityById(id);
+   console.log(totalQuantity);
+
+   
+
+   const mostrarPrecioConFormato = (precio) => {  //FUNCION PARA PONERLE EL PUNTO A LOS PRECIOS 
+    return precio.toLocaleString("es-ES");
+  };
+
+
   return (
     <div className='container-tarjetaDetalle'>
     <div className='container-imagenes-tarjetaDetalle'>  
@@ -82,7 +95,7 @@ const TarjetaDetalle = ({producto, onAdd, totalProductosId}) => {
       ?
       <>
       <h1 className='titulo-tarjetaDetalle'>{dataa.nombre}</h1>
-      <h2 className='price'>  {dataa.precio}</h2>
+      <h2 className='price'>  {mostrarPrecioConFormato(producto.precio)}</h2>
       </>
       :
       <>
@@ -137,7 +150,7 @@ const TarjetaDetalle = ({producto, onAdd, totalProductosId}) => {
      
      <h1>{producto.cantidad}</h1>
      {
-      producto.stock === 0 ?<h1 className='titulo-sinStock'>Sin stock</h1> :<ContadorUnidades initial={1}  stock={producto.stock} onAdd={onAdd} totalProductosId={totalProductosId}/>
+      producto.stock === 0 ?<h1 className='titulo-sinStock'>Sin stock</h1> :<ContadorUnidades initial={1}   stock={producto.stock} onAdd={onAdd} totalProductosId={totalProductosId}/>
 
      }
      </div>

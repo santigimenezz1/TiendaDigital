@@ -1,7 +1,6 @@
  
             /*-RESPOSIVE 900px--*/
 
-
  @media (max-width:900px){
     /*---------------------HEADER--------------------------------------------- */
         .container-enlaces{
@@ -478,8 +477,6 @@ gap: 2px;
                 .seguimiento-pago{
                   font-size: 15px;
                 }
-
-
 
                 .container-general-box{
                   width: 400px;

@@ -56,19 +56,12 @@ const DetalleProductos = () => {
         title: 'Producto agregado',
         showConfirmButton: true,
         timer: 1500,
-        
-        
-        
+       
       })
       toast.success("producto agregado")
       calcularFinal()
     }
 
-
-
-
-
-  
   return (
     <>
    
@@ -98,10 +91,8 @@ const DetalleProductos = () => {
       <Skeleton  variant="rectangular" width={250} height={300} /> 
       </div>
        </>
-
-
     )}
-    
+
     <ToastContainer
     position="top-right"
     autoClose={800}
@@ -114,8 +105,7 @@ const DetalleProductos = () => {
     pauseOnHover
     theme="colored"
     />
-      </>
-      
+      </>  
   )
 }
 

@@ -11,13 +11,17 @@ import ModalFinalizarCompra from "../../Common/SectionCart/ModalFinalizarCompra/
 
 const Cart = () => {
   const {cart, clearCart, calcularFinal} = useContext(CartContext)
+ 
+
   let total = calcularFinal()
 
   return (
     <>
     <div className="container-retroceso" >
     <h1 className="titulo-retroceso">Carrito de compras</h1>
-    <TransitionsModal  clearCart={clearCart} cart={cart}/>
+    <div>
+    <TransitionsModal clearCart={clearCart}   cart={cart}/>
+    </div>
     </div>
       {
         cart.map((producto)=>(
@@ -40,7 +44,9 @@ const Cart = () => {
       <div className="container-sinProductos">
       <h1 className="titulo-sinProducto">No hay productos en el carrito</h1>
       <Link to={"/categoria"} className="botonSinProducto">
+      <div>
       <BotonDetelle text={"SEGUIR COMPRANDO"} />
+      </div>
       </Link>
 
       </div>

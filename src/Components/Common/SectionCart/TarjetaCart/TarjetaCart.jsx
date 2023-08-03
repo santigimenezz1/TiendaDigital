@@ -6,7 +6,15 @@ import { CartContext } from "../../../../Context/CartContext";
 import { Link } from "react-router-dom";
 
 const TarjetaCart =  ( {producto} )=>{
-    const {deleteCart, cart, setCart} = useContext(CartContext)
+    const {deleteCart, cart, setCart, mostarContador  } = useContext(CartContext)
+   
+    const mostrarPrecioConFormato = (precio, cantidad) => {   //cambiar formato del precio 
+        let total = precio * cantidad
+        return total.toLocaleString("es-ES");
+      };
+      
+    
+
     const precioDinamico = producto.precio * producto.cantidad
 
     const {addToCart,calcularFinal} = useContext(CartContext)
@@ -32,7 +40,7 @@ const TarjetaCart =  ( {producto} )=>{
         <div className="container-terminarCompra">
         <div className="container-tituloImage">
         <span className="span"></span>
-        <Link to={`/Detalle/${producto.id}`}>
+        <Link onClick={()=>mostarContador()} to={`/Detalle/${producto.id}`}>
         <img className="terminarCompra-image" src={producto.img}></img>
         </Link>
         <h1 className="terminarCompra-title">{producto.nombre}</h1>
@@ -40,7 +48,7 @@ const TarjetaCart =  ( {producto} )=>{
 
          <div className="container-contador">
          <ContadorUnidades stock={producto.stock} initial={1} agregarUnidad={agregarUnidad} quitarUnidad={quitarUnidad} />
-         <h2>{precioDinamico}</h2>
+         <h2>{mostrarPrecioConFormato(producto.precio, producto.cantidad)}</h2>
          <div className="icon-delete" onClick={()=>deleteCart(producto.id)}>
          <DeleteForeverIcon  className="icon-trash" />
          </div>

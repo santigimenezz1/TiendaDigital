@@ -8,6 +8,8 @@ import { ToastContainer, toast } from 'react-toastify'
 
 const TarjetaSectionProductos = ({producto}) => {
   const {addToCart,calcularFinal} = useContext(CartContext)
+
+
  
 
   const onAdd = (cantidad=1)=>{
