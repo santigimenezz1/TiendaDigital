@@ -17,7 +17,7 @@ const ContadorUnidades = ({stock, initial, onAdd, totalProductosId, agregarUnida
         
     }
     const decrementarValor = ()=>{
-        setPantalla(pantalla > 0 ? pantalla - 1 : 0)
+        pantalla > 1 && setPantalla(pantalla - 1 )
         quitarUnidad(pantalla)
     }
     

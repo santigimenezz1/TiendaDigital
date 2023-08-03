@@ -22,7 +22,7 @@ const TarjetaCart =  ( {producto} )=>{
         onAdd(nuevo)    
     }
     const quitarUnidad = (valor)=>{
-        let nuevo = valor + 1 
+        let nuevo = valor > 1 ? valor - 1  : 1  
         onAdd(nuevo)    
     }
 
