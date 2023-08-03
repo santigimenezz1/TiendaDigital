@@ -464,15 +464,17 @@ gap: 2px;
                         /*---COMPONENTE MODAL CART--- */ 
                 .container-general-modal{
                   width: 400px;
-                  height: 600px;
+                  height: auto;
+                  padding: 17px;
                 }
                 .form-finalizarCompra{
-                  gap: 15px;
+                  gap: 10px;
                 }
                 .container-image-modal{
-                  width: 200px;
-                  height: 200px;
+                  width: 180px;
+                  height: 180px;
                 }
+               
                 .seguimiento-pago{
                   font-size: 15px;
                 }
