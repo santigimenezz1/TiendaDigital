@@ -1,8 +1,8 @@
 import React from 'react'
 import '../TarjetaCupon/tarjetaCupon.css'
-import BuscadorDescuento from '../BuscadorDescuento/BuscadorDescuento'
 import Boton from '../../Navbar/Boton/Boton'
 import Logo from '../../Navbar/Logo/Logo'
+import BuscadorDescuento from '../ContadorUnidades/BuscadorDescuento/BuscadorDescuento'
 
 const TarjetaDescuento = () => {
   return (
