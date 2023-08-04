@@ -11,7 +11,6 @@ const ContadorUnidades = ({stock, initial, onAdd, totalProductosId, agregarUnida
     const [pantalla, setPantalla] = useState(initial)
     const [botonAgregar, setBotonAgregar] = useState(true)
     const location = useLocation();  //HOOK PARA VERIFICAR LA URL
-    console.log(cantidad)
  
     const incrementarValor = ()=>{
         pantalla === stock ? setPantalla(pantalla(stock)) : setPantalla(pantalla + 1)

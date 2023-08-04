@@ -50,9 +50,7 @@ export default function ModalFinalizarCompra() {
   const sendEmail = () => {
     emailjs.sendForm('service_pq131eq', 'template_0thietb', form.current, 'XjMquqg7KQ908ur2Z')
       .then((result) => {
-          console.log(result.text);
       }, (error) => {
-          console.log(error.text);
       });
     }
 
@@ -103,7 +101,6 @@ export default function ModalFinalizarCompra() {
        validateOnChange:false,
      })
  
-     console.log({errors})
   return (
     <div style={{display:"flex", justifyContent:"end", marginRight:"100px", marginBottom:"15px"}}>
       <Button style={{ color:"white", border:"none", borderRadius:"4px", backgroundColor:"chocolate",}}  onClick={handleOpen}>Finalizar compra</Button>

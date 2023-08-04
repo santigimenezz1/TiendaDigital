@@ -22,7 +22,6 @@ const TarjetaCart =  ( {producto} )=>{
     const onAdd = (valor)=>{
         let productCart = {...producto, cantidad:valor }
         addToCart(productCart)
-        console.log(productCart)
         calcularFinal()
       }                                        //LOGICA PARA AGREGAR O QUITAR UNIDADES DESDE TARJETA CARRITO
     const agregarUnidad = (valor)=>{

@@ -13,7 +13,6 @@ const TarjetaDetalle = ({producto, onAdd, totalProductosId}) => {
     const {categoria} = useParams()
     const{getQuantityById}= useContext(CartContext)
 
-console.log(producto.cantidad)
    
                            //FILTRADO POR CATEGORIA
     useEffect(() => {
@@ -46,9 +45,7 @@ console.log(producto.cantidad)
     },[id])
 
      const cuotas = Math.round(producto.precio / 6)
-   console.log(id)
    const totalQuantity = getQuantityById(id);
-   console.log(totalQuantity);
    const mostrarPrecioConFormato = (precio) => {  //FUNCION PARA PONERLE EL PUNTO A LOS PRECIOS 
     return precio.toLocaleString("es-ES");
   };
