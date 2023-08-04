@@ -6,7 +6,7 @@ import BuscadorDescuento from '../ContadorUnidades/BuscadorDescuento/BuscadorDes
 
 const TarjetaDescuento = () => {
   return (
-    
+    <div className='container-general-tarjetaCupon'>
     <div className='container cuponDescuento'>
     <span className="container-span"></span>
       <Logo />
@@ -14,6 +14,7 @@ const TarjetaDescuento = () => {
       <Boton  text={"Aplicar"} />
    
    
+    </div>
     </div>
   )
 }
