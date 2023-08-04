@@ -188,6 +188,10 @@ font-size: 20px;
 .container-imagenes-tarjetaDetalle{
 gap: 2px;
 }
+
+.container-ayuda{    
+  padding: 30px;                   /*---SECTION AYUDA--- */ 
+}
  }
  /*---------------------  FINAL SECTION DETALLE--------------------------------------------- */
                               
@@ -332,6 +336,9 @@ gap: 2px;
                 .tituloTarjetaProductos{
                   text-align: center;
                   font-size: 17px;
+                }
+                .container-ayuda{    
+                  padding: 20px;                   /*---SECTION AYUDA--- */ 
                 }
         }
 
@@ -482,6 +489,23 @@ gap: 2px;
                   width: 400px;
                   height: 400px;
                 }
+                .container-ayuda{    
+                  padding: 20px;   
+                                                      /*---SECTION AYUDA--- */ 
+                }
+                .titulo-ayuda{
+                  font-size: 18px;
+                }
+                .titulo-box{
+                  font-size: 22px;
+                }
+                .texto-box{
+                  font-size: 14px;
+              }
+              .subtitulo-ayuda{
+                font-size: 12px;
+              }
+            
               }                   
         
             

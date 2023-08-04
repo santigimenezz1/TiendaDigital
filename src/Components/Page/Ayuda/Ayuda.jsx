@@ -8,6 +8,8 @@ import BotonDetelle from '../../Common/SectionDetalles/DetalleProductos/BotonDet
 
 const Ayuda = () => {
   return (
+    <div className='container-general-ayuda'>
+  
     <div className='container-ayuda'>
     <div className='container-ayuda-titulo'>
     <h1 className='titulo-ayuda'>Preguntas frecuentes</h1>
@@ -27,26 +29,12 @@ const Ayuda = () => {
      <div>
      <CajaAyuda titulo={"Servicio postventa y garantía"} subTexto={"También podes sacar un turno para venir en forma presencial a gestionar tu garantía: "}  texto={"Para realizar consultas/reclamos relacionadas con la garantía o devolución de alguna de tus compras, debajo de esta sección contamos con el apartado Compra Gamer te ayuda. ¿Cuál es tu consulta? donde debes exponer tu caso, seleccionando el motivo de 'Postventa' que se adapte a tu requerimiento y uno de nuestros representantes te ofrecerá la información correspondiente sobre cómo proceder"} nombreBoton={"Consultar"}/>
      
-     <div className='container-formulario-ayuda'>
-     <div className='titulo-formulario-ayuda'>
-     <h1>Compra Gamer te ayuda. ¿Cuál es tu consulta?</h1>
-     </div>
-     <div className='input-ayuda'>
-     <InputAyuda />
-     </div>
-     <div className='inputText-ayuda'>
-     <div className='container-inputText'>
-     <input type='text' placeholder='Escribe tu pregunta' id='inputQuestion'></input>
-     </div>
-     </div>
-     <div className='boton-formularioAyuda'>
-     <BotonDetelle text={"Enviar Consulta"} />
-     </div>
-     </div>
+   
      
 
     </div>
  
+    </div>
     </div>
   )
 }

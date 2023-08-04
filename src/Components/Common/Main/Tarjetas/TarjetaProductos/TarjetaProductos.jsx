@@ -21,7 +21,7 @@ const TarjetaProductos = ({product}) => {
   <div className="front-content">
     <img className='image-animada' src={product.img}></img>
     <div className='front-content-price'>
-      <h1 className='titulo-tarjeta-productos'>{mostrarPrecioConFormato(product.precio)}</h1>
+      <h1 className='titulo-tarjeta-productos'>${mostrarPrecioConFormato(product.precio)}</h1>
       <h1 className='front-content-dcto'>{product.dcto}</h1>
     </div>
     <h2 className='front-content-envio'>{product.envio}</h2>
