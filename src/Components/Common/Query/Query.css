@@ -83,6 +83,7 @@
   .image-categorias{
     margin-top: 50px;
     width: 800px;
+  
   }                                   
   .image-tarjeta-productos{             
    width:140px ;
@@ -95,6 +96,11 @@
 .container-tarjetaSectionProductos{
     max-height:220px;
     width: 520px;
+    display: flex;
+    gap: 50px;
+}
+.container-botonDetalle{
+  width: 200px;
 }
   /*--------------------- FINAL SECTION CATEGORIAS--------------------------------------------- */
     /*---------------------   SECTION AYUDA--------------------------------------------- */
@@ -248,6 +254,7 @@ gap: 2px;
              .logo-empresas{
                 width: 100px;
              }
+            
                              /*---COMPONENTE TARJETA CATEGORIAS--- */ 
              .container-tarjetas-categorias{
                flex-direction: column;
@@ -256,11 +263,14 @@ gap: 2px;
              .container-tarjetaSectionProductos{
               max-height:220px;
               width: 520px;
+              gap: 10px;
           }
           .image-categorias{
             margin-top: 50px;
             width: 520px;
           }  
+     
+       
           
                   /*---COMPONENTE TARJETA DETALLE--- */ 
                   .container-tarjetaDetalle{
@@ -494,7 +504,7 @@ gap: 2px;
                   justify-content: space-around;
                   width: 100%;              
                }
-               .container-info{
+               .container-info-categoria{
                 margin-left: 50px;
                }
                .container-botonDetalle{
@@ -605,9 +615,8 @@ gap: 2px;
                   width: 380px;
                  }
             
-                 .container-info{
+                 .container-info-detalle{
                   width: 100%;            /*---COMPONENTE TARJETA DETALLE INFO--- */ 
-
                   margin-left: 5px; 
               }
               .container-agregandoProductoCarrito{

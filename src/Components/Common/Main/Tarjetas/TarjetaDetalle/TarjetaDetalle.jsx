@@ -82,7 +82,7 @@ const TarjetaDetalle = ({producto, onAdd, totalProductosId}) => {
       </div>
       </div>
     <div className='container-info-tarjetaDetalle'>
-    <div className='container-info'>
+    <div className='container-info-detalle'>
     <>
     
     {Object.keys(dataa).length > 0 
