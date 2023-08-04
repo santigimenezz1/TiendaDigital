@@ -45,13 +45,10 @@ console.log(producto.cantidad)
       })   
     },[id])
 
-     const cuotas = producto.precio / 6
+     const cuotas = Math.round(producto.precio / 6)
    console.log(id)
    const totalQuantity = getQuantityById(id);
    console.log(totalQuantity);
-
-   
-
    const mostrarPrecioConFormato = (precio) => {  //FUNCION PARA PONERLE EL PUNTO A LOS PRECIOS 
     return precio.toLocaleString("es-ES");
   };
@@ -95,7 +92,7 @@ console.log(producto.cantidad)
       ?
       <>
       <h1 className='titulo-tarjetaDetalle'>{dataa.nombre}</h1>
-      <h2 className='price'>  {mostrarPrecioConFormato(producto.precio)}</h2>
+      <h2 className='price'>  ${mostrarPrecioConFormato(producto.precio)}</h2>
       </>
       :
       <>

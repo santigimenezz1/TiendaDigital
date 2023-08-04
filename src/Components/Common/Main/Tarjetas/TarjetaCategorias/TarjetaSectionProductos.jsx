@@ -9,7 +9,9 @@ import { ToastContainer, toast } from 'react-toastify'
 const TarjetaSectionProductos = ({producto}) => {
   const {addToCart,calcularFinal} = useContext(CartContext)
 
-
+  const mostrarPrecioConFormato = (precio) => {  //FUNCION PARA PONERLE EL PUNTO A LOS PRECIOS 
+    return precio.toLocaleString("es-ES");
+  };
  
 
   const onAdd = (cantidad=1)=>{
@@ -36,7 +38,7 @@ const TarjetaSectionProductos = ({producto}) => {
     <div className='container-info'>
     <Link to={`/Detalle/${producto.id}`} className='text-tarjetaProductos'>
    {producto.nombre}</Link>
-    <h2 className='price-tarjetaProductos'>{producto.precio}</h2>
+    <h2 className='price-tarjetaProductos'> ${mostrarPrecioConFormato(producto.precio)}</h2>
     {
       producto.stock !== 0 ?
       <div onClick={()=>onAdd()}>

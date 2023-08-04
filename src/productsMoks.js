@@ -44,7 +44,7 @@ export let products = [
                     Resolución:"Resolución de la Pantalla 1366 x 768",
                     Memoria: "Memoria Total del Sistema Instalada 8GB",
                     TecnologíaMemoria: "Tecnología de memoria del sistema DDR4 SDRAM"
-                }
+                }   
             },
             {
                 nombre: "Notebook Lenovo ThinkPad E14 FHD 14 Ryzen 7 5700U 8GB 256GB SSD NVMe Freedos",
@@ -66,12 +66,12 @@ export let products = [
                     Resolución:"Resolución de la Pantalla 1366 x 768",
                     Memoria: "Memoria Total del Sistema Instalada 8GB",
                     TecnologíaMemoria: "Tecnología de memoria del sistema DDR4 SDRAM"
-                }
+                }   
                 
             },
             {
                 nombre: "Notebook Gamer Asus ROG Zephyrus G14 QHD 14 Ryzen 7 4800HS 16GB (2x8GB) 512GB SSD NVMe GTX 1650 W10 120Hz",
-                precio: 633.610,
+                precio: 633610,
                 dcto:"14 % OFF",
                 envio:"Envio gratis",
                 stock: 4,
@@ -89,11 +89,11 @@ export let products = [
                     Resolución:"Resolución de la Pantalla 1366 x 768",
                     Memoria: "Memoria Total del Sistema Instalada 8GB",
                     TecnologíaMemoria: "Tecnología de memoria del sistema DDR4 SDRAM"
-                }
+                }   
             },
             {
                 nombre: "Notebook Lenovo ThinkPad E14 Gen2 FHD 14 Core I5 1135G7 8GB 256GB SSD NVMe Freedos",
-                precio:  694.900,
+                precio:  694900,
                 dcto:"14 % OFF",
                 envio:"Envio gratis",
                 stock: 4,
@@ -111,11 +111,11 @@ export let products = [
                     Resolución:"Resolución de la Pantalla 1366 x 768",
                     Memoria: "Memoria Total del Sistema Instalada 8GB",
                     TecnologíaMemoria: "Tecnología de memoria del sistema DDR4 SDRAM"
-                }
+                }   
             },
             {
                 nombre: "Notebook Asus X515EA 15.6 FHD Core I5 1135G7 8GB 256GB SSD NVMe W11 Home* ",
-                precio: 359.990,
+                precio: 359990,
                 dcto:"14 % OFF",
                 envio:"Envio gratis",
                 stock: 4,
@@ -132,11 +132,11 @@ export let products = [
                     Resolución:"Resolución de la Pantalla 1366 x 768",
                     Memoria: "Memoria Total del Sistema Instalada 8GB",
                     TecnologíaMemoria: "Tecnología de memoria del sistema DDR4 SDRAM"
-                }    
+                }     
              },
             {
                 nombre: "Notebook Lenovo Legion 5 15ACH6H 15.6 Ryzen 5 5600H 16GB 512GB SSD NVMe RTX 3060 165Hz W11",
-                precio: 868.450,
+                precio: 868450,
                 dcto:"14 % OFF",
                 envio:"Envio gratis",
                 stock: 4,
@@ -153,11 +153,11 @@ export let products = [
                     Resolución:"Resolución de la Pantalla 1366 x 768",
                     Memoria: "Memoria Total del Sistema Instalada 8GB",
                     TecnologíaMemoria: "Tecnología de memoria del sistema DDR4 SDRAM"
-                }
+                }   
             },
             {
                 nombre: "Notebook Asus Vivobook K3500P FHD OLED 15.6 Core I7 11370H 8GB 512GB SSD NVMe W11 Silver",
-                precio: 595.620,
+                precio: 595620,
                 dcto:"14% OFF",
                 envio:"Envio gratis",
                 stock: 4,
@@ -174,7 +174,7 @@ export let products = [
                     Resolución:"Resolución de la Pantalla 1366 x 768",
                     Memoria: "Memoria Total del Sistema Instalada 8GB",
                     TecnologíaMemoria: "Tecnología de memoria del sistema DDR4 SDRAM"
-                }
+                }   
             },
             {
                 nombre: "Notebook Asus Vivobook M3500 OLED FHD 15.6 Ryzen 5 5600H 8GB 512GB SSD NVMe W11 Home",
@@ -195,7 +195,7 @@ export let products = [
                     Resolución:"Resolución de la Pantalla 1366 x 768",
                     Memoria: "Memoria Total del Sistema Instalada 8GB",
                     TecnologíaMemoria: "Tecnología de memoria del sistema DDR4 SDRAM"
-                }
+                }   
             },
             {
                 nombre: "Notebook Gamer Thunderobot 911 AIR FHD 15.6 Core I7 12700H 16GB 512GB SSD NVMe RTX 3050 W11 Pro 144Hz",
@@ -216,7 +216,7 @@ export let products = [
                     Resolución:"Resolución de la Pantalla 1366 x 768",
                     Memoria: "Memoria Total del Sistema Instalada 8GB",
                     TecnologíaMemoria: "Tecnología de memoria del sistema DDR4 SDRAM"
-                }
+                }   
             },
         
         
@@ -458,7 +458,7 @@ export let products = [
                      },
                     {
                         nombre: "Mother Asrock B450M/AC AM4 R2.0",
-                        precio:68.500,
+                        precio:68500,
                         dcto:"14 % OFF",
                         envio:"Envio gratis",
                         stock: 4,
@@ -479,7 +479,7 @@ export let products = [
                     },
                     {
                         nombre: "Mother Gigabyte A520M-K V2 DDR4 AM4",
-                        precio:  69.299,
+                        precio:  69299,
                         dcto:"14 % OFF",
                         envio:"Envio gratis",
                         stock: 4,
@@ -674,7 +674,7 @@ export let products = [
                      },
                     {
                         nombre: "Placa de Video ASUS GeForce GTX 1650 4GB GDDR6 TUF GAMING",
-                        precio:202.000,
+                        precio:202000,
                         dcto:"14 % OFF",
                         envio:"Envio gratis",
                         stock: 4,
@@ -868,7 +868,7 @@ export let products = [
                     //MEMORIAS RAM
                     {
                         nombre: "Memoria Adata DDR4 16GB (2x8GB) 4133MHz XPG Spectrix D60G RGB",
-                        precio:  149050,
+                        precio:  14500,
                         dcto:"14 % OFF",
                         envio:"Envio gratis",
                         stock: 4,
@@ -889,7 +889,7 @@ export let products = [
                      },
                     {
                         nombre: "Memoria Corsair DDR4 16GB 2400Mhz Vengeance LPX",
-                        precio:202000,
+                        precio:45000,
                         dcto:"14 % OFF",
                         envio:"Envio gratis",
                         stock: 4,
@@ -910,7 +910,7 @@ export let products = [
                     },
                     {
                         nombre: "Memoria Corsair DDR4 8GB 2666Mhz Vengeance LPX Black",
-                        precio:  213500,
+                        precio:  21000,
                         dcto:"14 % OFF",
                         envio:"Envio gratis",
                         stock: 4,
@@ -932,7 +932,7 @@ export let products = [
                     },
                     {
                         nombre: "Memoria Corsair DDR4 4GB 2666Mhz Value 2",
-                        precio:  351000,
+                        precio:  35000,
                         dcto:"14 % OFF",
                         envio:"Envio gratis",
                         stock: 4,
@@ -953,7 +953,7 @@ export let products = [
                     },
                     {
                         nombre: "Memoria Team DDR4 8GB 2666MHz T-Force Vulcan Z Gray ",
-                        precio: 299550,
+                        precio: 29550,
                         dcto:"14 % OFF",
                         envio:"Envio gratis",
                         stock: 4,
@@ -974,7 +974,7 @@ export let products = [
                     },
                     {
                         nombre: "Memoria Corsair DDR4 16GB (2x8GB) 2666MHz Vengeance RGB PRO Black ",
-                        precio:  400700,
+                        precio:  40700,
                         dcto:"14 % OFF",
                         envio:"Envio gratis",
                         stock: 4,
@@ -995,7 +995,7 @@ export let products = [
                      },
                     {
                         nombre: "Memoria GeiL DDR4 16GB (2x8GB) 3000MHz EVO SPEAR Phantom Gaming Edition",
-                        precio:  506000,
+                        precio:  45500,
                         dcto:"14 % OFF",
                         envio:"Envio gratis",
                         stock: 4,
@@ -1016,7 +1016,7 @@ export let products = [
                     },
                     {
                         nombre: "Memoria Patriot Viper DDR4 8GB 3200MHz Steel",
-                        precio: 584750,
+                        precio: 58750,
                         dcto:"14% OFF",
                         envio:"Envio gratis",
                         stock: 4,
@@ -1037,7 +1037,7 @@ export let products = [
                     },
                     {
                         nombre: "Memoria GeiL DDR4 16GB 3000MHz Orion Red",
-                        precio: 590500,
+                        precio: 59500,
                         dcto:"14 % OFF",
                         envio:"Envio gratis",
                         stock: 4,
@@ -1058,7 +1058,7 @@ export let products = [
                     },
                     {
                         nombre: "Memoria Corsair DDR4 16GB (2x8GB) 3200MHz Vengeance RGB PRO TUF Gaming",
-                        precio: 149850,
+                        precio: 28850,
                         dcto:"14 % OFF",
                         envio:"Envio gratis",
                         stock: 4,
@@ -1084,7 +1084,7 @@ export let products = [
                         //ALMACENAMIENTO
                         {
                             nombre: "Disco Sólido SSD M.2 ADATA 1TB XPG Spectrix S40G RGB 3500MB/s NVMe PCI-E X4",
-                            precio:  149050,
+                            precio:  14050,
                             dcto:"14 % OFF",
                             envio:"Envio gratis",
                             stock: 4,
@@ -1104,7 +1104,7 @@ export let products = [
                          },
                         {
                             nombre: "Disco Solido SSD Team 512GB GX2 530MB/s",
-                            precio:202000,
+                            precio:20000,
                             dcto:"14 % OFF",
                             envio:"Envio gratis",
                             stock: 4,
@@ -1124,7 +1124,7 @@ export let products = [
                         },
                         {
                             nombre: "Disco Sólido SSD Kingston 240GB A400 500MB/s",
-                            precio:  213500,
+                            precio:  21500,
                             dcto:"14 % OFF",
                             envio:"Envio gratis",
                             stock: 4,
@@ -1145,7 +1145,7 @@ export let products = [
                         },
                         {
                             nombre: "Disco Sólido SSD Kingston 480GB A400 500MB/s",
-                            precio:  351000,
+                            precio:  35000,
                             dcto:"14 % OFF",
                             envio:"Envio gratis",
                             stock: 4,
@@ -1165,7 +1165,7 @@ export let products = [
                         },
                         {
                             nombre: "Disco Sólido SSD M.2 ADATA 500GB XPG Spectrix S20G RGB 2500MB/s NVMe PCI-E Gen3 X4",
-                            precio:  299550,
+                            precio:  29550,
                             dcto:"14 % OFF",
                             envio:"Envio gratis",
                             stock: 4,
@@ -1185,7 +1185,7 @@ export let products = [
                         },
                         {
                             nombre: "Disco Solido SSD M.2 WD 240GB Green SN350 2400MB/s NVMe PCI-Express x4",
-                            precio:  400700,
+                            precio:  40700,
                             dcto:"14 % OFF",
                             envio:"Envio gratis",
                             stock: 4,
@@ -1205,7 +1205,7 @@ export let products = [
                          },
                         {
                             nombre: "Disco Solido SSD M.2 Crucial 1TB P3 3500MB/s NVMe PCI-E Gen3 x4",
-                            precio:  506000,
+                            precio:  50000,
                             dcto:"14 % OFF",
                             envio:"Envio gratis",
                             stock: 4,
@@ -1225,7 +1225,7 @@ export let products = [
                         },
                         {
                             nombre: "Disco Solido SSD M.2 Crucial 500GB P3 3500MB/s NVMe PCI-E x4",
-                            precio: 584.50,
+                            precio: 58450,
                             dcto:"14% OFF",
                             envio:"Envio gratis",
                             stock: 4,
@@ -1245,7 +1245,7 @@ export let products = [
                         },
                         {
                             nombre: "Disco Solido SSD M.2 Crucial 1TB P5 PLUS 6600MB/s NVMe PCI-E x4",
-                            precio: 590500,
+                            precio: 59500,
                             dcto:"14 % OFF",
                             envio:"Envio gratis",
                             stock: 4,
@@ -1265,7 +1265,7 @@ export let products = [
                         },
                         {
                             nombre: "Disco Solido SSD M.2 ADATA 256GB Legend 710 2400MB/s NVMe PCIe Gen3 x4",
-                            precio: 149850,
+                            precio: 14850,
                             dcto:"14 % OFF",
                             envio:"Envio gratis",
                             stock: 4,
@@ -1610,7 +1610,7 @@ export let products = [
                         },
                         {
                             nombre: "Gabinete Lian Li O11 Dynamic XL ROG Certify White ARGB",
-                            precio:  141000,
+                            precio:  140000,
                             dcto:"14 % OFF",
                             envio:"Envio gratis",
                             stock: 4,
@@ -2104,7 +2104,7 @@ export let products = [
                          },
                         {
                             nombre: "Monitor Gamer LG 27 27GL650F 144hz IPS FHD GSync FreeSync",
-                            precio:  171200,
+                            precio:  170500,
                             dcto:"14 % OFF",
                             envio:"Envio gratis",
                             stock: 4,

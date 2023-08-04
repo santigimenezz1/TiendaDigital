@@ -48,7 +48,7 @@ export default function SelectorPago({total}) {
        </div>
        <div className='container-precioFinal'>
        <h2 className='total'>Total:</h2>
-       <h2 className='precioFinal'>{total}</h2>
+       <h2 className='precioFinal'>${total}</h2>
        </div>
        
      </div>
