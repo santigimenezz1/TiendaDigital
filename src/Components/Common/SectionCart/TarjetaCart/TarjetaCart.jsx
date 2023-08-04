@@ -38,12 +38,16 @@ const TarjetaCart =  ( {producto} )=>{
 
     return (
         <div className="container-terminarCompra">
+        
         <div className="container-tituloImage">
         <span className="span"></span>
         <Link onClick={()=>mostarContador()} to={`/Detalle/${producto.id}`}>
         <img className="terminarCompra-image" src={producto.img}></img>
         </Link>
         <h1 className="terminarCompra-title">{producto.nombre}</h1>
+        <div className="cart-mobile" onClick={()=>deleteCart(producto.id)}>
+        <DeleteForeverIcon fontSize="small"  className="icon-trash" />
+        </div>
         </div>
 
          <div className="container-contador">

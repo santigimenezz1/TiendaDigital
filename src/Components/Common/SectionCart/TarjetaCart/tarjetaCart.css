@@ -51,3 +51,6 @@
    .terminarCompra-title{
     color: #333333d0;
    }
+   .cart-mobile{
+    display: none;
+   }
