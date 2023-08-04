@@ -352,6 +352,20 @@ gap: 2px;
                 .container-tituloImage{
                   gap: 10px;
                 }
+                .container-logoSelector{
+                  flex-direction: column;
+                  gap: 2px;
+                }
+                .span-selector{
+                  display: none;
+                }
+                .total{
+                  font-size: 25px;
+                }
+                .precioFinal{
+                  font-size: 30px;
+                }
+
                 .tituloTarjetaProductos{
                   text-align: center;
                   font-size: 17px;
@@ -579,8 +593,7 @@ gap: 2px;
                   align-items: center;
                   margin-left: 25px;
                 }
-              
-              
+            
               
               }                   
         

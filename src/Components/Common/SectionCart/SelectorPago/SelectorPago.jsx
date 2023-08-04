@@ -42,7 +42,7 @@ export default function SelectorPago({total}) {
        <span className="span-selector"></span>
        <Logo/>
        <div className='container-selector-Selector'>
-       <MyFormControlLabel  value="first" label="Deposito o Transferencia Bancaria" control={<Radio />} />
+       <MyFormControlLabel   value="first" label="Deposito o Transferencia Bancaria" control={<Radio />} />
        <MyFormControlLabel value="second" label="Mercadopago - Tarjetas Online, PagoFacil, RapiPago" control={<Radio />} />
        </div>
        </div>
