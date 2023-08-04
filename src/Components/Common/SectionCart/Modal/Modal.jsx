@@ -44,7 +44,7 @@ export default function TransitionsModal({clearCart, cart}) {
     </Link>
     {
 
-     cart.length > 1 &&<Button style={{color:"black"}} onClick={handleOpen}>Borrar carrito</Button> 
+     cart.length > 1 &&<button style={{color:"white",padding:"10px",borderRadius:"4px",backgroundColor:"#fd611a", border:"none", cursor:"pointer", }} onClick={handleOpen}>Borrar carrito</button> 
     }
     </div>
       <Modal

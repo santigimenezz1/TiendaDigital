@@ -303,15 +303,34 @@ gap: 2px;
 
                          /*---COMPONENTE TARJETA CART---   */ 
                 .container-terminarCompra{
-                  border: 1px solid red;
-                  height: 400px;
-                  width: 500px;   
+                  height: auto;
+                  width: 450px;   
                   flex-direction: column;
-                           
+                  gap: 0px;
+                  justify-content: start;   
                 }
-                .container-tituloImage{
-                  border: 1px solid blue;
+                .container-general-cart{
+                  display: flex;
                   flex-direction: column;
+                  justify-content: center;
+                  align-items: center;
+                }
+                .container-agregandoProductoCarrito{
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  align-items: end;
+                  gap: 0px;
+                  margin-top: 10px;
+              }
+              .precio-tarjetaCart{
+                font-size: 30px;
+              }
+                .container-tituloImage{
+                  flex-direction: row;
+                  justify-content: space-around;
+                  width: 100%;
+                  
                 }
                 .container-tituloImage span{
                   display: none;
@@ -322,13 +341,13 @@ gap: 2px;
                   display: none;
                 }
                 .terminarCompra-title{
-                  font-size: 20px;
+                  font-size: 15px;
                   text-align: center;
                 }
                 .terminarCompra-image{
-                  width: 200px;
-                  border: 1px solid red;
-                  height: 150px;
+                  width: 100px;
+                  height: auto;
+                  margin-right: 25px;
                 }
                 .container-tituloImage{
                   gap: 10px;
@@ -505,7 +524,64 @@ gap: 2px;
               .subtitulo-ayuda{
                 font-size: 12px;
               }
-            
+                /*---COMPONENTE TARJETA CART---   */ 
+
+                .container-agregandoProductoCarrito{
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  align-items: end;
+                  gap: 0px;
+                  margin-top: 10px;
+                  
+              }
+              .precio-tarjetaCart{
+                font-size: 25px;
+              }
+              .container-terminarCompra{
+                width: 380px;
+              }
+                .container-tituloImage{
+                  flex-direction: row;
+                  justify-content: center;
+                  width: 100%;
+                  
+                }
+                .container-tituloImage span{
+                  display: none;
+                  gap: 0px;
+                  
+                }
+                .icon-delete{
+                  display: none;
+                }
+                .terminarCompra-title{
+                  font-size: 12px;
+                  text-align: center;
+                }
+                .terminarCompra-image{
+                  width: 80px;
+                  height: auto;
+                  margin-right: 25px;
+                }
+                .container-tituloImage{
+                  gap: 10px;
+                }
+                .titulo-retroceso{
+                  font-size: 17px;
+                }
+                .container-modalLef{
+                  margin-right: 5px;
+                }
+                .container-retroceso-borrar{
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  margin-left: 25px;
+                }
+              
+              
+              
               }                   
         
             

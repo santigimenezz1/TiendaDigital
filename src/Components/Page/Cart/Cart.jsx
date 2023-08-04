@@ -16,10 +16,10 @@ const Cart = () => {
   let total = calcularFinal()
 
   return (
-    <>
+    <div className="container-general-cart">
     <div className="container-retroceso" >
     <h1 className="titulo-retroceso">Carrito de compras</h1>
-    <div>
+    <div className="container-retroceso-borrar">
     <TransitionsModal clearCart={clearCart}   cart={cart}/>
     </div>
     </div>
@@ -51,7 +51,7 @@ const Cart = () => {
 
       </div>
     }
-    </>
+    </div>
 
 
   )

@@ -48,7 +48,7 @@ const TarjetaCart =  ( {producto} )=>{
 
          <div className="container-contador">
          <ContadorUnidades stock={producto.stock} initial={1} agregarUnidad={agregarUnidad} quitarUnidad={quitarUnidad} />
-         <h2>${mostrarPrecioConFormato(producto.precio, producto.cantidad)}</h2>
+         <h2 className="precio-tarjetaCart">${mostrarPrecioConFormato(producto.precio, producto.cantidad)}</h2>
          <div className="icon-delete" onClick={()=>deleteCart(producto.id)}>
          <DeleteForeverIcon  className="icon-trash" />
          </div>
