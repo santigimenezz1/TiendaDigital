@@ -6,6 +6,7 @@ export let products = [
                 nombre: "Notebook Gamer Acer Nitro 5 15.6 FHD Core i5 11400H 8GB 256GB SSD NVMe GTX 1650 W11 Home ",
                 precio: 500000,
                 dcto:"14 % OFF",
+                cantidad:1,
                 envio:"Envio gratis",
                 stock: 4,
                 descripcion: "Estas son las mejores zapatillas",

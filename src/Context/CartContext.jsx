@@ -50,7 +50,7 @@ import { createContext, useState } from "react"
      let producto = cart.find((elemento)=>elemento.id === id )
      return producto ? producto.cantidad : undefined
      }
-    
+     
      const getQuantityById = (id)=>{   //find devuelve el primer elemento que cumpla con la condicion 
       const product = cart.find( (elemento)=> elemento.id === id)
       return product?.quantity

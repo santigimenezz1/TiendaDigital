@@ -4,6 +4,7 @@ import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
 import ContadorUnidades from "../ContadorUnidades/ContadorUnidades";
 import { CartContext } from "../../../../Context/CartContext";
 import { Link } from "react-router-dom";
+import ContadorDinamico from "../ContadorDinamico/ContadorDinamico";
 
 const TarjetaCart =  ( {producto} )=>{
     const {deleteCart, cart, setCart, mostarContador  } = useContext(CartContext)
@@ -34,10 +35,8 @@ const TarjetaCart =  ( {producto} )=>{
     }
 
 
-
     return (
         <div className="container-terminarCompra">
-        
         <div className="container-tituloImage">
         <span className="span"></span>
         <Link onClick={()=>mostarContador()} to={`/Detalle/${producto.id}`}>
@@ -50,7 +49,7 @@ const TarjetaCart =  ( {producto} )=>{
         </div>
 
          <div className="container-contador">
-         <ContadorUnidades stock={producto.stock} initial={1} agregarUnidad={agregarUnidad} quitarUnidad={quitarUnidad} />
+         <ContadorUnidades stock={producto.stock} initial={producto.cantidad} agregarUnidad={agregarUnidad} quitarUnidad={quitarUnidad} />
          <h2 className="precio-tarjetaCart">${mostrarPrecioConFormato(producto.precio, producto.cantidad)}</h2>
          <div className="icon-delete" onClick={()=>deleteCart(producto.id)}>
          <DeleteForeverIcon  className="icon-trash" />

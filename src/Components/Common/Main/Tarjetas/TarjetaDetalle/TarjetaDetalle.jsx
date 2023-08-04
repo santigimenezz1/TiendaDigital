@@ -11,7 +11,7 @@ const TarjetaDetalle = ({producto, onAdd, totalProductosId}) => {
     const [carrusel, setCarrusel] = useState(true)
     const [data, setData] = useState([])
     const {categoria} = useParams()
-    const{getQuantityById}= useContext(CartContext)
+    const{cart, getQuantityById}= useContext(CartContext)
 
    
                            //FILTRADO POR CATEGORIA
@@ -51,6 +51,36 @@ const TarjetaDetalle = ({producto, onAdd, totalProductosId}) => {
   };
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
   return (
     <div className='container-tarjetaDetalle'>
     <div className='container-imagenes-tarjetaDetalle'>  
@@ -128,23 +158,18 @@ const TarjetaDetalle = ({producto, onAdd, totalProductosId}) => {
       <Skeleton  variant="text" sx={{ fontSize: "1.3rem", marginRight:"50px"}} width={550} height={30}  />
       <Skeleton  variant="text" sx={{ fontSize: "1.3rem", marginRight:"50px"}} width={550} height={30}  />
       </>
-
-
     )}
   </>
     </div>
     <div>
-
-
     <div className='container-caracteristicasBotones'>
     <div>
     </div>
    
      <div className='contadorBoton'>
      
-     <h1>{producto.cantidad}</h1>
      {
-      producto.stock === 0 ?<h1 className='titulo-sinStock'>Sin stock</h1> :<ContadorUnidades initial={1}   stock={producto.stock} onAdd={onAdd} totalProductosId={totalProductosId}/>
+      producto.stock === 0 ?<h1 className='titulo-sinStock'>Sin stock</h1> :<ContadorUnidades initial={1}   stock={producto.stock} onAdd={onAdd} totalProductosId={totalProductosId} producto={producto}/>
 
      }
      </div>

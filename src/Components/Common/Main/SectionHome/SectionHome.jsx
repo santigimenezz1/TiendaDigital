@@ -45,7 +45,7 @@ const SectionHome = () => {
 
 
   return (
-    <div>
+    <div style={{overflow:"hidden"}}>
     <Carrusel />
     <FormaDePago />
     

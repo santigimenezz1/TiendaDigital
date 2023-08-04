@@ -40,6 +40,10 @@
   .tarjetaOfertaFlex{
     flex-direction: column;
   }
+  .container-TarjetaOfertas{
+    gap: 15px;
+    padding: 40px;
+  }
 
   /*---COMPONENTE IMAGENES GRID--- */ 
 
@@ -77,6 +81,9 @@
 
   .displayLogo{
     display: flex;                      /*---COMPONENTE LOGO EMPRESAS--- */ 
+  }
+  .logo-empresas{
+    width: 75px;
   }
 
   /*---------------------   SECTION CATEGORIAS--------------------------------------------- */
@@ -230,7 +237,9 @@ gap: 2px;
                                   /*---COMPONENTE TARJETA OFERTAS--- */ 
             .container-TarjetaOfertas{
                 width: auto;
-                height: 250px;               
+                height: 250px;   
+                padding:0px;
+                
               }
               .tarjetaOfertaFlex{
                 flex-direction: column;
@@ -625,6 +634,9 @@ gap: 2px;
                 align-items: center;
               }
               
+              }
+              @media(max-width:460px){
+
               }                   
         
             

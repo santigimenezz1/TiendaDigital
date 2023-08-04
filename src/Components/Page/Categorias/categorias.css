@@ -6,6 +6,7 @@
     margin: 10px;
     gap: 20px;
     padding: 10px 70px;
+    overflow-x: hidden;
 }
 .container-tarjetas-categorias{
     display: flex;
