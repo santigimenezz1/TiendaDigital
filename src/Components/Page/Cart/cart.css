@@ -1,9 +1,10 @@
+
+
 .container-sinProductos{
     display: flex;
     flex-direction: column;
     gap: 18px;
     height: 100vh;
-    overflow-x: hidden;
    
 }
 .titulo-sinProducto{
