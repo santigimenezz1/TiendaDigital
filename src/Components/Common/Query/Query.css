@@ -608,7 +608,7 @@ gap: 2px;
                  .container-info{
                   width: 100%;            /*---COMPONENTE TARJETA DETALLE INFO--- */ 
 
-                  margin-left: 20px; 
+                  margin-left: 5px; 
               }
               .container-agregandoProductoCarrito{
                 display: flex;
