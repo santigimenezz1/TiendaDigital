@@ -1,4 +1,6 @@
-
+.container-general-cart{
+    overflow-x: hidden;
+}
 
 .container-sinProductos{
     display: flex;
