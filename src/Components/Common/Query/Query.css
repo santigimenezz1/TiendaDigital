@@ -365,7 +365,9 @@ gap: 2px;
                 .precioFinal{
                   font-size: 30px;
                 }
-
+                .img.logo{
+                  width: 50px;
+                }
                 .tituloTarjetaProductos{
                   text-align: center;
                   font-size: 17px;
