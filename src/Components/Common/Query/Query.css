@@ -372,7 +372,7 @@ gap: 2px;
                   display: none;
                  }
                  .container-selector{
-                  width: 380px;
+                  width: 450px;
                  }
                 .tituloTarjetaProductos{
                   text-align: center;
@@ -601,6 +601,9 @@ gap: 2px;
                   align-items: center;
                   margin-left: 25px;
                 }
+                .container-selector{
+                  width: 380px;
+                 }
             
               
               }                   
