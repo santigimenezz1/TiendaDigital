@@ -368,6 +368,12 @@ gap: 2px;
                 .img.logo{
                   width: 50px;
                 }
+               .container-general-tarjetaCupon{
+                  display: none;
+                 }
+                 .container-selector{
+                  width: 440px;
+                 }
                 .tituloTarjetaProductos{
                   text-align: center;
                   font-size: 17px;
