@@ -100,8 +100,13 @@ export default function ModalFinalizarCompra() {
        }),
        validateOnChange:false,
      })
+
+     const mostrarPrecioConFormato = (precio) => {  //FUNCION PARA PONERLE EL PUNTO A LOS PRECIOS 
+      return precio.toLocaleString("es-ES");
+
+    };
  
-  return (
+   return (
     <div style={{display:"flex", justifyContent:"end", marginRight:"100px", marginBottom:"15px"}}>
       <Button style={{ color:"white", border:"none", borderRadius:"4px", backgroundColor:"chocolate",}}  onClick={handleOpen}>Finalizar compra</Button>
       <Modal
@@ -147,7 +152,7 @@ export default function ModalFinalizarCompra() {
                     <h1 style={{marginTop:"10px"}} className='titulo-pago'>Tu solicitud se ah procesado correctamente</h1>
                     <div className='container-textos-modalTerminar'>
                     <h1 className='subtitulo-pago'>En breve te contactamos via <span style={{color:"#25D366", fontWeight:"700"}}>whatsapp</span> </h1>
-                    <h1 className='total-pago'>Total a pagar ${calcularFinal()}</h1>
+                    <h1 className='total-pago'>Total a pagar ${mostrarPrecioConFormato(calcularFinal())}</h1>
                     <h1 style={{marginBottom:"10px"}} className='seguimiento-pago'>Codigo de seguimiento: <span className='span-seguimiento'>{idCompra}</span> </h1>
 
                     </div>

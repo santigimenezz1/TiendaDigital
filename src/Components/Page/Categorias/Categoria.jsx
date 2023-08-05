@@ -60,8 +60,8 @@ const Categoria = () => {
           <Skeleton  variant="rectangular" width={170} height={170} /> 
           </Box>
           <Box sx={{display:"flex", flexDirection:"column"}}>
-          <Skeleton  variant="text" sx={{ fontSize: "1.3rem", marginRight:"50px"}} width={550} height={30}  />
-          <Skeleton variant="text" sx={{ fontSize: "1.3rem", marginRight:"50px" }} width={550} height={30} />
+          <Skeleton  variant="text" sx={{ fontSize: "1.3rem", marginRight:"50px"}} width={400} height={30}  />
+          <Skeleton variant="text" sx={{ fontSize: "1.3rem", marginRight:"50px" }} width={400} height={30} />
           <Skeleton variant="text" sx={{ fontSize: "1.3rem"}} width={100} height={30} />
           <Box sx={{marginTop:"10px"}}>
           <Skeleton  variant="rounded" width={250} height={40}  /> 

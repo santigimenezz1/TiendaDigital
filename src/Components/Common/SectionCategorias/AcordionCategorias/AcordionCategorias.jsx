@@ -8,7 +8,7 @@ import '../AcordionCategorias/acordionCategorias.css';
 import { Link } from 'react-router-dom';
 
 export default function AcordionCategorias() {
-  const [expanded, setExpanded] = useState(true);
+  const [expanded, setExpanded] = useState(false);
 
   const handleAccordionChange = () => {
     setExpanded(!expanded);

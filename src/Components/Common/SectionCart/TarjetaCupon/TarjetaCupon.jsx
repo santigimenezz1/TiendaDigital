@@ -1,4 +1,3 @@
-import React from 'react'
 import '../TarjetaCupon/tarjetaCupon.css'
 import Boton from '../../Navbar/Boton/Boton'
 import Logo from '../../Navbar/Logo/Logo'

@@ -17,8 +17,8 @@
   
 }
 .image-pago{
-  width: 250px;
-  height: 250px;
+  width: 220px;
+  height: 220px;
 }
 .container-pagoTerminado{
   display: flex;
@@ -117,8 +117,8 @@
 
 
 .container-image-modal{
-  width: 240px;
-  height: 240px;
+  width: 200px;
+  height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
