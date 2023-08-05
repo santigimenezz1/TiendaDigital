@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from 'react'
+import  { useContext, useEffect, useState } from 'react'
 import '../TarjetaDetalle/tarjetaDetalle.css'
 import ContadorUnidades from '../../../SectionCart/ContadorUnidades/ContadorUnidades'
 import { CartContext } from '../../../../../Context/CartContext'
@@ -45,42 +45,10 @@ const TarjetaDetalle = ({producto, onAdd, totalProductosId}) => {
     },[id])
 
      const cuotas = Math.round(producto.precio / 6)
-   const totalQuantity = getQuantityById(id);
    const mostrarPrecioConFormato = (precio) => {  //FUNCION PARA PONERLE EL PUNTO A LOS PRECIOS 
     return precio.toLocaleString("es-ES");
   };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
+ 
   return (
     <div className='container-tarjetaDetalle'>
     <div className='container-imagenes-tarjetaDetalle'>  

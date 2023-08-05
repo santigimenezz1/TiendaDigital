@@ -5,7 +5,7 @@ import { useContext } from 'react'
 import { CartContext } from '../../../../../Context/CartContext'
 
 const TarjetaProductos = ({product}) => {
-  let arr = [product.caracteristicas]
+  
   const {mostarContador} = useContext(CartContext)
 
   const mostrarPrecioConFormato = (precio) => {  //FUNCION PARA PONERLE EL PUNTO A LOS PRECIOS 
@@ -14,7 +14,7 @@ const TarjetaProductos = ({product}) => {
 
 
   return (
-    <Link onClick={()=>mostarContador()} className='container-tarjeta-link' to={`/Detalle/${product.id}`}>
+    <Link  className='container-tarjeta-link' to={`/Detalle/${product.id}`}>
     
     <div className="card-container">
   <div className="card">
