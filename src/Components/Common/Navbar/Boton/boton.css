@@ -1,33 +1,31 @@
-.container-button{
-    min-width: 150px;
-    max-width: 400px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 7px;
-    color: white;
-    font-size: 18px;
-    background-color: blue;
-    border: none;
-    font-family:sans-serif;
-    transition: all .4s;
-    padding-bottom: 1px;
-    font-weight: 600;
-    text-align: center;
-    border: 3px solid white;
-    padding: 10px;
+.container-button {
+  min-width: 150px;
+  max-width: 400px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7px;
+  color: white;
+  font-size: 18px;
+  background-color: blue;
+  border: none;
+  font-family: sans-serif;
+  transition: all 0.4s;
+  padding-bottom: 1px;
+  font-weight: 600;
+  text-align: center;
+  border: 3px solid white;
+  padding: 10px;
 }
-.container-button:hover{
-    background-color: #d35216;
-    cursor: pointer;
-
+.container-button:hover {
+  background-color: #d35216;
+  cursor: pointer;
 }
 
-.sumarCarrito{
-    background-color: #fd611a;
+.sumarCarrito {
+  background-color: #fd611a;
 }
-.sumarCarrito:hover{
-    background-color: #d35216;
-
+.sumarCarrito:hover {
+  background-color: #d35216;
 }

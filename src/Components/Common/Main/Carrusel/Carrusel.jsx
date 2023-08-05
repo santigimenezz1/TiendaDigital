@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import "../Carrusel/carrusel.css"
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
-import '../../../MediaQuery/mediaQuery.css'
 
 
 const Carrusel = () => {

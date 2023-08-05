@@ -1,649 +1,623 @@
- 
-            /*-RESPOSIVE 900px--*/
+/*-RESPOSIVE 900px--*/
 
- @media (max-width:900px){
-    /*---------------------HEADER--------------------------------------------- */
-        .container-enlaces{
-            display: none;
-        }
-        .query900px{               
-          display: flex;          /*COMPONENTE ENLACES*/
-        }
-        .container-carrusel{
-            margin-top: 58;
-        }
-        .container-carrusel{       /*COMPONENTE CARRUSEL*/
-            margin-top: 48px;
-        }
-    /*---------------------FIN DEL HEADER--------------------------------------------- */ 
-    /*---------------------MAIN--------------------------------------------- */            
-    .container-tarjetaFormaPago{
-       flex-direction: column;
-       gap: 5px;                 
-    }                           /*---COMPONENTE FORMAS DE PAGO--- */       
-    .texto-tarjeta{
-        font-size: 17px;
-    }
-                              /*---COMPONENTE FORMAS DE PAGO--- */     
-    .card-container{
-      width: 350px;
-      height: 350px;
-    }
-    
-    
-  .container-TarjetaOfertas{
+@media (max-width: 900px) {
+  /*---------------------HEADER--------------------------------------------- */
+  .container-enlaces {
+    display: none;
+  }
+  .query900px {
+    display: flex; /*COMPONENTE ENLACES*/
+  }
+  .container-carrusel {
+    margin-top: 58;
+  }
+  .container-carrusel {
+    /*COMPONENTE CARRUSEL*/
+    margin-top: 48px;
+  }
+  /*---------------------FIN DEL HEADER--------------------------------------------- */
+  /*---------------------MAIN--------------------------------------------- */
+  .container-tarjetaFormaPago {
+    flex-direction: column;
+    gap: 5px;
+  } /*---COMPONENTE FORMAS DE PAGO--- */
+  .texto-tarjeta {
+    font-size: 17px;
+  }
+  /*---COMPONENTE FORMAS DE PAGO--- */
+  .card-container {
+    width: 350px;
+    height: 350px;
+  }
+
+  .container-TarjetaOfertas {
     width: auto;
     height: 250px;
-    margin: 10px; 
-                            /*---COMPONENTE TARJETA OFERTAS--- */  
+    margin: 10px;
+    /*---COMPONENTE TARJETA OFERTAS--- */
   }
-  .tarjetaOfertaFlex{
+  .tarjetaOfertaFlex {
     flex-direction: column;
   }
-  .container-TarjetaOfertas{
+  .container-TarjetaOfertas {
     gap: 15px;
     padding: 40px;
   }
 
-  /*---COMPONENTE IMAGENES GRID--- */ 
+  /*---COMPONENTE IMAGENES GRID--- */
 
-  .container-principal-imagenesGrid{
+  .container-principal-imagenesGrid {
     flex-direction: column;
     width: auto;
     gap: 20px;
   }
-  .container-imagenPrincipal{               
+  .container-imagenPrincipal {
     width: 100%;
-    
   }
-  .container-imagenPrincipal img{
+  .container-imagenPrincipal img {
     height: 300px;
     width: 100%;
     padding: 10px;
-                                          
   }
-  .container-cajasFlex{
-       gap: 20px;
-       justify-content: center;
-       width: 100%;
+  .container-cajasFlex {
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
   }
-  .cajasFlex{
+  .cajasFlex {
     width: 220px;
     height: 220px;
   }
-  .displayGrid{
+  .displayGrid {
     display: none;
   }
 
-  .displayMiniSection{
-    display: none;                      /*---COMPONENTE MINI SECTION--- */   
+  .displayMiniSection {
+    display: none; /*---COMPONENTE MINI SECTION--- */
   }
 
-  .displayLogo{
-    display: flex;                      /*---COMPONENTE LOGO EMPRESAS--- */ 
+  .displayLogo {
+    display: flex; /*---COMPONENTE LOGO EMPRESAS--- */
   }
-  .logo-empresas{
+  .logo-empresas {
     width: 75px;
   }
 
   /*---------------------   SECTION CATEGORIAS--------------------------------------------- */
-  .image-categorias{
+  .image-categorias {
     margin-top: 50px;
     width: 800px;
-  
-  }                                   
-  .image-tarjeta-productos{             
-   width:140px ;
-   height:120px ;
   }
-  .text-tarjetaProductos{
+  .image-tarjeta-productos {
+    width: 140px;
+    height: 120px;
+  }
+  .text-tarjetaProductos {
     font-size: 18px;
   }
 
-.container-tarjetaSectionProductos{
-    max-height:220px;
+  .container-tarjetaSectionProductos {
+    max-height: 220px;
     width: 520px;
     display: flex;
     gap: 50px;
-}
-.container-botonDetalle{
-  width: 200px;
-}
+  }
+  .container-botonDetalle {
+    width: 200px;
+  }
   /*--------------------- FINAL SECTION CATEGORIAS--------------------------------------------- */
-    /*---------------------   SECTION AYUDA--------------------------------------------- */
-    .container-ayuda{
-      margin-top: 60px;
-    }
-      /*--------------------- FINAL SECTION CATEGORIAS--------------------------------------------- */
- /*---------------------   SECTION CART--------------------------------------------- */
-    .container-retroceso{
-        margin-top: 60px;
-    }
-    .terminarCompra-title{
-        font-size: 14px;
-    }
-    .container-selector{
-        flex-direction: column;
-    }
-    .container-terminarCompra{
-        flex-direction: row;
-        gap: 15px;
-      }   
-      .container-tituloImage{
-        flex-direction: row;
-      }
-      .container-tarjetaDetalle{
-        margin-top: 50px;
-        align-items: start;
-        gap: 30px;
-    }
-    .image-carrusel{
-        width: 12px;
-    }
-    .image-principal{
-        width: 400px;
-    }
-    .price{
-   font-size: 25px;
-    }
-    .container-info-tarjetaDetalle{
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-    }
-    .container-info{
-        width: 100%;
-    }
-    .titulo-tarjetaDetalle{
-      font-size: 25px;
-    }
-    .container-caracteristicas h1{
-      font-size: 15px;
-    }
-    
-      /*--------------------- FINAL SECTION CART--------------------------------------------- */
-/*---------------------   SECTION DETALLE--------------------------------------------- */
-  
-.container-tarjetaDetalle{
-  margin-top: 45px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
+  /*---------------------   SECTION AYUDA--------------------------------------------- */
+  .container-ayuda {
+    margin-top: 60px;
+  }
+  /*--------------------- FINAL SECTION CATEGORIAS--------------------------------------------- */
+  /*---------------------   SECTION CART--------------------------------------------- */
+  .container-retroceso {
+    margin-top: 60px;
+  }
+  .terminarCompra-title {
+    font-size: 14px;
+  }
+  .container-selector {
+    flex-direction: column;
+  }
+  .container-terminarCompra {
+    flex-direction: row;
+    gap: 15px;
+  }
+  .container-tituloImage {
+    flex-direction: row;
+  }
+  .container-tarjetaDetalle {
+    margin-top: 50px;
+    align-items: start;
+    gap: 30px;
+  }
+  .image-carrusel {
+    width: 12px;
+  }
+  .image-principal {
+    width: 400px;
+  }
+  .price {
+    font-size: 25px;
+  }
+  .container-info-tarjetaDetalle {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .container-info {
+    width: 100%;
+  }
+  .titulo-tarjetaDetalle {
+    font-size: 25px;
+  }
+  .container-caracteristicas h1 {
+    font-size: 15px;
+  }
+
+  /*--------------------- FINAL SECTION CART--------------------------------------------- */
+  /*---------------------   SECTION DETALLE--------------------------------------------- */
+
+  .container-tarjetaDetalle {
+    margin-top: 45px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .image-carrusel {
+    width: 120px;
+  }
+  .image-principal {
+    width: 400px;
+  }
+  .price {
+    font-size: 25px;
+  }
+  .container-info-tarjetaDetalle {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .container-info {
+    width: 100%;
+    padding: 0px;
+  }
+  .titulo-tarjetaDetalle {
+    font-size: 35px;
+  }
+  .container-caracteristicas {
+    margin-top: 5px;
+  }
+  .container-caracteristicas h1 {
+    font-size: 20px;
+  }
+  .container-imagenes-tarjetaDetalle {
+    gap: 2px;
+  }
+
+  .container-ayuda {
+    padding: 30px; /*---SECTION AYUDA--- */
+  }
+  .imagen-404 img {
+    /*---ERROR 404--- */
+    width: 50px;
+  }
 }
-.image-carrusel{
-  width: 120px;
-}
-.image-principal{
-  width: 400px;
-}
-.price{
-font-size: 25px;
-}
-.container-info-tarjetaDetalle{
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-}
-.container-info{
-  width: 100%;
-  padding: 0px;
-}
-.titulo-tarjetaDetalle{
-font-size: 35px;
-}
-.container-caracteristicas{
-margin-top: 5px;
-}
-.container-caracteristicas h1{
-font-size: 20px;
-}
-.container-imagenes-tarjetaDetalle{
-gap: 2px;
+/*---------------------  FINAL SECTION DETALLE--------------------------------------------- */
+
+/*-RESPOSIVE 600px--*/
+
+@media (max-width: 600px) {
+  /*---COMPONENTE FORMAS DE PAGO--- */
+  .container-tarjetaFormaPago {
+    flex-direction: column;
+    gap: 5px;
+  }
+  .texto-tarjeta {
+    font-size: 10px;
+    text-align: center;
+  }
+  .texto-promociones {
+    font-size: 9px;
+    text-align: center;
+  }
+  .container-texto-formaPago {
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    place-items: center;
+  }
+  .container-formaPago {
+    margin: 1px;
+    margin-top: 10px;
+  }
+  /*---COMPONENTE TARJETA OFERTAS--- */
+  .container-TarjetaOfertas {
+    width: auto;
+    height: 250px;
+    padding: 0px;
+  }
+  .tarjetaOfertaFlex {
+    flex-direction: column;
+  }
+  .image {
+    width: 150px;
+  }
+  .titulo-tarjetaOfertas {
+    font-size: 25px;
+  }
+  /*---COMPONENTE IMAGENES GRID--- */
+  .cajasFlex {
+    width: 200px;
+    height: 200px;
+  }
+  /*---COMPONENTE MINI SECTION--- */
+  .cointainer-miniSection {
+    width: 120px;
+    height: 120px;
+  }
+  .logo-empresas {
+    width: 100px;
+  }
+
+  /*---COMPONENTE TARJETA CATEGORIAS--- */
+  .container-tarjetas-categorias {
+    flex-direction: column;
+    width: auto;
+  }
+  .container-tarjetaSectionProductos {
+    max-height: 220px;
+    width: 520px;
+    gap: 10px;
+  }
+  .image-categorias {
+    margin-top: 50px;
+    width: 520px;
+  }
+
+  /*---COMPONENTE TARJETA DETALLE--- */
+  .container-tarjetaDetalle {
+    margin-top: 45px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .image-carrusel {
+    width: 120px;
+  }
+  .image-principal {
+    width: 300px;
+  }
+  .price {
+    font-size: 25px;
+  }
+
+  .container-info {
+    width: 100%;
+    margin-left: 50px;
+  }
+  .titulo-tarjetaDetalle {
+    font-size: 35px;
+  }
+  .container-caracteristicas {
+    margin-top: 5px;
+  }
+  .container-caracteristicas h1 {
+    font-size: 20px;
+  }
+  .container-imagenes-tarjetaDetalle {
+    gap: 2px;
+  }
+
+  /*---COMPONENTE TARJETA CART---   */
+  .container-terminarCompra {
+    height: auto;
+    width: 450px;
+    flex-direction: column;
+    gap: 0px;
+    justify-content: start;
+  }
+  .container-general-cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .container-agregandoProductoCarrito {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    gap: 0px;
+    margin-top: 10px;
+  }
+  .precio-tarjetaCart {
+    font-size: 30px;
+  }
+  .container-tituloImage {
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .container-tituloImage span {
+    display: none;
+    gap: 0px;
+  }
+  .icon-delete {
+    display: none;
+  }
+  .cart-mobile {
+    display: flex;
+  }
+  .terminarCompra-title {
+    font-size: 15px;
+    text-align: center;
+  }
+  .terminarCompra-image {
+    width: 100px;
+    height: auto;
+    margin-right: 25px;
+  }
+  .container-tituloImage {
+    gap: 10px;
+  }
+  .container-logoSelector {
+    flex-direction: column;
+    gap: 2px;
+  }
+  .span-selector {
+    display: none;
+  }
+  .total {
+    font-size: 25px;
+  }
+  .precioFinal {
+    font-size: 30px;
+  }
+  .img.logo {
+    width: 50px;
+  }
+  .container-general-tarjetaCupon {
+    display: none;
+  }
+  .container-selector {
+    width: 450px;
+  }
+  .tituloTarjetaProductos {
+    text-align: center;
+    font-size: 17px;
+  }
+  .container-ayuda {
+    padding: 20px; /*---SECTION AYUDA--- */
+  }
 }
 
-.container-ayuda{    
-  padding: 30px;                   /*---SECTION AYUDA--- */ 
+/*-RESPOSIVE 460px--*/
+@media (max-width: 460px) {
+  /*---COMPONENTE NAVBAR--- */
+  .container-navBar {
+    gap: 15px;
+  }
+  /*---COMPONENTE CARRUSEL--- */
+  .container-carrusel {
+    margin-top: 48px;
+    height: 180px;
+  }
+  .carrusel-image {
+    height: 100%;
+  }
+  .icon-carrusel {
+    font-size: 20px;
+  }
+  /*---COMPONENTE TARJETA FORMAS DE PAGO--- */
+
+  .container-tarjetaFormaPago {
+    flex-direction: row;
+    height: 100%;
+  }
+  .container-texto-formaPago {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .container-formaPago {
+    gap: 5px;
+    height: 50px;
+  }
+  .displayFormaPago {
+    display: none;
+  }
+  /*---COMPONENTE TARJETA OFERTAS--- */
+  .container-TarjetaOfertas {
+    width: auto;
+    height: 200px;
+    gap: 5px;
+  }
+
+  .image {
+    width: 130px;
+  }
+  .titulo-tarjetaOfertas {
+    font-size: 15px;
+  }
+  .boton-tarjetaIOfertas {
+    height: 50px;
+  }
+  /*---COMPONENTE IMAGENES GRID--- */
+  .pruebaa {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container-imagenPrincipal {
+    width: 420px;
+    height: 350px;
+  }
+  .container-imagenPrincipal img {
+    height: 240px;
+    width: 100%;
+  }
+  .cajasFlex {
+    width: 125px;
+    height: 125px;
+  }
+
+  .titulo-imagenPrincipal {
+    font-size: 25px;
+  }
+  /*---COMPONENTE MINI SECTION--- */
+  .cointainer-miniSection {
+    width: 130px;
+    height: 130px;
+  }
+  .titulo-miniSection {
+    font-size: 15px;
+  }
+  .miniSectionFlex {
+    padding: 0px;
+  }
+
+  /*---COMPONENTE LOGO EMPRESAS--- */
+  .logo-empresas {
+    width: 70px;
+  }
+
+  /*---COMPONENTE TARJETA CATEGORIAS--- */
+  .container-tarjetas-categorias {
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+  }
+  .image-tarjeta-productos {
+    width: 130px;
+  }
+  .container-tarjetaSectionProductos {
+    gap: 25px;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .container-info-categoria {
+    margin-left: 50px;
+  }
+  .container-botonDetalle {
+    font-size: 10px;
+    width: 150px;
+  }
+  .text-tarjetaProductos {
+    font-size: 15px;
+  }
+  .image-categorias {
+    margin-top: 50px;
+    width: 400px;
+  }
+  /*---COMPONENTE MODAL CART--- */
+  .container-general-modal {
+    width: 400px;
+    height: auto;
+    padding: 17px;
+  }
+  .form-finalizarCompra {
+    gap: 10px;
+  }
+  .container-image-modal {
+    width: 180px;
+    height: 180px;
+  }
+
+  .seguimiento-pago {
+    font-size: 15px;
+  }
+
+  .container-general-box {
+    width: 400px;
+    height: 400px;
+  }
+  .container-ayuda {
+    padding: 20px;
+    /*---SECTION AYUDA--- */
+  }
+  .titulo-ayuda {
+    font-size: 18px;
+  }
+  .titulo-box {
+    font-size: 22px;
+  }
+  .texto-box {
+    font-size: 14px;
+  }
+  .subtitulo-ayuda {
+    font-size: 12px;
+  }
+  /*---COMPONENTE TARJETA CART---   */
+
+  .container-agregandoProductoCarrito {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    gap: 0px;
+    margin-top: 10px;
+  }
+  .precio-tarjetaCart {
+    font-size: 25px;
+  }
+  .container-terminarCompra {
+    width: 380px;
+  }
+  .container-tituloImage {
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  .container-tituloImage span {
+    display: none;
+    gap: 0px;
+  }
+  .icon-delete {
+    display: none;
+  }
+  .terminarCompra-title {
+    font-size: 12px;
+    text-align: center;
+  }
+  .terminarCompra-image {
+    width: 80px;
+    height: auto;
+    margin-right: 25px;
+  }
+  .container-tituloImage {
+    gap: 10px;
+  }
+  .titulo-retroceso {
+    font-size: 17px;
+  }
+  .container-modalLef {
+    margin-right: 5px;
+  }
+  .container-retroceso-borrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+  }
+  .container-selector {
+    width: 380px;
+  }
+
+  .container-info-detalle {
+    width: 100%; /*---COMPONENTE TARJETA DETALLE INFO--- */
+    margin-left: 5px;
+  }
+  .container-agregandoProductoCarrito {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
-.imagen-404 img{                        /*---ERROR 404--- */ 
-  width: 50px;
+@media (max-width: 460px) {
 }
- }
- /*---------------------  FINAL SECTION DETALLE--------------------------------------------- */
-                              
-                           /*-RESPOSIVE 600px--*/
-
- @media (max-width:600px){
-                                        /*---COMPONENTE FORMAS DE PAGO--- */  
-     .container-tarjetaFormaPago{
-           flex-direction: column;
-           gap: 5px;              
-        }                                  
-        .texto-tarjeta{
-            font-size: 10px;
-            text-align: center;
-        }
-        .texto-promociones{
-            font-size: 9px;
-            text-align: center;                   
-        }
-        .container-texto-formaPago{                
-            display: flex;
-            flex-direction: column;
-            place-content: center;
-            place-items: center;
-        }
-        .container-formaPago{
-            margin: 1px;
-            margin-top: 10px;   
-        }
-                                  /*---COMPONENTE TARJETA OFERTAS--- */ 
-            .container-TarjetaOfertas{
-                width: auto;
-                height: 250px;   
-                padding:0px;
-                
-              }
-              .tarjetaOfertaFlex{
-                flex-direction: column;
-              }
-              .image{
-                width: 150px;
-              }
-              .titulo-tarjetaOfertas{
-                font-size: 25px;
-              }
-                              /*---COMPONENTE IMAGENES GRID--- */ 
-              .cajasFlex{
-                width: 200px;
-                height: 200px;
-              }
-                              /*---COMPONENTE MINI SECTION--- */ 
-             .cointainer-miniSection{
-                width: 120px;
-                height: 120px;
-             }
-             .logo-empresas{
-                width: 100px;
-             }
-            
-                             /*---COMPONENTE TARJETA CATEGORIAS--- */ 
-             .container-tarjetas-categorias{
-               flex-direction: column;
-               width: auto;
-             }
-             .container-tarjetaSectionProductos{
-              max-height:220px;
-              width: 520px;
-              gap: 10px;
-          }
-          .image-categorias{
-            margin-top: 50px;
-            width: 520px;
-          }  
-     
-       
-          
-                  /*---COMPONENTE TARJETA DETALLE--- */ 
-                  .container-tarjetaDetalle{
-                    margin-top: 45px;
-                    flex-direction: column;
-                    justify-content: center;
-                    align-items: center;
-                    gap: 10px;
-                }
-                .image-carrusel{
-                    width: 120px;
-                }
-                .image-principal{
-                    width: 300px;
-                }
-                .price{
-               font-size: 25px;
-                }
-            
-               
-                .container-info{
-                    width: 100%;
-                    margin-left: 50px;
-                }
-                .titulo-tarjetaDetalle{
-                  font-size: 35px;
-                }
-                .container-caracteristicas{
-                  margin-top: 5px;
-                }
-                .container-caracteristicas h1{
-                  font-size: 20px;
-                }
-                .container-imagenes-tarjetaDetalle{
-                  gap: 2px;
-                }
-
-                         /*---COMPONENTE TARJETA CART---   */ 
-                .container-terminarCompra{
-                  height: auto;
-                  width: 450px;   
-                  flex-direction: column;
-                  gap: 0px;
-                  justify-content: start;   
-                }
-                .container-general-cart{
-                  display: flex;
-                  flex-direction: column;
-                  justify-content: center;
-                  align-items: center;
-                }
-                .container-agregandoProductoCarrito{
-                  display: flex;
-                  flex-direction: column;
-                  justify-content: center;
-                  align-items: end;
-                  gap: 0px;
-                  margin-top: 10px;
-              }
-              .precio-tarjetaCart{
-                font-size: 30px;
-              }
-                .container-tituloImage{
-                  flex-direction: row;
-                  justify-content: space-around;
-                  width: 100%;
-                  
-                }
-                .container-tituloImage span{
-                  display: none;
-                  gap: 0px;
-                  
-                }
-                .icon-delete{
-                  display: none;
-                }
-                .cart-mobile{
-                  display: flex;
-                }
-                .terminarCompra-title{
-                  font-size: 15px;
-                  text-align: center;
-                }
-                .terminarCompra-image{
-                  width: 100px;
-                  height: auto;
-                  margin-right: 25px;
-                }
-                .container-tituloImage{
-                  gap: 10px;
-                }
-                .container-logoSelector{
-                  flex-direction: column;
-                  gap: 2px;
-                }
-                .span-selector{
-                  display: none;
-                }
-                .total{
-                  font-size: 25px;
-                }
-                .precioFinal{
-                  font-size: 30px;
-                }
-                .img.logo{
-                  width: 50px;
-                }
-               .container-general-tarjetaCupon{
-                  display: none;
-                 }
-                 .container-selector{
-                  width: 450px;
-                 }
-                .tituloTarjetaProductos{
-                  text-align: center;
-                  font-size: 17px;
-                }
-                .container-ayuda{    
-                  padding: 20px;                   /*---SECTION AYUDA--- */ 
-                }
-        }
-
-
-
-                                     /*-RESPOSIVE 460px--*/
-               @media(max-width:460px){
-                             /*---COMPONENTE NAVBAR--- */ 
-                .container-navBar{
-                  gap: 15px;
-                }
-                /*---COMPONENTE CARRUSEL--- */ 
-                .container-carrusel{
-                  margin-top: 48px;
-                  height: 180px;  
-                }
-                .carrusel-image{
-                  height: 100%;
-                }
-                .icon-carrusel{
-                  font-size: 20px;
-                  
-                }
-                /*---COMPONENTE TARJETA FORMAS DE PAGO--- */ 
-             
-                .container-tarjetaFormaPago{
-                  flex-direction: row;
-                  height: 100%;
-                  
-                }
-                .container-texto-formaPago{
-                  display: flex;
-                  flex-direction: column;
-                  width: 100%; 
-                               
-                }
-               .container-formaPago{
-                gap: 5px;
-                height: 50px;
-               }
-               .displayFormaPago{
-                 display: none;
-               }
-                /*---COMPONENTE TARJETA OFERTAS--- */ 
-            .container-TarjetaOfertas{
-              width: auto;
-              height: 200px;   
-              gap: 5px;            
-            }
-         
-            .image{
-              width: 130px;
-            }
-            .titulo-tarjetaOfertas{
-              font-size: 15px;
-            }
-            .boton-tarjetaIOfertas{
-              height: 50px;
-            }
-                /*---COMPONENTE IMAGENES GRID--- */
-                .pruebaa{
-                  width: 100%;
-                  display: flex;
-                  justify-content: center;
-                  align-items: center;
-                }
-                .container-imagenPrincipal{               
-                  width: 420px;
-                  height: 350px; 
-                }
-                .container-imagenPrincipal img{
-                  height: 240px;
-                  width: 100%;                                       
-                }           
-                .cajasFlex{
-                  width: 125px;
-                  height: 125px;
-                }
-           
-                .titulo-imagenPrincipal{
-                  font-size: 25px;
-                }   
-                 /*---COMPONENTE MINI SECTION--- */ 
-             .cointainer-miniSection{
-              width: 130px;
-              height: 130px;
-              
-           }
-           .titulo-miniSection{
-             font-size: 15px;
-           }
-           .miniSectionFlex{
-             padding: 0px;
-           }
-
-           /*---COMPONENTE LOGO EMPRESAS--- */
-           .logo-empresas{
-            width: 70px;
-           }
-
-          /*---COMPONENTE TARJETA CATEGORIAS--- */ 
-             .container-tarjetas-categorias{
-              flex-direction: column;
-              justify-content: center;
-              width: 400px;
-             }
-             .image-tarjeta-productos{
-              width: 130px;   
-             }
-                .container-tarjetaSectionProductos{
-                  gap: 25px;
-                  justify-content: space-around;
-                  width: 100%;              
-               }
-               .container-info-categoria{
-                margin-left: 50px;
-               }
-               .container-botonDetalle{
-                font-size: 10px;
-                width: 150px;
-               }
-               .text-tarjetaProductos{
-                font-size: 15px;
-               } 
-               .image-categorias{
-                margin-top: 50px;
-                width: 400px;
-              }  
-                        /*---COMPONENTE MODAL CART--- */ 
-                .container-general-modal{
-                  width: 400px;
-                  height: auto;
-                  padding: 17px;
-                }
-                .form-finalizarCompra{
-                  gap: 10px;
-                }
-                .container-image-modal{
-                  width: 180px;
-                  height: 180px;
-                }
-               
-                .seguimiento-pago{
-                  font-size: 15px;
-                }
-
-                .container-general-box{
-                  width: 400px;
-                  height: 400px;
-                }
-                .container-ayuda{    
-                  padding: 20px;   
-                                                      /*---SECTION AYUDA--- */ 
-                }
-                .titulo-ayuda{
-                  font-size: 18px;
-                }
-                .titulo-box{
-                  font-size: 22px;
-                }
-                .texto-box{
-                  font-size: 14px;
-              }
-              .subtitulo-ayuda{
-                font-size: 12px;
-              }
-                /*---COMPONENTE TARJETA CART---   */ 
-
-                .container-agregandoProductoCarrito{
-                  display: flex;
-                  flex-direction: column;
-                  justify-content: center;
-                  align-items: end;
-                  gap: 0px;
-                  margin-top: 10px;
-                  
-              }
-              .precio-tarjetaCart{
-                font-size: 25px;
-              }
-              .container-terminarCompra{
-                width: 380px;
-              }
-                .container-tituloImage{
-                  flex-direction: row;
-                  justify-content: center;
-                  width: 100%;
-                  
-                }
-                .container-tituloImage span{
-                  display: none;
-                  gap: 0px;
-                  
-                }
-                .icon-delete{
-                  display: none;
-                }
-                .terminarCompra-title{
-                  font-size: 12px;
-                  text-align: center;
-                }
-                .terminarCompra-image{
-                  width: 80px;
-                  height: auto;
-                  margin-right: 25px;
-                }
-                .container-tituloImage{
-                  gap: 10px;
-                }
-                .titulo-retroceso{
-                  font-size: 17px;
-                }
-                .container-modalLef{
-                  margin-right: 5px;
-                }
-                .container-retroceso-borrar{
-                  display: flex;
-                  justify-content: center;
-                  align-items: center;
-                  margin-left: 25px;
-                }
-                .container-selector{
-                  width: 380px;
-                 }
-            
-                 .container-info-detalle{
-                  width: 100%;            /*---COMPONENTE TARJETA DETALLE INFO--- */ 
-                  margin-left: 5px; 
-              }
-              .container-agregandoProductoCarrito{
-                display: flex;
-                justify-content: center;
-                align-items: center;
-              }
-              
-              }
-              @media(max-width:460px){
-
-              }                   
-        
-            
-          
-            
-        
-    

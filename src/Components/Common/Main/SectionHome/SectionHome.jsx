@@ -73,21 +73,21 @@ const SectionHome = () => {
     <Skeleton  variant="text" width={250} height={40} /> 
     </div>
     <div className="esqueleto-tarjetaHome">
-    <Skeleton  variant="rectangular" width={250} height={300} /> 
-    <Skeleton  variant="rectangular" width={250} height={300} /> 
-    <Skeleton  variant="rectangular" width={250} height={300} /> 
-    <Skeleton  variant="rectangular" width={250} height={300} /> 
-    <Skeleton  variant="rectangular" width={250} height={300} /> 
+    <Skeleton  variant="rectangular" width={220} height={300} /> 
+    <Skeleton  variant="rectangular" width={220} height={300} /> 
+    <Skeleton  variant="rectangular" width={220} height={300} /> 
+    <Skeleton  variant="rectangular" width={220} height={300} /> 
+    <Skeleton  variant="rectangular" width={220} height={300} /> 
     </div>
     <div className={"esqueleto-text"}>
     <Skeleton  variant="text" width={250} height={40} /> 
     </div>
     <div className="esqueleto-tarjetaHome">
-    <Skeleton  variant="rectangular" width={250} height={300} /> 
-    <Skeleton  variant="rectangular" width={250} height={300} /> 
-    <Skeleton  variant="rectangular" width={250} height={300} /> 
-    <Skeleton  variant="rectangular" width={250} height={300} /> 
-    <Skeleton  variant="rectangular" width={250} height={300} /> 
+    <Skeleton  variant="rectangular" width={220} height={300} /> 
+    <Skeleton  variant="rectangular" width={220} height={300} /> 
+    <Skeleton  variant="rectangular" width={220} height={300} /> 
+    <Skeleton  variant="rectangular" width={220} height={300} /> 
+    <Skeleton  variant="rectangular" width={220} height={300} /> 
     </div>
     </>
   )
@@ -121,21 +121,21 @@ const SectionHome = () => {
         <Skeleton  variant="text" width={250} height={40} /> 
         </div>
         <div className="esqueleto-tarjetaHome">
-        <Skeleton  variant="rectangular" width={250} height={300} /> 
-        <Skeleton  variant="rectangular" width={250} height={300} /> 
-        <Skeleton  variant="rectangular" width={250} height={300} /> 
-        <Skeleton  variant="rectangular" width={250} height={300} /> 
-        <Skeleton  variant="rectangular" width={250} height={300} /> 
+        <Skeleton  variant="rectangular" width={220} height={300} /> 
+        <Skeleton  variant="rectangular" width={220} height={300} /> 
+        <Skeleton  variant="rectangular" width={220} height={300} /> 
+        <Skeleton  variant="rectangular" width={220} height={300} /> 
+        <Skeleton  variant="rectangular" width={220} height={300} /> 
         </div>
         <div className={"esqueleto-text"}>
         <Skeleton  variant="text" width={250} height={40} /> 
         </div>
         <div className="esqueleto-tarjetaHome">
-        <Skeleton  variant="rectangular" width={250} height={300} /> 
-        <Skeleton  variant="rectangular" width={250} height={300} /> 
-        <Skeleton  variant="rectangular" width={250} height={300} /> 
-        <Skeleton  variant="rectangular" width={250} height={300} /> 
-        <Skeleton  variant="rectangular" width={250} height={300} /> 
+        <Skeleton  variant="rectangular" width={220} height={300} /> 
+        <Skeleton  variant="rectangular" width={220} height={300} /> 
+        <Skeleton  variant="rectangular" width={220} height={300} /> 
+        <Skeleton  variant="rectangular" width={220} height={300} /> 
+        <Skeleton  variant="rectangular" width={220} height={300} /> 
         </div>
         </>
       )
@@ -162,11 +162,11 @@ const SectionHome = () => {
         <Skeleton  variant="text" width={250} height={40} /> 
         </div>
         <div className="esqueleto-tarjetaHome">
-        <Skeleton  variant="rectangular" width={250} height={300} /> 
-        <Skeleton  variant="rectangular" width={250} height={300} /> 
-        <Skeleton  variant="rectangular" width={250} height={300} /> 
-        <Skeleton  variant="rectangular" width={250} height={300} /> 
-        <Skeleton  variant="rectangular" width={250} height={300} /> 
+        <Skeleton  variant="rectangular" width={220} height={300} /> 
+        <Skeleton  variant="rectangular" width={220} height={300} /> 
+        <Skeleton  variant="rectangular" width={220} height={300} /> 
+        <Skeleton  variant="rectangular" width={220} height={300} /> 
+        <Skeleton  variant="rectangular" width={220} height={300} /> 
         </div>
        
         </>

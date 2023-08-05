@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
-import Accordion from '@mui/material/Accordion';
-import AccordionSummary from '@mui/material/AccordionSummary';
-import AccordionDetails from '@mui/material/AccordionDetails';
-import Typography from '@mui/material/Typography';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import '../AcordionCategorias/acordionCategorias.css';
-import { Link } from 'react-router-dom';
+import React, { useState } from "react";
+import Accordion from "@mui/material/Accordion";
+import AccordionSummary from "@mui/material/AccordionSummary";
+import AccordionDetails from "@mui/material/AccordionDetails";
+import Typography from "@mui/material/Typography";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import "../AcordionCategorias/acordionCategorias.css";
+import { Link } from "react-router-dom";
 
 export default function AcordionCategorias() {
   const [expanded, setExpanded] = useState(false);
@@ -15,7 +15,7 @@ export default function AcordionCategorias() {
   };
 
   return (
-    <div className='container-acordion'>
+    <div className="container-acordion">
       <Accordion expanded={expanded} onChange={handleAccordionChange}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon sx={{ color: "#fd611a" }} />}
@@ -25,7 +25,7 @@ export default function AcordionCategorias() {
           <Typography>Categorias</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <ul className='lista-accordion'>
+          <ul className="lista-accordion">
             <Link
               className="linkCategorias"
               to={"/categoria/notebook"}

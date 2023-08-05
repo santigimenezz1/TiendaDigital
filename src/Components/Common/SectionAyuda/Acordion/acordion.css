@@ -1,16 +1,16 @@
-.container-acordion{
-    box-shadow: 1px 2px 5px rgb(187, 182, 182);
-    border-radius: 10px;
+.container-acordion {
+  box-shadow: 1px 2px 5px rgb(187, 182, 182);
+  border-radius: 10px;
 }
-.container-acordion-tarjeta{
-    border: 1px solid white;
+.container-acordion-tarjeta {
+  border: 1px solid white;
 }
-.pregunta{
-    color: #fd611a;
-    font-size: 18px;
-    font-weight: 500;
+.pregunta {
+  color: #fd611a;
+  font-size: 18px;
+  font-weight: 500;
 }
 
-p{
-    font-size: 18px;
+p {
+  font-size: 18px;
 }

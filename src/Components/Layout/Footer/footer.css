@@ -1,19 +1,19 @@
-.container-footer{
-    background-color: #fd611a;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 5px;
-    padding: 10px;
+.container-footer {
+  background-color: #fd611a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 10px;
 }
-.footer-icon{
-    width: 60px;
-    height: 40px;
-    color: white;
-    cursor: pointer;
-    padding: 3px;
+.footer-icon {
+  width: 60px;
+  height: 40px;
+  color: white;
+  cursor: pointer;
+  padding: 3px;
 }
-.footer-icon:hover{
+.footer-icon:hover {
   transform: scale(1.2);
 }

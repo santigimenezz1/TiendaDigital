@@ -1,23 +1,22 @@
-.container-categorias{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 10px;
-    gap: 20px;
-    padding: 10px 70px;
-    overflow-x: hidden;
+.container-categorias {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  gap: 20px;
+  padding: 10px 70px;
+  overflow-x: hidden;
 }
-.container-tarjetas-categorias{
-    display: flex;
-    gap: 12px;
-    
+.container-tarjetas-categorias {
+  display: flex;
+  gap: 12px;
 }
-.image-categorias{
-    width: 100%;
+.image-categorias {
+  width: 100%;
 }
-.tarjetas-productos-categorias{
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
+.tarjetas-productos-categorias {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }

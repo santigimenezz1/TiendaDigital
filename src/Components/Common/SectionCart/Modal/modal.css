@@ -1,7 +1,7 @@
-.container-modalLeft{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    align-items: end;
-    padding-right: 50px;
+.container-modalLeft {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: end;
+  padding-right: 50px;
 }

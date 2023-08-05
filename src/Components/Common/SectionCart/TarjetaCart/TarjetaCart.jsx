@@ -1,61 +1,66 @@
 import React, { useContext } from "react";
-import "../TarjetaCart/tarjetaCart.css"
-import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
+import "../TarjetaCart/tarjetaCart.css";
+import DeleteForeverIcon from "@mui/icons-material/DeleteForever";
 import ContadorUnidades from "../ContadorUnidades/ContadorUnidades";
 import { CartContext } from "../../../../Context/CartContext";
 import { Link } from "react-router-dom";
 import ContadorDinamico from "../ContadorDinamico/ContadorDinamico";
 
-const TarjetaCart =  ( {producto} )=>{
-    const {deleteCart, cart, setCart, mostarContador  } = useContext(CartContext)
-   
-    const mostrarPrecioConFormato = (precio, cantidad) => {   //cambiar formato del precio 
-        let total = precio * cantidad
-        return total.toLocaleString("es-ES");
-      };
-      
-    
+const TarjetaCart = ({ producto }) => {
+  const { deleteCart, cart, setCart, mostarContador } = useContext(CartContext);
 
-    const precioDinamico = producto.precio * producto.cantidad
+  const mostrarPrecioConFormato = (precio, cantidad) => {
+    //cambiar formato del precio
+    let total = precio * cantidad;
+    return total.toLocaleString("es-ES");
+  };
 
-    const {addToCart,calcularFinal} = useContext(CartContext)
+  const precioDinamico = producto.precio * producto.cantidad;
 
-    const onAdd = (valor)=>{
-        let productCart = {...producto, cantidad:valor }
-        addToCart(productCart)
-        calcularFinal()
-      }                                        //LOGICA PARA AGREGAR O QUITAR UNIDADES DESDE TARJETA CARRITO
-    const agregarUnidad = (valor)=>{
-        let nuevo = valor + 1 
-        onAdd(nuevo)    
-    }
-    const quitarUnidad = (valor)=>{
-        let nuevo = valor > 1 ? valor - 1  : 1  
-        onAdd(nuevo)    
-    }
+  const { addToCart, calcularFinal } = useContext(CartContext);
 
+  const onAdd = (valor) => {
+    let productCart = { ...producto, cantidad: valor };
+    addToCart(productCart);
+    calcularFinal();
+  }; //LOGICA PARA AGREGAR O QUITAR UNIDADES DESDE TARJETA CARRITO
+  const agregarUnidad = (valor) => {
+    let nuevo = valor + 1;
+    onAdd(nuevo);
+  };
+  const quitarUnidad = (valor) => {
+    let nuevo = valor > 1 ? valor - 1 : 1;
+    onAdd(nuevo);
+  };
 
-    return (
-        <div className="container-terminarCompra">
-        <div className="container-tituloImage">
+  return (
+    <div className="container-terminarCompra">
+      <div className="container-tituloImage">
         <span className="span"></span>
-        <Link onClick={()=>mostarContador()} to={`/Detalle/${producto.id}`}>
-        <img className="terminarCompra-image" src={producto.img}></img>
+        <Link onClick={() => mostarContador()} to={`/Detalle/${producto.id}`}>
+          <img className="terminarCompra-image" src={producto.img}></img>
         </Link>
         <h1 className="terminarCompra-title">{producto.nombre}</h1>
-        <div className="cart-mobile" onClick={()=>deleteCart(producto.id)}>
-        <DeleteForeverIcon fontSize="small"  className="icon-trash" />
+        <div className="cart-mobile" onClick={() => deleteCart(producto.id)}>
+          <DeleteForeverIcon fontSize="small" className="icon-trash" />
         </div>
-        </div>
+      </div>
 
-         <div className="container-contador">
-         <ContadorUnidades stock={producto.stock} initial={producto.cantidad} agregarUnidad={agregarUnidad} quitarUnidad={quitarUnidad} />
-         <h2 className="precio-tarjetaCart">${mostrarPrecioConFormato(producto.precio, producto.cantidad)}</h2>
-         <div className="icon-delete" onClick={()=>deleteCart(producto.id)}>
-         <DeleteForeverIcon  className="icon-trash" />
-         </div>
-         </div>
+      <div className="container-contador">
+        <ContadorUnidades
+          stock={producto.stock}
+          initial={producto.cantidad}
+          agregarUnidad={agregarUnidad}
+          quitarUnidad={quitarUnidad}
+        />
+        <h2 className="precio-tarjetaCart">
+          ${mostrarPrecioConFormato(producto.precio, producto.cantidad)}
+        </h2>
+        <div className="icon-delete" onClick={() => deleteCart(producto.id)}>
+          <DeleteForeverIcon className="icon-trash" />
         </div>
-    )
-}
-export default TarjetaCart
+      </div>
+    </div>
+  );
+};
+export default TarjetaCart;

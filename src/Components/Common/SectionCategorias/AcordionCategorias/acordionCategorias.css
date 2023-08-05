@@ -1,19 +1,19 @@
-h1{
-    color: red;
+h1 {
+  color: red;
 }
-.container-acordion{
-    border: none;
-    min-width: 30%;
+.container-acordion {
+  border: none;
+  min-width: 30%;
 }
-.linkCategorias{
-    text-decoration: none;
-    list-style: none;
+.linkCategorias {
+  text-decoration: none;
+  list-style: none;
 }
-.lista-accordion{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+.lista-accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 .lista-accordion li {
-    color: #333;
+  color: #333;
 }

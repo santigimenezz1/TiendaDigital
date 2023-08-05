@@ -11,130 +11,121 @@ import Checkout from "../Components/Page/CheckOut/CheckOut";
 import DashBoard from "../DashBoard/DashBoard";
 
 export let routes = [
- 
-    {  
-       id:"TarjetaProductosFlex", 
-       path:'/',
-       Element: SectionHome 
-    },
-    {  
-        id:"DetalleProductos", 
-        path:'/Detalle/:id',
-        Element: DetalleProductos
-     },
-     {  
-      id:"carruselLogos", 
-      path:'/tarjetaPago',
-      Element: FormaDePago
-   },
-     {  
-        id:"Categoria",  //ACA DEBERIA PONER EL COMPONENTE PARA RENDERIZAR TODA LA PAGE DE CATEGORIA. Y EN BASE LA CATEGORIA QUE LE LLEGA ES COMO SE VA A FILTRAR LA TARJETA PRODUCTO
-        path:'/categoria/:categoria',
-        Element: Categoria 
-     },
-     {  
-      id:"Categoria",  //ACA DEBERIA PONER EL COMPONENTE PARA RENDERIZAR TODA LA PAGE DE CATEGORIA. Y EN BASE LA CATEGORIA QUE LE LLEGA ES COMO SE VA A FILTRAR LA TARJETA PRODUCTO
-      path:'/categoria',
-      Element: Categoria 
-   },
-     {  
-        id:"TarjetaDetalle", 
-        path:'/TarjetaDetalle',
-        Element: TarjetaDetalle
-     },
+  {
+    id: "TarjetaProductosFlex",
+    path: "/",
+    Element: SectionHome,
+  },
+  {
+    id: "DetalleProductos",
+    path: "/Detalle/:id",
+    Element: DetalleProductos,
+  },
+  {
+    id: "carruselLogos",
+    path: "/tarjetaPago",
+    Element: FormaDePago,
+  },
+  {
+    id: "Categoria", //ACA DEBERIA PONER EL COMPONENTE PARA RENDERIZAR TODA LA PAGE DE CATEGORIA. Y EN BASE LA CATEGORIA QUE LE LLEGA ES COMO SE VA A FILTRAR LA TARJETA PRODUCTO
+    path: "/categoria/:categoria",
+    Element: Categoria,
+  },
+  {
+    id: "Categoria", //ACA DEBERIA PONER EL COMPONENTE PARA RENDERIZAR TODA LA PAGE DE CATEGORIA. Y EN BASE LA CATEGORIA QUE LE LLEGA ES COMO SE VA A FILTRAR LA TARJETA PRODUCTO
+    path: "/categoria",
+    Element: Categoria,
+  },
+  {
+    id: "TarjetaDetalle",
+    path: "/TarjetaDetalle",
+    Element: TarjetaDetalle,
+  },
 
-   {  
-      id:"spline", 
-      path:'/modalInicioSesion',
-      Element: ModalInicioSesion
-   },
-   {  
-      id:"spline", 
-      path:'/modalCrearCuenta',
-      Element: ModalCrearCuenta
-   },
-   
+  {
+    id: "spline",
+    path: "/modalInicioSesion",
+    Element: ModalInicioSesion,
+  },
+  {
+    id: "spline",
+    path: "/modalCrearCuenta",
+    Element: ModalCrearCuenta,
+  },
 
-     {
-        id:"cart",
-        path:"Cart",
-        Element: Cart
-     },
-     { 
-      id:"CheckOut",
-      path:"/CheckOut",
-      Element: Checkout 
-   },
-   
-   { 
-      id:"Ayuda",
-      path:"/Ayuda",
-      Element: Ayuda 
-   },
-   
+  {
+    id: "cart",
+    path: "Cart",
+    Element: Cart,
+  },
+  {
+    id: "CheckOut",
+    path: "/CheckOut",
+    Element: Checkout,
+  },
 
-   //----INICIO RUTA CATEGORIAS------------------
-   { 
-      id:"Ayuda",
-      path:"/Ayuda",
-      Element: Ayuda 
-   },
-   { 
-      id:"Ayuda",
-      path:"/Ayuda",
-      Element: Ayuda 
-   },
-   { 
-      id:"Ayuda",
-      path:"/Ayuda",
-      Element: Ayuda 
-   },
-   { 
-      id:"Ayuda",
-      path:"/Ayuda",
-      Element: Ayuda 
-   },
-   { 
-      id:"Ayuda",
-      path:"/Ayuda",
-      Element: Ayuda 
-   },
-   { 
-      id:"Ayuda",
-      path:"/Ayuda",
-      Element: Ayuda 
-   },
-   { 
-      id:"Ayuda",
-      path:"/Ayuda",
-      Element: Ayuda 
-   },
-   { 
-      id:"Ayuda",
-      path:"/Ayuda",
-      Element: Ayuda 
-   },
-   { 
-      id:"Ayuda",
-      path:"/Ayuda",
-      Element: Ayuda 
-   },
-   
-   { 
-      id:"Ayuda",
-      path:"/Ayuda",
-      Element: Ayuda 
-   },
-   { 
-      id:"Dashboard",
-      path:"/dashBoard",
-      Element: DashBoard,
-   }
-   //--------FIN CATEGORIAS------------------
+  {
+    id: "Ayuda",
+    path: "/Ayuda",
+    Element: Ayuda,
+  },
 
+  //----INICIO RUTA CATEGORIAS------------------
+  {
+    id: "Ayuda",
+    path: "/Ayuda",
+    Element: Ayuda,
+  },
+  {
+    id: "Ayuda",
+    path: "/Ayuda",
+    Element: Ayuda,
+  },
+  {
+    id: "Ayuda",
+    path: "/Ayuda",
+    Element: Ayuda,
+  },
+  {
+    id: "Ayuda",
+    path: "/Ayuda",
+    Element: Ayuda,
+  },
+  {
+    id: "Ayuda",
+    path: "/Ayuda",
+    Element: Ayuda,
+  },
+  {
+    id: "Ayuda",
+    path: "/Ayuda",
+    Element: Ayuda,
+  },
+  {
+    id: "Ayuda",
+    path: "/Ayuda",
+    Element: Ayuda,
+  },
+  {
+    id: "Ayuda",
+    path: "/Ayuda",
+    Element: Ayuda,
+  },
+  {
+    id: "Ayuda",
+    path: "/Ayuda",
+    Element: Ayuda,
+  },
 
-
-  
-
-
-]
+  {
+    id: "Ayuda",
+    path: "/Ayuda",
+    Element: Ayuda,
+  },
+  {
+    id: "Dashboard",
+    path: "/dashBoard",
+    Element: DashBoard,
+  },
+  //--------FIN CATEGORIAS------------------
+];
