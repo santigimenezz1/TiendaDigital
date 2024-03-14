@@ -5,11 +5,11 @@ const FormaDePago = () => {
   return (
     <div className='container-general-formaPago'>
     <div className='container-formaPago'>
-    <TarjetaFormaPago />
-    <TarjetaFormaPago />
-    <TarjetaFormaPago />
+    <TarjetaFormaPago text={"Tarjeta de credito"} promociones={"Ver promociones bancarias"}/>
+    <TarjetaFormaPago text={"Tarjeta de debito"} promociones={"Ver promociones bancarias"}/>
+    <TarjetaFormaPago  text={"Efectivo"} promociones={"Pago en efectivo 15% descuento"}/>
     <div className='displayFormaPago'>
-    <TarjetaFormaPago />
+    <TarjetaFormaPago text={"cuotas sin interes"} promociones={"Hasta 12 cuotas sin interes"} />
     </div>
     </div>
     </div>
