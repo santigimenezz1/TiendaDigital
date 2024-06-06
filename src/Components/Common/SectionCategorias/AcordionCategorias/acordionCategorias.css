@@ -1,19 +1,31 @@
 h1 {
   color: red;
+  font-family: "Nunito";
+
 }
 .container-acordion {
   border: none;
   min-width: 30%;
+  font-family: "Nunito";
+
 }
 .linkCategorias {
   text-decoration: none;
   list-style: none;
+  font-family: "Nunito";
+
 }
 .lista-accordion {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  font-family: "Nunito";
+
 }
 .lista-accordion li {
   color: #333;
+  font-family: "Nunito";
+  letter-spacing: 1px;
+
+  
 }

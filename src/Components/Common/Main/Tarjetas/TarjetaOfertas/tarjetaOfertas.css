@@ -16,6 +16,8 @@
     flex-direction: column;
     padding: 30px;
     color: #4b4b4b;
+    font-family: "Nunito";
+
 }
 .image{
     width: 180px;
@@ -25,7 +27,7 @@
 
 .tarjetaOfertas-producto{
     font-size: 18px;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     font-weight: 400;
 }
 .titulo-tarjetaOfertas{

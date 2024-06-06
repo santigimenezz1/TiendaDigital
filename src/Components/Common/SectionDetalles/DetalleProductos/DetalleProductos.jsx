@@ -81,7 +81,7 @@ const DetalleProductos = () => {
           <div
             style={{ width: "100%", paddingLeft: "100px", marginTop: "70px" }}
           >
-            <h1 style={{ fontSize: "30px", color: "black" }}>
+            <h1 style={{ fontSize: "30px", color: "black", fontFamily:"Nunito", letterSpacing:"2px" }}>
               Productos similares
             </h1>
           </div>

@@ -55,8 +55,7 @@ const SectionHome = () => {
         <>
           <div className="container-primerosProductos">
             <h1 className="tituloTarjetaProductos">
-              Relacionado con Notebooks
-            </h1>
+             </h1>
             <div className="tarjetaProductosFlex">
               {filtradoNotebook.map((product) => (
                 <TarjetaProductos key={product.id} product={product} />
@@ -64,7 +63,7 @@ const SectionHome = () => {
             </div>
           </div>
           <div className="container-primerosProductos">
-            <h1 className="tituloTarjetaProductos">
+            <h1 className= "tituloTarjetaProductos">
               Relacionado con Monitores
             </h1>
             <div className="tarjetaProductosFlex">

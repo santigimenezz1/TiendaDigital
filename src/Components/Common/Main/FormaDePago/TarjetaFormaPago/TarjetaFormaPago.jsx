@@ -1,10 +1,10 @@
 import '../TarjetaFormaPago/tarjetaFormaPago.css'
 import CreditCardIcon from '@mui/icons-material/CreditCard';
-const TarjetaFormaPago = ( {text, promociones} ) => {
+const TarjetaFormaPago = ( {text, promociones, img} ) => {
   return (
     <div className='container-tarjetaFormaPago'>
     <div className='container-icon-tarjetaFormaPago'>
-    <CreditCardIcon  />
+    <img src={img}></img>
     </div>
      <div className='container-texto-formaPago'>
      <h2 className='texto-tarjeta'>{text}</h2>

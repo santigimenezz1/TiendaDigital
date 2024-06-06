@@ -106,13 +106,13 @@ const TarjetaDetalle = ({producto, onAdd, totalProductosId}) => {
     {Object.keys(dataa).length > 0 ? (
       <>
       <div className='container-caracteristicas'>
-      <h1>{dataa.caracteristicas.graficos}</h1>
-      <h1>{dataa.caracteristicas.tamañoPantalla}</h1>
-      <h1>{dataa.caracteristicas.TipoPantalla}</h1>
-      <h1>{dataa.caracteristicas.TecnologíaIluminación}</h1>
-      <h1>{dataa.caracteristicas.Resolución}</h1>
-      <h1>{dataa.caracteristicas.Memoria}</h1>
-      <h1>{dataa.caracteristicas.TipoPantalla}</h1>
+      <h1>- {dataa.caracteristicas.graficos}</h1>
+      <h1>- {dataa.caracteristicas.tamañoPantalla}</h1>
+      <h1>- {dataa.caracteristicas.TipoPantalla}</h1>
+      <h1>- {dataa.caracteristicas.TecnologíaIluminación}</h1>
+      <h1>- {dataa.caracteristicas.Resolución}</h1>
+      <h1>- {dataa.caracteristicas.Memoria}</h1>
+      <h1>- {dataa.caracteristicas.TipoPantalla}</h1>
       
       </div>
       </>

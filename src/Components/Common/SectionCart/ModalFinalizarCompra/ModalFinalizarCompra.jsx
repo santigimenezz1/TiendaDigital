@@ -138,6 +138,8 @@ export default function ModalFinalizarCompra() {
           border: "none",
           borderRadius: "4px",
           backgroundColor: "chocolate",
+          fontFamily:"Nunito",
+          letterSpacing:"2px"
         }}
         onClick={handleOpen}
       >
@@ -191,22 +193,22 @@ export default function ModalFinalizarCompra() {
                       <div className="container-image-modal">
                         <img src="https://res.cloudinary.com/dcf9eqqgt/image/upload/v1690986577/istockphoto-1295706732-612x612_pree7x.jpg"></img>
                       </div>
-                      <h1 style={{ marginTop: "10px" }} className="titulo-pago">
+                      <h1 style={{ marginTop: "10px", fontFamily:"Nunito", letterSpacing:"2px" }} className="titulo-pago">
                         Tu solicitud se ah procesado correctamente
                       </h1>
                       <div className="container-textos-modalTerminar">
-                        <h1 className="subtitulo-pago">
+                        <h1 className="subtitulo-pago" style={{fontFamily:"Nunito", letterSpacing:"2px"}}>
                           En breve te contactamos via{" "}
-                          <span style={{ color: "#25D366", fontWeight: "700" }}>
+                          <span style={{ color: "#25D366", fontWeight: "700", fontFamily:"Nunito", }}>
                             whatsapp
                           </span>{" "}
                         </h1>
-                        <h1 className="total-pago">
+                        <h1 className="total-pago" style={{fontFamily:"Nunito", letterSpacing:"2px"}}>
                           Total a pagar $
                           {mostrarPrecioConFormato(calcularFinal())}
                         </h1>
                         <h1
-                          style={{ marginBottom: "10px" }}
+                          style={{ marginBottom: "10px", fontFamily:"Nunito", letterSpacing:"1px" }}
                           className="seguimiento-pago"
                         >
                           Codigo de seguimiento:{" "}
@@ -215,7 +217,7 @@ export default function ModalFinalizarCompra() {
                       </div>
                     </div>
 
-                    <div style={{ marginTop: "30px" }}>
+                    <div style={{ marginTop: "30px", fontFamily:"Nunito" }}>
                       <Link
                         onClick={() => clearCart()}
                         className="buton-seguirComprandoPago"
@@ -237,7 +239,7 @@ export default function ModalFinalizarCompra() {
                     >
                       <Typography
                         id="transition-modal-description"
-                        sx={{ mt: 2, fontSize: "25px" }}
+                        sx={{ mt: 2, fontSize: "25px", fontFamily:"Nunito", letterSpacing:"1px" }}
                       >
                         Ingresa tus datos y te contactamos
                       </Typography>

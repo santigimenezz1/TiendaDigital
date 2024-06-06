@@ -22,7 +22,7 @@ export default function AcordionCategorias() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography>Categorias</Typography>
+          <Typography style={{fontFamily:"Nunito"}}>Categorias</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <ul className="lista-accordion">

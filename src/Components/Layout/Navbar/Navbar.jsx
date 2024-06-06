@@ -15,7 +15,6 @@ const NavBar = () => {
           <Logo />
         </Link>
         <Buscador placeholder={"buscador de productos"} />
-        <ModalInicioSesion />
         <Link to={"/Cart"}>
           <Carrito />
         </Link>

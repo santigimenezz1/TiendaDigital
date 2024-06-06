@@ -4,7 +4,10 @@
     padding: 30px;
     justify-content: center;
     align-items: center;
+    
 }
 .linkMiniSection{
     text-decoration: none;
+    font-family: "Nunito";
+
 }

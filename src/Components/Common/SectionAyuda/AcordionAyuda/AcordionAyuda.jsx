@@ -12,11 +12,13 @@ export default function AcordionAyuda({ titulo, subtitulo, text }) {
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
           id="panel1a-header"
+          style={{fontFamily:"Nunito"}}
+          
         >
-          <Typography>{titulo}</Typography>
+          <Typography style={{fontFamily:"Nunito"}}>{titulo}</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <h2 style={{ color: "#fd611a", fontSize: "18px", margin: "4px" }}>
+          <h2 style={{ color: "#fd611a", fontSize: "18px", margin: "4px", fontFamily:"Nunito" }}>
             {subtitulo}
           </h2>
           {text}

@@ -44,7 +44,7 @@ const TarjetaSectionProductos = ({producto}) => {
       <div onClick={()=>onAdd()}>
       <BotonDetelle  text={"SUMAR AL CARRITO"} />
       </div>
-      :<h1>Sin stock</h1>
+      :<h1>SIN STOCK</h1>
     }
     </div>
       

@@ -25,6 +25,13 @@
 }
 .titulo-retroceso {
   font-size: 28px;
-  color: black;
   margin: 35px;
+  font-family: "Nunito";
+  letter-spacing: 2px;
+  color: black;
+
+}
+.titulo-sinProducto{
+  font-family: "Nunito";
+  letter-spacing: 2px;
 }
